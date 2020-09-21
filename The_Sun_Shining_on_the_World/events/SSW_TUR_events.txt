@@ -26,6 +26,9 @@ country_event = {
 	option = {
 		name = SSW_TUR.2.a
 	}
+	option = {
+		name = SSW_TUR.2.b
+	}
 }
 country_event = {
 	id = SSW_TUR.3
