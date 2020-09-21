@@ -25,9 +25,11 @@ country_event = {
 	
 	option = {
 		name = SSW_TUR.2.a
+		complete_national_focus = TUR_Equal_Education
 	}
 	option = {
 		name = SSW_TUR.2.b
+		complete_national_focus = TUR_elitism
 	}
 }
 country_event = {
