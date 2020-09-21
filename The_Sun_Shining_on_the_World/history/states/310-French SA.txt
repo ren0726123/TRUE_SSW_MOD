@@ -1,0 +1,27 @@
+
+state={
+	id=310
+	name="STATE_310"
+	manpower = 81341
+
+	state_category = pastoral
+
+	history={
+		owner = ATL
+		add_core_of = ATL
+		add_core_of = CAY
+		buildings = {
+			infrastructure = 2
+			12885 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			12885 1 
+		}
+	}
+
+	provinces={
+		4934 12885 
+	}
+}

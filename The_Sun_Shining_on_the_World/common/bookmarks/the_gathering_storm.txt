@@ -1,0 +1,205 @@
+bookmarks = {
+	bookmark = {
+		name = ""
+		desc = ""
+		date = 1950.1.1.12
+		picture = ""
+		default_country = "JAP"
+
+		"FSA"={
+			history = ""
+			ideology = fascism
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+		"GER"={
+			history = ""
+			ideology = fascism
+			ideas = {
+			}
+			focuses = {
+
+			}
+		}
+		"ITA"={
+			history = ""
+			ideology = fascism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"JAP"={
+			history = ""
+			ideology = authoritative_democracy
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"VFR"={
+			history = ""
+			ideology = fascism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"RUS"={
+			history = ""
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+
+		}
+		"ENG"={
+			history = ""
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+
+
+
+
+		"---"={
+			history = ""
+		}
+
+###############################################################################
+		"CAN"={
+			minor = yes
+			history = ""
+			ideology = authoritative_democracy
+			ideas = {
+
+			}
+			focuses = {
+			}
+		}
+		"ALF"={
+			minor = yes
+			history = ""
+			ideology = authoritative_democracy
+			ideas = {
+
+			}
+			focuses = {
+			}
+		}
+		"MAN"={
+			minor = yes
+			history = ""
+			ideology = authoritative_democracy
+			ideas = {
+
+			}
+			focuses = {
+			}
+		}
+		"MEN"={
+			minor = yes
+			history = ""
+			ideology = authoritative_democracy
+			ideas = {
+
+			}
+			focuses = {
+			}
+		}
+		"CHI"={
+			minor = yes
+			history = ""
+			ideology = democratic
+			ideas = {
+
+			}
+			focuses = {
+			}
+		}
+		"RCH"={
+			minor = yes
+			history = ""
+			ideology = authoritative_democracy
+			ideas = {
+
+			}
+			focuses = {
+			}
+		}
+		"NIN"={
+			minor = yes
+			history = ""
+			ideology = neutrality
+			ideas = {
+
+			}
+			focuses = {
+			}
+		}
+		"PIN"={
+			minor = yes
+			history = ""
+			ideology = democratic
+			ideas = {
+
+			}
+			focuses = {
+			}
+		}
+		"UTC"={
+			minor = yes
+			history = ""
+			ideology = authoritative_democracy
+			ideas = {
+
+			}
+			focuses = {
+			}
+		}
+		"AST"={
+			minor = yes
+			history = ""
+			ideology = democratic
+			ideas = {
+
+			}
+			focuses = {
+			}
+		}
+		"SOV"={
+			minor = yes
+			history = ""
+			ideology = communism
+			ideas = {
+
+			}
+			focuses = {
+			}
+		}
+		"SPR"={
+			minor = yes
+			history = ""
+			ideology = neutrality
+			ideas = {
+
+			}
+			focuses = {
+			}
+		}
+
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

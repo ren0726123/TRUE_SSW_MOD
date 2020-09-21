@@ -1,0 +1,22 @@
+
+state={
+	id=819
+	name="STATE_819"
+
+	history={
+		owner = HYD
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = NIN
+		add_core_of = PIN
+		add_core_of = BOM
+		add_core_of = HYD
+	}
+
+	provinces={
+		  12142 4353 1405
+	}
+	manpower= 500000
+	state_category=town
+}

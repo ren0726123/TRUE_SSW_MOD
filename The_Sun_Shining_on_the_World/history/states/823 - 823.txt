@@ -1,0 +1,24 @@
+
+state={
+	id=823
+	name="STATE_823"
+
+	history={
+		owner = NIN
+		victory_points = {
+		1497 1
+		}
+			
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = NIN
+		add_core_of = PIN
+	}
+
+	provinces={
+		  1497 12395
+	}
+	manpower= 200000
+	state_category=town
+}

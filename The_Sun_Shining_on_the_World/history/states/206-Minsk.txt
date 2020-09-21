@@ -1,0 +1,25 @@
+
+state={
+	id=206
+	name="STATE_206"
+	manpower =  1323163
+	
+	state_category = city
+
+	history={
+		owner = BAL
+		victory_points = {
+			11370 20
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			air_base = 8
+		}
+		add_core_of = BAL
+	}
+
+	provinces={
+	 294 3267 11216 11370 
+	}
+}

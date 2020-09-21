@@ -1,0 +1,25 @@
+state=
+{
+	id=118
+	name="STATE_118"
+	manpower=29372
+	
+	state_category = town
+	history={
+		owner = GIB
+		add_core_of = GIB
+		add_claim_by = SPR
+		victory_points = { 4135 15 }
+		buildings = {
+			infrastructure = 6
+			air_base = 2
+			4135 = {
+				naval_base = 5
+				coastal_bunker = 2
+			}
+		}
+	}
+	provinces={
+		4135
+	}
+}

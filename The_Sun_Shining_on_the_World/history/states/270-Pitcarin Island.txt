@@ -1,0 +1,22 @@
+state=
+{
+	id=270
+	name="STATE_270"
+	manpower = 143
+	state_category = enclave
+	
+	history=
+	{
+		owner = PAO
+		add_core_of = PAO
+		buildings = {
+			infrastructure = 1
+			1280 = {
+				naval_base = 1
+			}
+		}
+	}
+	provinces={
+		1280
+	}
+}

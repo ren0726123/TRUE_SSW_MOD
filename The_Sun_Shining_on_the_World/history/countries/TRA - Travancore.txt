@@ -1,0 +1,31 @@
+﻿capital = 425
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	mass_assault = 1
+}
+add_ideas = {
+	civilian_economy
+}
+set_convoys = 167
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1945.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	neutrality = 100
+}
+
+create_country_leader = {
+	name = "Balarama Varma II"
+	desc = ""
+	picture = "gfx/leaders/TRA/Portrait_Balarama_Varma_II.dds"
+	expire = "1965.1.1"
+	ideology = centrism
+	traits = {
+		#
+	}
+}

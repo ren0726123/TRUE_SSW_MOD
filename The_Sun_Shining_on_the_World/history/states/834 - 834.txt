@@ -1,0 +1,24 @@
+state=
+{
+	id=834
+	name="STATE_834"
+	manpower = 112000
+	state_category = rural
+	
+	
+	history=
+	{
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = RCH
+		add_core_of = MAN
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+
+	}
+	provinces={
+		11933 9987 7160 11962
+	}
+}

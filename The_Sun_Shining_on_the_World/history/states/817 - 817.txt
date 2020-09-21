@@ -1,0 +1,21 @@
+
+state={
+	id=817
+	name="STATE_817"
+
+	history={
+		owner = BOM
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = NIN
+		add_core_of = PIN
+		add_core_of = BOM
+	}
+
+	provinces={
+		  7232 10210
+	}
+	manpower= 922000
+	state_category=town
+}

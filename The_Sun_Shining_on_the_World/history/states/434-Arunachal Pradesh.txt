@@ -1,0 +1,22 @@
+
+state={
+	id=434
+	name="STATE_434"
+	manpower = 250000
+	
+	state_category = wasteland
+
+	history={
+		owner = NIN
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = NIN
+		add_core_of = PIN
+
+	}
+
+	provinces={
+		1116 1996 10810 12322 12730 
+	}
+}

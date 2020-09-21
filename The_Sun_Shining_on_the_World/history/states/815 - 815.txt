@@ -1,0 +1,29 @@
+
+state={
+	id=815
+	name="STATE_815"
+
+	history={
+		owner = MDU
+		victory_points = {
+			10278 10 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 2
+
+		}
+		add_core_of = NIN
+		add_core_of = PIN
+		add_core_of = MDU
+
+	}
+
+	provinces={
+		1268 1381 4420 7436 10246 10278 12164 
+	}
+	manpower=26223300
+	buildings_max_level_factor=1.000
+	state_category=city
+}

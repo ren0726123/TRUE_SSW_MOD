@@ -1,0 +1,101 @@
+ideas = {
+	country = {
+		GER_idea_1 = {
+			
+			allowed = {always = yes} #最初から常にあるか
+			
+			removal_cost = -1#わかんね
+
+			allowed_civil_war = {always = yes}
+
+			picture = eng_imperial_conscription #アイコンの写真
+			
+			modifier = {
+				custom_modifier_tooltip = GER_idea_1.d
+			}
+		}
+		Emergency_conscription = {
+			
+			allowed = {always = yes} 
+			
+			removal_cost = -1 #わかんね
+
+			allowed_civil_war = {always = yes}
+
+			picture = Emergency_conscription 
+			
+			modifier = {
+				training_time_army_factor = -0.25
+				non_core_manpower = 0.25
+				weekly_manpower = 2000
+			}
+		}
+		Protester = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1 #わかんね
+
+			allowed_civil_war = {always = yes}
+
+			picture = generic_intel_bonus
+			
+			modifier = {
+				surrender_limit = 10.0
+			}
+		}
+		Air_force_conspiracy = {
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			picture = air_conspiracy
+
+			equipment_bonus = {
+				fighter_equipment = {
+					build_cost_ic = 100
+					instant = yes
+				}
+				CAS_equipment = {
+					build_cost_ic = 100
+					instant = yes
+				}
+				tac_bomber_equipment = {
+					build_cost_ic = 100
+					instant = yes
+				}
+				strat_bomber_equipment = {
+					build_cost_ic = 100
+					instant = yes
+				}
+			}
+
+			modifier = {
+				custom_modifier_tooltip = Air_force_conspiracy.d
+			}
+		}
+
+		Colonial_goverment = {
+			allowed = {
+				always = yes
+			}
+			removal_cost = -1
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			#picture = 
+			modifier = {
+				army_attack_factor = -0.3
+				conscription = -0.5
+			}
+			
+		}
+	}
+}

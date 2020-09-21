@@ -1,0 +1,151 @@
+spriteTypes = {
+#スロットのアイコンを定義
+#外務大臣#
+	spriteType = {#外務大臣#
+		name = "GFX_idea_slot_minister_of_foreign_affairs"
+		textureFile = "gfx/interface/idea_slot_political_advisor.dds"
+	}
+#大蔵大臣#
+
+	spriteType = {
+		name = "GFX_idea_slot_minister_of_finance"
+		textureFile = "gfx/interface/idea_slot_political_advisor.dds"
+	}
+#文科大臣#
+
+	spriteType = {
+		name = "GFX_idea_slot_minister_of_education"
+		textureFile = "gfx/interface/idea_slot_political_advisor.dds"
+	}
+#陸軍大臣#
+
+	spriteType = {
+		name = "GFX_idea_slot_minister_of_army"
+		textureFile = "gfx/interface/idea_slot_political_advisor.dds"
+	}
+#海軍大臣#
+
+	spriteType = {
+		name = "GFX_idea_slot_navy_minister"
+		textureFile = "gfx/interface/idea_slot_political_advisor.dds"
+	}
+#アイデアのアイコンを定義
+#社会体制
+	SpriteType = { 
+		name = "GFX_idea_corporate_council_system"
+		texturefile = "gfx/interface/ideas/social_system/idea_corporate_council_system.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_collective_anarchist_society"
+		texturefile = "gfx/interface/ideas/social_system/idea_collective_anarchist_society.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_despotism"
+		texturefile = "gfx/interface/ideas/social_system/idea_despotism.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_leftist_government"
+		texturefile = "gfx/interface/ideas/social_system/idea_leftist_government.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_military_regime"
+		texturefile = "gfx/interface/ideas/social_system/idea_military_regime.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_one_party_dictatorship"
+		texturefile = "gfx/interface/ideas/social_system/idea_one_party_dictatorship.dds"
+	}
+	SpriteType = { 
+		name = "GFX_idea_rightist_government"
+		texturefile = "gfx/interface/ideas/social_system/idea_rightist_government.dds"
+	}
+#日本
+    spriteType = {
+		name = "warrior_traditions_idea"
+		texturefile = "gfx/interface/ideas/warrior_traditions_idea.dds"
+	}
+	spriteType = {
+		name = "generic_production_bonus"
+		texturefile = "gfx/interface/ideas/generic_production_bonus.dds"
+	}
+	spriteType = {
+		name = "idea_generic_army_problems"
+		texturefile = "gfx/interface/ideas/idea_generic_army_problems.dds"
+	}
+	spriteType = {
+		name = "spr_seize_the_gold_reserves"
+		texturefile = "gfx/interface/ideas/spr_seize_the_gold_reserves.dds"
+	}
+	spriteType = {
+		name = "idea_jap_hirohito"
+		texturefile = "gfx/interface/ideas/idea_jap_hirohito.dds"
+	}
+	spriteType = {
+		name = "idea_generic_refining_concern_1"
+		texturefile = "gfx/interface/ideas/idea_generic_refining_concern_1.dds"
+	}
+	spriteType = {
+		name = "state_shintoism"
+		texturefile = "gfx/interface/ideas/state_shintoism.dds"
+	}
+	spriteType = {
+		name = "spr_relocate_the_gold_reserves"
+		texturefile = "gfx/interface/ideas/spr_relocate_the_gold_reserves.dds"
+    }
+#蒙古
+    spriteType = {
+		name = "GFX_idea_De_Wang"
+		texturefile = "gfx/interface/ideas/MEN/SSW_ideas_MEN_De_Wang.dds"
+	}
+#中国
+	spriteType = {
+		name = "CHI_political_advisor_Doihara.dds"
+		texturefile = "gfx/interface/ideas/CHI/CHI_political_advisor_Doihara.dds"
+	}
+    spriteType = {
+		name = "generic_goods_red_bonus.dds"
+		texturefile = "gfx/interface/ideas/generic_goods_red_bonus.dds"
+	}
+	spriteType = {
+		name = "VFR_scw_intervention_republicans_focus.dds"
+		texturefile = "gfx/interface/ideas/FRA_scw_intervention_republicans_focus.dds"
+	}
+	spriteType = {
+		name = "generic_local_self_management.dds"
+		texturefile = "gfx/interface/ideas/idea_generic_local_self_management.dds"
+	}
+	spriteType = {
+		name = "jap_zaibatsu.dds"
+		texturefile = "gfx/interface/ideas/idea_jap_zaibatsu.dds"
+	}
+#ドイツ
+	spriteType = {
+		name = "GFX_idea_Emergency_conscription"
+		texturefile = "gfx/interface/ideas/GER/Emergency_conscription.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_air_conspiracy"
+		texturefile = "gfx/interface/ideas/GER/air_conspiracy.dds"
+    }
+#イギリス
+    spriteType = {
+		name = "GFX_idea_Elizabeth"
+		texturefile = "gfx/interface/ideas/ENG/Elizabeth_II.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_British_sick"
+		texturefile = "gfx/interface/ideas/ENG/British_sick.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Welfare_state"
+		texturefile = "gfx/interface/ideas/ENG/Welfare_state.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_hudson_avoid"
+		texturefile = "gfx/interface/ideas/ENG/hudson_avoid.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_BBC_tv"
+		texturefile = "gfx/interface/ideas/ENG/BBC_tv.dds"
+	}
+}

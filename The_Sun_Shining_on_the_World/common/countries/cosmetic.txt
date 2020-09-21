@@ -1,0 +1,204 @@
+Great_Mongol = {
+	color = rgb { 92 92 92 }
+	color_ui = rgb { 92 92 92 }
+}
+
+KOR_JAP = {
+	color = rgb { 255 191 191 }
+	color_ui = rgb { 255 191 191 }
+}
+
+JAM_JAP = {
+	color = rgb { 255 191 191 }
+	color_ui = rgb { 255 191 191 }
+}
+
+SIN_JAP = {
+	color = rgb { 255 191 191 }
+	color_ui = rgb { 255 191 191 }
+}
+
+BRN_JAP = {
+	color = rgb { 255 191 191 }
+	color_ui = rgb { 255 191 191 }
+}
+
+HAW_JAP = {
+	color = rgb { 255 191 191 }
+	color_ui = rgb { 255 191 191 }
+}
+
+ARC_JAP = {
+	color = rgb { 255 191 191 }
+	color_ui = rgb { 255 191 191 }
+}
+
+PAO_JAP = {
+	color = rgb { 255 191 191 }
+	color_ui = rgb { 255 191 191 }
+}
+
+INO_JAP = {
+	color = rgb { 255 191 191 }
+	color_ui = rgb { 255 191 191 }
+}
+
+PAC_JAP = {
+	color = rgb { 255 191 191 }
+	color_ui = rgb { 255 191 191 }
+}
+
+CLC_JAPandCHI = {
+	color = rgb { 255 191 191 }
+	color_ui = rgb { 255 191 191 }
+}
+
+CZE_GER = {
+	color = rgb { 60 60 60 }
+	color_ui = rgb { 138 155 116 }
+}
+
+POL_GER = {
+	color = rgb { 60 60 60 }
+	color_ui = rgb { 138 155 116 }
+}
+
+HOL_GER = {
+	color = rgb { 102 89 86 }
+	color_ui = rgb { 138 155 116 }
+}
+
+BEL_GER = {
+	color = rgb { 102 89 86 }
+	color_ui = rgb { 138 155 116 }
+}
+
+NFR_GER = {
+	color = rgb { 102 89 86 }
+	color_ui = rgb { 138 155 116 }
+}
+
+NOR_GER = {
+	color = rgb { 102 89 86 }
+	color_ui = rgb { 138 155 116 }
+}
+
+BAL_GER = {
+	color = rgb { 102 89 86 }
+	color_ui = rgb { 138 155 116 }
+}
+
+UKR_GER = {
+	color = rgb { 102 89 86 }
+	color_ui = rgb { 138 155 116 }
+}
+
+MOS_GER = {
+	color = rgb { 102 89 86 }
+	color_ui = rgb { 138 155 116 }
+}
+
+CCS_GER = {
+	color = rgb { 102 89 86 }
+	color_ui = rgb { 138 155 116 }
+}
+
+TOG_GER = {
+	color = rgb { 102 89 86 }
+	color_ui = rgb { 138 155 116 }
+}
+
+WAF_GER = {
+	color = rgb { 102 89 86 }
+	color_ui = rgb { 138 155 116 }
+}
+
+MAF_GER = {
+	color = rgb { 102 89 86 }
+	color_ui = rgb { 138 155 116 }
+}
+
+MAD_GER = {
+	color = rgb { 102 89 86 }
+	color_ui = rgb { 138 155 116 }
+}
+
+ATL_GER = {
+	color = rgb { 102 89 86 }
+	color_ui = rgb { 138 155 116 }
+}
+
+RIF_SPR = {
+	color = rgb { 200 100 31 }
+	color_ui = rgb { 245 123 38 }
+}
+
+WES_SPR = {
+	color = rgb { 200 100 31 }
+	color_ui = rgb { 245 123 38 }
+}
+
+EQG_SPR = {
+	color = rgb { 200 100 31 }
+	color_ui = rgb { 245 123 38 }
+}
+
+NWA_VFR = {
+	color = rgb { 80 168 181 }
+	color_ui = rgb {115 185 196 }
+}
+
+EQA_VFR = {
+	color = rgb { 80 168 181 }
+	color_ui = rgb {115 185 196 }
+}
+
+SUD_ITAandEGY = {
+	color = rgb { 230 230 70 }
+	color_ui = rgb { 230 230 70 }
+}
+
+LBA_ITA = {
+	color = rgb { 67 127 63 }
+	color_ui = rgb { 87 165 82 }
+}
+
+TUN_ITA = {
+	color = rgb { 67 127 63 }
+	color_ui = rgb { 87 165 82 }
+}
+
+NEA_ITA = {
+	color = rgb { 67 127 63 }
+	color_ui = rgb { 87 165 82 }
+}
+
+SUC_ITA = {
+	color = rgb { 67 127 63 }
+	color_ui = rgb { 87 165 82 }
+}
+
+GIB_ITA = {
+	color = rgb { 67 127 63 }
+	color_ui = rgb { 87 165 82 }
+}
+
+MOR_AFR = {
+	color = rgb { 0 18 127 }
+	color_ui = rgb { 0 18 127 }
+}
+
+ANG_POR = {
+	color = rgb { 53 82 85 }
+	color_ui = rgb { 53 82 85 }
+}
+
+MZB_POR = {
+	color = rgb { 53 82 85 }
+	color_ui = rgb { 53 82 85 }
+}
+
+GNB_POR = {
+	color = rgb { 53 82 85 }
+	color_ui = rgb { 53 82 85 }
+}

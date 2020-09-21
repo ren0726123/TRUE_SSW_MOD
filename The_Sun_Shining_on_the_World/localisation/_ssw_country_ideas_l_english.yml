@@ -1,0 +1,26 @@
+﻿l_english:
+#内政
+ government1:0 "政府"
+ minister:0 "閣僚"
+ research_production1:0 "研究と生産"
+ military_chief:0 "参謀"
+ social_system:0 "社会体制"
+ head_of_gov_available:0 "社会体制は手動で変更できません。\n今後のあなたと周辺国の行動によって左右されます。"
+#社会体制
+ collectivist_anarchism:0 "集産的無政府主義社会"
+ one_party_dictatorship:0 "一党独裁"
+ ssw_military_dictatorship:0 "軍事政権"
+ Corporate_council_system:0 "企業評議会制"
+ Despotism:0 "専制政治"
+ Parliamentary_democracy_leftist_administration:0 "議会民主主義左派政権"
+ Parliamentary_democracy_rightist_administration:0 "議会民主主義右派政権"
+
+
+#経済法
+ social_anarchism_economy:0 "無政府主義経済"
+#閣僚
+ minister_of_foreign_affairs:0 "外務大臣"
+ minister_of_finance:0 "大蔵大臣"
+ minister_of_education:0 "文科大臣"
+ minister_of_army:0 "陸軍大臣"
+ navy_minister:0 "海軍大臣"

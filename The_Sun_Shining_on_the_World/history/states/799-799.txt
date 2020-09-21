@@ -1,0 +1,19 @@
+
+state={
+	id=799
+	name="STATE_799"
+
+	history={
+		owner = SIA
+		add_core_of = LAO
+		add_core_of = SIA
+
+	}
+
+	provinces={
+		10330 10356 10456 
+	}
+	manpower=455678
+	buildings_max_level_factor=1.000
+	state_category=town
+}

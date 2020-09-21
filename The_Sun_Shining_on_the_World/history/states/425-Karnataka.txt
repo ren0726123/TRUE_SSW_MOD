@@ -1,0 +1,32 @@
+
+state={
+	id=425
+	name="STATE_425"
+	resources={
+		chromium=10.000
+	}
+
+	history={
+		owner = MYS
+		victory_points = {
+			8011 15 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		add_core_of = PIN
+		add_core_of = NIN
+		add_core_of = MYS
+		add_core_of = TRA
+
+	}
+
+	provinces={
+		1412 4344 7244 7395 8011 8100 10190 12146 12734 
+	}
+	manpower=12348200
+	buildings_max_level_factor=1.000
+	state_category=rural
+}
