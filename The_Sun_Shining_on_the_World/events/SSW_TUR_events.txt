@@ -7,6 +7,8 @@ country_event = {
 
 	is_triggered_only = yes
 	
+	Fire_Only_Once = yes
+	
 	trigger = {
 		tag = TUR
 		}
@@ -22,6 +24,8 @@ country_event = {
 	picture = 
 
 	is_triggered_only = yes
+	
+	Fire_Only_Once = yes
 	
 	option = {
 		name = SSW_TUR.2.a
@@ -40,6 +44,8 @@ country_event = {
 
 	is_triggered_only = yes
 	
+	Fire_Only_Once = yes
+	
 	option = {
 		name = SSW_TUR.3.a
 	}
@@ -52,6 +58,8 @@ country_event = {
 
 	is_triggered_only = yes
 	
+	Fire_Only_Once = yes
+	
 	option = {
 		name = SSW_TUR.4.a
 	}
@@ -63,6 +71,8 @@ country_event = {
 	picture = 
 
 	is_triggered_only = yes
+	
+	Fire_Only_Once = yes
 	
 	option = {
 		name = SSW_TUR.5.a
