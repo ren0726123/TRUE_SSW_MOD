@@ -6,12 +6,12 @@ country_event = {
 	picture = 
 
 	is_triggered_only = yes
-	Fire_Only_Once = yes
+	fire_only_once = yes
 	option = {
 		name = SSW_TUR.1.a
 	}
 }
- = {
+country_event = {
 	id = SSW_TUR.2
 	title = SSW_TUR.2.t
 	desc = SSW_TUR.2.d
@@ -19,7 +19,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	Fire_Only_Once = yes
+	fire_only_once = yes
 	
 	option = {
 		name = SSW_TUR.2.a
@@ -30,7 +30,7 @@ country_event = {
 		complete_national_focus = TUR_elitism
 	}
 }
- = {
+country_event = {
 	id = SSW_TUR.3
 	title = SSW_TUR.3.t
 	desc = SSW_TUR.3.d
@@ -38,13 +38,13 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	Fire_Only_Once = yes
+	fire_only_once = yes
 	
 	option = {
 		name = SSW_TUR.3.a
 	}
 }
- = {
+country_event = {
 	id = SSW_TUR.4
 	title = SSW_TUR.4.t
 	desc = SSW_TUR.4.d
@@ -52,13 +52,13 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	Fire_Only_Once = yes
+	fire_only_once = yes
 	
 	option = {
 		name = SSW_TUR.4.a
 	}
 }
- = {
+country_event = {
 	id = SSW_TUR.5
 	title = SSW_TUR.5.t
 	desc = SSW_TUR.5.d
@@ -66,7 +66,7 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	Fire_Only_Once = yes
+	fire_only_once = yes
 	
 	option = {
 		name = SSW_TUR.5.a
