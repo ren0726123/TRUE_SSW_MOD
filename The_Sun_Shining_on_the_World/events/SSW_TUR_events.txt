@@ -6,13 +6,7 @@ country_event = {
 	picture = 
 
 	is_triggered_only = yes
-	
 	Fire_Only_Once = yes
-	
-	trigger = {
-		tag = TUR
-		}
-
 	option = {
 		name = SSW_TUR.1.a
 	}
