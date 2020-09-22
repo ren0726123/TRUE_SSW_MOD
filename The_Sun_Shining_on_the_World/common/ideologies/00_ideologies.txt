@@ -80,15 +80,14 @@ ideologies = {
 		faction_modifiers = {
 		}
 	}
-
 	#サンディカリズム
 	syndicalism = {
 		types = {
-			Anarcho_syndicalism = { #アナルコサンディカリズム
+			Anarcho_syndicalism = {
+				#アナルコサンディカリズム
 			}
-
-			syndicalism_ideology = { #サンディカリズム
-
+			syndicalism_ideology = {
+				#サンディカリズム
 			}
 		}
 		dynamic_faction_names = {
@@ -117,34 +116,33 @@ ideologies = {
 		faction_modifiers = {
 		}
 	}
-
 	#社会主義
 	socialism = {
 		types = {
-			marxism = { #マルクス主義
+			marxism = {
+				#マルクス主義
 			}
-
-			New_Left = { #新左翼
+			New_Left = {
+				#新左翼
 			}
-
-			Trotskyism = { #トロツキズム
+			Trotskyism = {
+				#トロツキズム
 			}
-
-			Marxism_Leninism = { #マルクス・レーニン主義
+			Marxism_Leninism = {
+				#マルクス・レーニン主義
 			}
-
-			Leninism = { #レーニン主義
+			Leninism = {
+				#レーニン主義
 			}
-
-			Buddhist_socialism = { #仏教社会主義
+			Buddhist_socialism = {
+				#仏教社会主義
 			}
-
-			Christian_socialism = { #キリスト教社会主義
+			Christian_socialism = {
+				#キリスト教社会主義
 			}
-
-			Islamic_socialism = { #イスラム教社会主義
+			Islamic_socialism = {
+				#イスラム教社会主義
 			}
-
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_COMMUNIST_1"
@@ -172,7 +170,6 @@ ideologies = {
 		faction_modifiers = {
 		}
 	}
-
 	#社会民主主義
 	social_democracy = {
 		types = {
@@ -217,15 +214,17 @@ ideologies = {
 		}
 		ai_democratic = yes		# uses the democratic AI behaviour
 	}
-
 	#社会自由主義
 	democratic = {
 		types = {
-			social_liberalism = { #社会自由主義
+			social_liberalism = {
+				#社会自由主義
 			}
-			indirect_democracy = { #間接民主主義
+			indirect_democracy = {
+				#間接民主主義
 			}
-			direct_democracy = { #直接民主主義
+			direct_democracy = {
+				#直接民主主義
 			}
 		}
 		dynamic_faction_names = {
@@ -266,11 +265,11 @@ ideologies = {
 		}
 		ai_democratic = yes		# uses the democratic AI behaviour
 	}
-
 	#新自由主義
 	neoliberalism = {
 		types = {
-			neoliberalism_ideology = { #新自由主義
+			neoliberalism_ideology = {
+				#新自由主義
 			}
 		}
 		dynamic_faction_names = {
@@ -311,7 +310,6 @@ ideologies = {
 		}
 		ai_democratic = yes		# uses the democratic AI behaviour
 	}
-
 	#社会保守主義
 	conservatism = {
 		types = {
@@ -358,11 +356,11 @@ ideologies = {
 		}
 		ai_democratic = yes		# uses the democratic AI behaviour
 	}
-
 	#権威主義
 	authoritarianism = {
 		types = {
-			authoritarianism_ideology = { #権威主義
+			authoritarianism_ideology = {
+				#権威主義
 			}
 		}
 		dynamic_faction_names = {
@@ -403,11 +401,11 @@ ideologies = {
 		}
 		ai_democratic = yes		# uses the democratic AI behaviour
 	}
-
 	#大衆主義
 	authoritative_democracy = {
 		types = {
-			authoritative_democracy_ideology = { #大衆主義
+			authoritative_democracy_ideology = {
+				#大衆主義
 			}
 		}
 		dynamic_faction_names = {
@@ -445,17 +443,17 @@ ideologies = {
 		}
 		ai_democratic = yes		# uses the democratic AI behaviour
 	}
-
 	#独裁主義
 	despotism = {
 		types = {
-			despotism_ideology = { #独裁主義
+			despotism_ideology = {
+				#独裁主義
 			}
-
-			liberal_autocracy = { #自由主義的専制
+			liberal_autocracy = {
+				#自由主義的専制
 			}
-
-			Oligarchy = { #寡頭政
+			Oligarchy = {
+				#寡頭政
 			}
 		}
 		dynamic_faction_names = {
@@ -496,14 +494,14 @@ ideologies = {
 		}
 		ai_democratic = yes		# uses the democratic AI behaviour
 	}
-
 	#ベネッティズム
 	bennettism = {
 		types = {
-			bennettism_ideology = { #ベネッティズム
+			bennettism_ideology = {
+				#ベネッティズム
 			}
-
-			bennetty_democratism = { #企業民主制##指導者を国民が、企業の中から選ぶ
+			bennetty_democratism = {
+				#企業民主制##指導者を国民が、企業の中から選ぶ
 			}
 		}
 		dynamic_faction_names = {
@@ -544,7 +542,6 @@ ideologies = {
 		}
 		ai_democratic = yes		# uses the democratic AI behaviour
 	}
-
 	#ファシズム
 	fascism = {
 		types = {
@@ -579,7 +576,6 @@ ideologies = {
 		}
 		ai_fascist = yes		# uses the fascist AI behaviour
 	}
-
 	#ナチズム
 	nazism = {
 		types = {
@@ -624,7 +620,6 @@ ideologies = {
 		}
 		ai_democratic = yes		# uses the democratic AI behaviour
 	}
-
 	#王党派
 	neutrality = {
 		types = {
@@ -671,7 +666,6 @@ ideologies = {
 		can_collaborate = yes
 		ai_neutral = yes		# 
 	}
-
 	#軍事政権
 	militarism = {
 		types = {

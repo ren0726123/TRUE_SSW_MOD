@@ -124,14 +124,14 @@ set_country_flag = monroe_doctrine
 }
 
 set_politics = {
-	ruling_party = despotism
-	last_election = "1934.7.17"
+	ruling_party = conservatism
+	last_election = "1949.11.31"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	neutrality = 100
+	conservatism = 100
 }
 
 create_country_leader = {

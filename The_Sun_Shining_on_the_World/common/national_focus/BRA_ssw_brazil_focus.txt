@@ -9,13 +9,13 @@ focus_tree = {
 	}
 	#Focus for コンドル作戦 - focus ID randomly generated due to title being in non-latin characters
 	focus = {
-		id = BRA_pZVFIWwa
+		id = BRA_fqdOTPsV
 		icon = GFX_goal_generic_air_production
 		x = 19
 		y = 2
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = BRA_ijZLSKsU }
+		prerequisite = { focus = BRA_XOiGfayd }
 		search_filters = { FOCUS_FILTER_POLITICAL } 
 		ai_will_do = {
 			factor = 1
@@ -30,14 +30,14 @@ modifier = TAG_friend_country
 
 	#Focus for 巡洋艦艦隊の採用 - focus ID randomly generated due to title being in non-latin characters
 	focus = {
-		id = BRA_AXLCTvrt
+		id = BRA_NbrUZMcw
 		icon = GFX_goal_generic_navy_battleship
 		x = 31
 		y = 2
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = BRA_RXKgDoaA }
-		mutually_exclusive = { focus = BRA_rMkFzngS }
+		prerequisite = { focus = BRA_CaFLscSi }
+		mutually_exclusive = { focus = BRA_rGEcUzqt }
 		ai_will_do = {
 			factor = 1
 		}
@@ -52,7 +52,7 @@ category = cat_fleet_in_being
 
 	#Focus for 伝統ある海軍 - focus ID randomly generated due to title being in non-latin characters
 	focus = {
-		id = BRA_vErxsBfS
+		id = BRA_fSZiBqYR
 		icon = GFX_goal_continuous_naval_production
 		x = 31
 		y = 0
@@ -65,13 +65,13 @@ category = cat_fleet_in_being
 
 	#Focus for 造船所の拡大 - focus ID randomly generated due to title being in non-latin characters
 	focus = {
-		id = BRA_RXKgDoaA
+		id = BRA_CaFLscSi
 		icon = GFX_goal_generic_construct_naval_dockyard
 		x = 31
 		y = 1
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = BRA_vErxsBfS }
+		prerequisite = { focus = BRA_fSZiBqYR }
 		ai_will_do = {
 			factor = 1
 		}
@@ -100,14 +100,14 @@ category = cat_fleet_in_being
 
 	#Focus for 大規模攻勢 - focus ID randomly generated due to title being in non-latin characters
 	focus = {
-		id = BRA_yocNfXxF
+		id = BRA_urkNBUvI
 		icon = GFX_goal_generic_army_artillery2
 		x = 27
 		y = 2
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = BRA_PaijGtCs }
-		mutually_exclusive = { focus = BRA_ASCDvxry }
+		prerequisite = { focus = BRA_wDtZNniC }
+		mutually_exclusive = { focus = BRA_fiZduVMb }
 		ai_will_do = {
 			factor = 1
 		}
@@ -122,13 +122,13 @@ category = cat_grand_battle_plan
 
 	#Focus for ドクトリンへの注力 - focus ID randomly generated due to title being in non-latin characters
 	focus = {
-		id = BRA_PaijGtCs
+		id = BRA_wDtZNniC
 		icon = GFX_goal_generic_army_doctrines
 		x = 26
 		y = 1
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = BRA_YKgLekHl }
+		prerequisite = { focus = BRA_gQzfyvax }
 		ai_will_do = {
 			factor = 1
 		}
@@ -143,13 +143,13 @@ category = land_doctrine
 
 	#Focus for 帝政復古 - focus ID randomly generated due to title being in non-latin characters
 	focus = {
-		id = BRA_SrZqiNln
+		id = BRA_IvFlsDqQ
 		icon = GFX_focus_por_estado_novo
 		x = 10
 		y = 1
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = BRA_VYnwUGeA }
+		prerequisite = { focus = BRA_tFLBiXTv }
 		ai_will_do = {
 			factor = 1
 		}
@@ -163,13 +163,13 @@ elections_allowed = no
 
 	#Focus for ポルトガルの奪還 - focus ID randomly generated due to title being in non-latin characters
 	focus = {
-		id = BRA_fvtsDeax
+		id = BRA_NLnXEbFA
 		icon = GFX_focus_generic_attack_portugal
 		x = 10
 		y = 7
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = BRA_KJXOymLa }
+		prerequisite = { focus = BRA_aPGzNsOc }
 		ai_will_do = {
 			factor = 1
 		}
@@ -183,13 +183,13 @@ target = POR
 
 	#Focus for 第二次パラグアイ戦争 - focus ID randomly generated due to title being in non-latin characters
 	focus = {
-		id = BRA_kIoLKWfz
+		id = BRA_tsdxIjpb
 		icon = GFX_focus_por_recover_latin_america
 		x = 14
 		y = 7
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = BRA_KJXOymLa }
+		prerequisite = { focus = BRA_aPGzNsOc }
 		ai_will_do = {
 			factor = 1
 		}
@@ -203,13 +203,13 @@ target = PAR
 
 	#Focus for 王党派の支援 - focus ID randomly generated due to title being in non-latin characters
 	focus = {
-		id = BRA_VYnwUGeA
+		id = BRA_tFLBiXTv
 		icon = GFX_focus_por_reclaim_crown_jewel
 		x = 13
 		y = 0
 		cost = 10
 		available_if_capitulated = yes
-		mutually_exclusive = { focus = BRA_XRScBCnV }
+		mutually_exclusive = { focus = BRA_mRBGPixO }
 		search_filters = { FOCUS_FILTER_POLITICAL } 
 		ai_will_do = {
 			factor = 1
@@ -221,17 +221,17 @@ target = PAR
 
 	#Focus for 権力の掌握 - focus ID randomly generated due to title being in non-latin characters
 	focus = {
-		id = BRA_zhesGSEy
+		id = BRA_JLGdjQRc
 		icon = GFX_goal_generic_demand_territory
 		x = 13
 		y = 2
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { 
-			focus = BRA_cCvWhmxI 
-			focus = BRA_SrZqiNln 
-			focus = BRA_fWzGhkSy 
-			focus = BRA_AZCJfuFM 
+			focus = BRA_JKZxRtgb 
+			focus = BRA_IvFlsDqQ 
+			focus = BRA_XTElPQfI 
+			focus = BRA_fZAMrEbX 
 		}
 		ai_will_do = {
 			factor = 1
@@ -243,15 +243,15 @@ target = PAR
 
 	#Focus for 潜水艦艦隊の採用 - focus ID randomly generated due to title being in non-latin characters
 	focus = {
-		id = BRA_OlsIPqYc
+		id = BRA_DyVrnqKO
 		icon = GFX_goal_generic_navy_submarine
 		x = 33
 		y = 2
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = BRA_RXKgDoaA }
+		prerequisite = { focus = BRA_CaFLscSi }
 		mutually_exclusive = { 
-			focus = BRA_AXLCTvrt 
+			focus = BRA_NbrUZMcw 
 		}
 		mutually_exclusive = { 
 			focus = BRA_ 
@@ -270,13 +270,13 @@ category = cat_trade_interdiction
 
 	#Focus for 国内問題への対処 - focus ID randomly generated due to title being in non-latin characters
 	focus = {
-		id = BRA_TqKyOUHu
+		id = BRA_ulDydoGC
 		icon = GFX_goal_generic_neutrality_focus
 		x = 11
 		y = 3
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = BRA_zhesGSEy }
+		prerequisite = { focus = BRA_JLGdjQRc }
 		ai_will_do = {
 			factor = 1
 		}
@@ -287,13 +287,13 @@ category = cat_trade_interdiction
 
 	#Focus for 軍部の懐柔 - focus ID randomly generated due to title being in non-latin characters
 	focus = {
-		id = BRA_QuBPHjik
+		id = BRA_cqyarxgw
 		icon = GFX_goal_generic_axis_build_infantry
 		x = 10
 		y = 4
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = BRA_TqKyOUHu }
+		prerequisite = { focus = BRA_ulDydoGC }
 		ai_will_do = {
 			factor = 1
 		}
@@ -305,13 +305,13 @@ add_political_power= 50
 
 	#Focus for 巡洋艦の開発 - focus ID randomly generated due to title being in non-latin characters
 	focus = {
-		id = BRA_OGMqcPhD
+		id = BRA_PBwEmHxp
 		icon = GFX_focus_generic_africa_naval
 		x = 31
 		y = 3
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = BRA_AXLCTvrt }
+		prerequisite = { focus = BRA_NbrUZMcw }
 		ai_will_do = {
 			factor = 1
 		}
@@ -319,13 +319,13 @@ add_political_power= 50
 
 	#Focus for 日本の潜水艦技術 - focus ID randomly generated due to title being in non-latin characters
 	focus = {
-		id = BRA_IoAcZbHY
+		id = BRA_KrfBHvRL
 		icon = GFX_focus_chi_collaboration_with_the_japanese
 		x = 33
 		y = 3
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = BRA_OlsIPqYc }
+		prerequisite = { focus = BRA_DyVrnqKO }
 		ai_will_do = {
 			factor = 1
 		}
@@ -340,16 +340,16 @@ category = ss_tech
 
 	#Focus for 大西洋を越えて - focus ID randomly generated due to title being in non-latin characters
 	focus = {
-		id = BRA_AKakRUDE
+		id = BRA_IckrvADP
 		icon = GFX_goal_generic_navy_doctrines_tactics
 		x = 31
 		y = 5
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { 
-			focus = BRA_IoAcZbHY 
-			focus = BRA_UTetnyXI 
-			focus = BRA_OGMqcPhD 
+			focus = BRA_KrfBHvRL 
+			focus = BRA_AMNfKVpr 
+			focus = BRA_PBwEmHxp 
 		}
 		ai_will_do = {
 			factor = 1
@@ -379,14 +379,14 @@ category = ss_tech
 
 	#Focus for ドイツに倣う - focus ID randomly generated due to title being in non-latin characters
 	focus = {
-		id = BRA_GthQELTS
+		id = BRA_wuQOjNbk
 		icon = GFX_focus_chi_mission_to_germany
 		x = 36
 		y = 1
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = BRA_EaYDPyRT }
-		mutually_exclusive = { focus = BRA_OmFoANSr }
+		prerequisite = { focus = BRA_WiAwRZVT }
+		mutually_exclusive = { focus = BRA_GjVMZwHR }
 		ai_will_do = {
 			factor = 1
 		}
@@ -401,13 +401,13 @@ category = cat_battlefield_support
 
 	#Focus for 護衛艦隊の整備 - focus ID randomly generated due to title being in non-latin characters
 	focus = {
-		id = BRA_UTetnyXI
+		id = BRA_AMNfKVpr
 		icon = GFX_focus_generic_navy_battleship2
 		x = 29
 		y = 4
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = BRA_diKUIteN }
+		prerequisite = { focus = BRA_sjaceqMb }
 		ai_will_do = {
 			factor = 1
 		}
@@ -422,13 +422,13 @@ category = dd_tech
 
 	#Focus for 航空基地の建設 - focus ID randomly generated due to title being in non-latin characters
 	focus = {
-		id = BRA_aDBioEqP
+		id = BRA_WMcCAxZH
 		icon = GFX_goal_generic_air_doctrine
 		x = 34
 		y = 1
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = BRA_EaYDPyRT }
+		prerequisite = { focus = BRA_WiAwRZVT }
 		ai_will_do = {
 			factor = 1
 		}
@@ -444,13 +444,13 @@ instant_build = yes}
 
 	#Focus for 攻撃機の開発 - focus ID randomly generated due to title being in non-latin characters
 	focus = {
-		id = BRA_DgUtQENZ
+		id = BRA_jNnKUSFv
 		icon = GFX_goal_generic_air_fighter2
 		x = 35
 		y = 2
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = BRA_GthQELTS }
+		prerequisite = { focus = BRA_wuQOjNbk }
 		ai_will_do = {
 			factor = 1
 		}
@@ -465,13 +465,13 @@ category = cas_bomber
 
 	#Focus for 拡大戦略 - focus ID randomly generated due to title being in non-latin characters
 	focus = {
-		id = BRA_KJXOymLa
+		id = BRA_aPGzNsOc
 		icon = GFX_focus_usa_focus_on_europe
 		x = 11
 		y = 6
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = BRA_HzZQJGtx }
+		prerequisite = { focus = BRA_GPhqULZr }
 		search_filters = { FOCUS_FILTER_ANNEXATION } 
 		ai_will_do = {
 			factor = 1
@@ -483,13 +483,13 @@ category = cas_bomber
 
 	#Focus for 東方問題の再燃 - focus ID randomly generated due to title being in non-latin characters
 	focus = {
-		id = BRA_cFoOyldi
+		id = BRA_bHKnEpVx
 		icon = GFX_goal_generic_forceful_treaty
 		x = 12
 		y = 7
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = BRA_KJXOymLa }
+		prerequisite = { focus = BRA_aPGzNsOc }
 		search_filters = { FOCUS_FILTER_ANNEXATION } 
 		ai_will_do = {
 			factor = 1
@@ -504,13 +504,13 @@ target = URG
 
 	#Focus for 女性入隊の許可 - focus ID randomly generated due to title being in non-latin characters
 	focus = {
-		id = BRA_KMtOgTyQ
+		id = BRA_AfQETSZF
 		icon = GFX_focus_generic_manpower
 		x = 21
 		y = 2
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = BRA_VGNJCdOK }
+		prerequisite = { focus = BRA_vcTdnyQz }
 		search_filters = { FOCUS_FILTER_MANPOWER } 
 		ai_will_do = {
 			factor = 1
@@ -522,17 +522,17 @@ target = URG
 
 	#Focus for 軍拡の推進 - focus ID randomly generated due to title being in non-latin characters
 	focus = {
-		id = BRA_VGNJCdOK
+		id = BRA_vcTdnyQz
 		icon = GFX_goal_generic_construct_mil_factory
 		x = 22
 		y = 1
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { 
-			focus = BRA_lNkHRqcL 
+			focus = BRA_XwkpdDov 
 		}
 		prerequisite = { 
-			focus = BRA_YKgLekHl 
+			focus = BRA_gQzfyvax 
 		}
 		search_filters = { FOCUS_FILTER_INDUSTRY } 
 		ai_will_do = {
@@ -561,63 +561,63 @@ target = URG
 		}
 	}
 
-	#Focus for ブラジリアの建設 - focus ID randomly generated due to title being in non-latin characters
+	#Focus for 新首都建設計画 - focus ID randomly generated due to title being in non-latin characters
 	focus = {
-		id = BRA_OXuJVGxD
-		icon = GFX_focus_generic_industry_3
+		id = BRA_GQeNCEob
+		icon = GFX_focus_generic_industry_1
 		x = 16
 		y = 6
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { 
-			focus = BRA_HzZQJGtx 
+			focus = BRA_GPhqULZr 
 		}
 		prerequisite = { 
-			focus = BRA_INmxtwqZ 
+			focus = BRA_sHmWOqLD 
 		}
 		search_filters = { FOCUS_FILTER_INDUSTRY } 
 		ai_will_do = {
 			factor = 1
 		}
 		completion_reward = {
-			random_owned_controlled_state= {
-add_building_construction = {type = infrastructure
-level = 5
+			505 = {
+add_building_construction = {type = infrastructurelevel = 3
+instant_build = yes}
+}
+		}
+	}
+
+	#Focus for 住宅街の建設 - focus ID randomly generated due to title being in non-latin characters
+	focus = {
+		id = BRA_YKgidwHS
+		icon = GFX_focus_generic_industry_2
+		x = 16
+		y = 7
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = BRA_GQeNCEob }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			505 = {
+add_building_construction = {type = infrastructurelevel = 4
 instant_build = yes}
 
 }
-  random_owned_controlled_state={
- limit = {
- free_building_slots = {
- building = industrial_complex
- size > 0
- include_locked = yes
- }
-
- }
-
- add_extra_state_shared_building_slots = 1
- add_building_construction = {
- type = industrial_complex
- level = 1
- instant_build = yes
- }
-
- set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
- }
-  add_stability= 0.05  set_capital= 505
 		}
 	}
 
 	#Focus for 発展的工業の育成 - focus ID randomly generated due to title being in non-latin characters
 	focus = {
-		id = BRA_GosEgyiI
+		id = BRA_exVWiYBs
 		icon = GFX_goal_generic_construction2
 		x = 19
 		y = 5
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = BRA_INmxtwqZ }
+		prerequisite = { focus = BRA_sHmWOqLD }
 		search_filters = { FOCUS_FILTER_INDUSTRY } 
 		ai_will_do = {
 			factor = 1
@@ -626,16 +626,16 @@ instant_build = yes}
 
 	#Focus for 教育振興 - focus ID randomly generated due to title being in non-latin characters
 	focus = {
-		id = BRA_INmxtwqZ
+		id = BRA_sHmWOqLD
 		icon = GFX_focus_research2
 		x = 19
 		y = 4
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { 
-			focus = BRA_asRCUMJO 
-			focus = BRA_iTPhADZs 
-			focus = BRA_gZjGVrBP 
+			focus = BRA_sIOfWxCP 
+			focus = BRA_hMnXIfPZ 
+			focus = BRA_iQdPamqs 
 		}
 		search_filters = { FOCUS_FILTER_RESEARCH } 
 		ai_will_do = {
@@ -648,16 +648,16 @@ instant_build = yes}
 
 	#Focus for 伊系企業の誘致 - focus ID randomly generated due to title being in non-latin characters
 	focus = {
-		id = BRA_asRCUMJO
+		id = BRA_sIOfWxCP
 		icon = GFX_focus_befriend_italy
 		x = 21
 		y = 3
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = BRA_pZVFIWwa }
+		prerequisite = { focus = BRA_fqdOTPsV }
 		mutually_exclusive = { 
-			focus = BRA_iTPhADZs 
-			focus = BRA_gZjGVrBP 
+			focus = BRA_hMnXIfPZ 
+			focus = BRA_iQdPamqs 
 			focus = BRA_ 
 		}
 		search_filters = { FOCUS_FILTER_INDUSTRY } 
@@ -696,21 +696,21 @@ instant_build = yes}
 
 	#Focus for 独系企業の誘致 - focus ID randomly generated due to title being in non-latin characters
 	focus = {
-		id = BRA_iTPhADZs
+		id = BRA_hMnXIfPZ
 		icon = GFX_focus_chi_mission_to_germany
 		x = 19
 		y = 3
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { 
-			focus = BRA_asRCUMJO 
-			focus = BRA_gZjGVrBP 
+			focus = BRA_sIOfWxCP 
+			focus = BRA_iQdPamqs 
 		}
 		mutually_exclusive = { 
-			focus = BRA_gZjGVrBP 
+			focus = BRA_iQdPamqs 
 		}
 		mutually_exclusive = { 
-			focus = BRA_asRCUMJO 
+			focus = BRA_sIOfWxCP 
 		}
 		search_filters = { FOCUS_FILTER_INDUSTRY } 
 		ai_will_do = {
@@ -760,16 +760,16 @@ instant_build = yes}
 
 	#Focus for 日系企業の誘致 - focus ID randomly generated due to title being in non-latin characters
 	focus = {
-		id = BRA_gZjGVrBP
+		id = BRA_iQdPamqs
 		icon = GFX_focus_chi_collaboration_with_the_japanese
 		x = 17
 		y = 3
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = BRA_pZVFIWwa }
+		prerequisite = { focus = BRA_fqdOTPsV }
 		mutually_exclusive = { 
-			focus = BRA_asRCUMJO 
-			focus = BRA_iTPhADZs 
+			focus = BRA_sIOfWxCP 
+			focus = BRA_hMnXIfPZ 
 			focus = BRA_ 
 		}
 		search_filters = { FOCUS_FILTER_INDUSTRY } 
@@ -820,7 +820,7 @@ instant_build = yes}
 
 	#Focus for インフラの整備 - focus ID randomly generated due to title being in non-latin characters
 	focus = {
-		id = BRA_lNkHRqcL
+		id = BRA_XwkpdDov
 		icon = GFX_goal_generic_construct_infrastructure
 		x = 18
 		y = 0
@@ -842,13 +842,13 @@ instant_build = yes}
 
 	#Focus for 都市生産力の強化 - focus ID randomly generated due to title being in non-latin characters
 	focus = {
-		id = BRA_ijZLSKsU
+		id = BRA_XOiGfayd
 		icon = GFX_goal_generic_construct_civ_factory
 		x = 18
 		y = 1
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = BRA_lNkHRqcL }
+		prerequisite = { focus = BRA_XwkpdDov }
 		search_filters = { FOCUS_FILTER_INDUSTRY } 
 		ai_will_do = {
 			factor = 1
@@ -878,13 +878,13 @@ instant_build = yes}
 
 	#Focus for オリガルヒの排除 - focus ID randomly generated due to title being in non-latin characters
 	focus = {
-		id = BRA_UFmXucMe
+		id = BRA_NFkQSDMy
 		icon = GFX_focus_generic_industry_3
 		x = 17
 		y = 2
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = BRA_ijZLSKsU }
+		prerequisite = { focus = BRA_XOiGfayd }
 		search_filters = { FOCUS_FILTER_INDUSTRY } 
 		ai_will_do = {
 			factor = 1
@@ -914,7 +914,7 @@ instant_build = yes}
 
 	#Focus for 陸軍の訓練 - focus ID randomly generated due to title being in non-latin characters
 	focus = {
-		id = BRA_YKgLekHl
+		id = BRA_gQzfyvax
 		icon = GFX_focus_chi_army_reform
 		x = 22
 		y = 0
@@ -930,13 +930,13 @@ instant_build = yes}
 
 	#Focus for 自動車化の推進 - focus ID randomly generated due to title being in non-latin characters
 	focus = {
-		id = BRA_YXBnatyW
+		id = BRA_AaCbosiU
 		icon = GFX_goal_generic_army_motorized
 		x = 23
 		y = 2
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = BRA_VGNJCdOK }
+		prerequisite = { focus = BRA_vcTdnyQz }
 		search_filters = { FOCUS_FILTER_RESEARCH } 
 		ai_will_do = {
 			factor = 1
@@ -952,14 +952,14 @@ category = motorized_equipment
 
 	#Focus for 砲兵による圧倒 - focus ID randomly generated due to title being in non-latin characters
 	focus = {
-		id = BRA_ASCDvxry
+		id = BRA_fiZduVMb
 		icon = GFX_goal_generic_army_artillery2
 		x = 25
 		y = 2
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = BRA_PaijGtCs }
-		mutually_exclusive = { focus = BRA_yocNfXxF }
+		prerequisite = { focus = BRA_wDtZNniC }
+		mutually_exclusive = { focus = BRA_urkNBUvI }
 		ai_will_do = {
 			factor = 1
 		}
@@ -974,14 +974,14 @@ category = cat_superior_firepower
 
 	#Focus for 空母艦隊の採用 - focus ID randomly generated due to title being in non-latin characters
 	focus = {
-		id = BRA_rMkFzngS
+		id = BRA_rGEcUzqt
 		icon = GFX_goal_generic_navy_carrier
 		x = 29
 		y = 2
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = BRA_RXKgDoaA }
-		mutually_exclusive = { focus = BRA_AXLCTvrt }
+		prerequisite = { focus = BRA_CaFLscSi }
+		mutually_exclusive = { focus = BRA_NbrUZMcw }
 		ai_will_do = {
 			factor = 1
 		}
@@ -996,13 +996,13 @@ category = cat_base_strike
 
 	#Focus for 国産空母の開発 - focus ID randomly generated due to title being in non-latin characters
 	focus = {
-		id = BRA_diKUIteN
+		id = BRA_sjaceqMb
 		icon = GFX_goal_generic_navy_carrier
 		x = 29
 		y = 3
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = BRA_rMkFzngS }
+		prerequisite = { focus = BRA_rGEcUzqt }
 		ai_will_do = {
 			factor = 1
 		}
@@ -1017,7 +1017,7 @@ category = cv_tech
 
 	#Focus for 空軍演習 - focus ID randomly generated due to title being in non-latin characters
 	focus = {
-		id = BRA_EaYDPyRT
+		id = BRA_WiAwRZVT
 		icon = GFX_goal_generic_build_airforce
 		x = 36
 		y = 0
@@ -1033,14 +1033,14 @@ category = cv_tech
 
 	#Focus for ドイツとの友好 - focus ID randomly generated due to title being in non-latin characters
 	focus = {
-		id = BRA_UIoEZwhO
+		id = BRA_NSWPdiMF
 		icon = GFX_focus_chi_mission_to_germany
 		x = 13
 		y = 3
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = BRA_zhesGSEy }
-		mutually_exclusive = { focus = BRA_NTbcHgmu }
+		prerequisite = { focus = BRA_JLGdjQRc }
+		mutually_exclusive = { focus = BRA_JWfyTsuF }
 		ai_will_do = {
 			factor = 1
 		}
@@ -1054,14 +1054,14 @@ modifier = TAG_friend_country
 
 	#Focus for 中型機の活用 - focus ID randomly generated due to title being in non-latin characters
 	focus = {
-		id = BRA_OmFoANSr
+		id = BRA_GjVMZwHR
 		icon = GFX_goal_generic_air_bomber
 		x = 38
 		y = 1
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = BRA_EaYDPyRT }
-		mutually_exclusive = { focus = BRA_GthQELTS }
+		prerequisite = { focus = BRA_WiAwRZVT }
+		mutually_exclusive = { focus = BRA_wuQOjNbk }
 		ai_will_do = {
 			factor = 1
 		}
@@ -1076,15 +1076,15 @@ category = cat_operational_integrity
 
 	#Focus for 戦闘機の開発 - focus ID randomly generated due to title being in non-latin characters
 	focus = {
-		id = BRA_iYVlqzTD
+		id = BRA_ftZwPWGK
 		icon = GFX_goal_generic_air_fighter2
 		x = 37
 		y = 2
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { 
-			focus = BRA_GthQELTS 
-			focus = BRA_OmFoANSr 
+			focus = BRA_wuQOjNbk 
+			focus = BRA_GjVMZwHR 
 		}
 		ai_will_do = {
 			factor = 1
@@ -1100,13 +1100,13 @@ category = light_fighter
 
 	#Focus for 戦術爆撃機の開発 - focus ID randomly generated due to title being in non-latin characters
 	focus = {
-		id = BRA_rtSZDbNm
+		id = BRA_uhOBSQNG
 		icon = GFX_goal_generic_air_bomber
 		x = 39
 		y = 2
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = BRA_OmFoANSr }
+		prerequisite = { focus = BRA_GjVMZwHR }
 		ai_will_do = {
 			factor = 1
 		}
@@ -1121,14 +1121,14 @@ category = tactical_bomber
 
 	#Focus for 日本との友好 - focus ID randomly generated due to title being in non-latin characters
 	focus = {
-		id = BRA_NTbcHgmu
+		id = BRA_JWfyTsuF
 		icon = GFX_focus_chi_collaboration_with_the_japanese
 		x = 15
 		y = 3
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = BRA_zhesGSEy }
-		mutually_exclusive = { focus = BRA_UIoEZwhO }
+		prerequisite = { focus = BRA_JLGdjQRc }
+		mutually_exclusive = { focus = BRA_NSWPdiMF }
 		ai_will_do = {
 			factor = 1
 		}
@@ -1142,13 +1142,13 @@ modifier = TAG_friend_country
 
 	#Focus for 世論の説得 - focus ID randomly generated due to title being in non-latin characters
 	focus = {
-		id = BRA_xEFGdsqA
+		id = BRA_NxWgVlBH
 		icon = GFX_goal_generic_propaganda
 		x = 12
 		y = 4
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = BRA_TqKyOUHu }
+		prerequisite = { focus = BRA_ulDydoGC }
 		search_filters = { FOCUS_FILTER_STABILITY } 
 		ai_will_do = {
 			factor = 1
@@ -1160,20 +1160,20 @@ modifier = TAG_friend_country
 
 	#Focus for 国内の安定化 - focus ID randomly generated due to title being in non-latin characters
 	focus = {
-		id = BRA_HzZQJGtx
+		id = BRA_GPhqULZr
 		icon = GFX_goal_generic_national_unity
 		x = 12
 		y = 5
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { 
-			focus = BRA_xEFGdsqA 
+			focus = BRA_NxWgVlBH 
 		}
 		prerequisite = { 
-			focus = BRA_QuBPHjik 
+			focus = BRA_cqyarxgw 
 		}
 		prerequisite = { 
-			focus = BRA_EHNbVZGj 
+			focus = BRA_LaTWjXPc 
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL } 
 		ai_will_do = {
@@ -1186,13 +1186,13 @@ modifier = TAG_friend_country
 
 	#Focus for ヴァルガスの続投 - focus ID randomly generated due to title being in non-latin characters
 	focus = {
-		id = BRA_XRScBCnV
+		id = BRA_mRBGPixO
 		icon = GFX_focus_por_salazar
 		x = 16
 		y = 0
 		cost = 10
 		available_if_capitulated = yes
-		mutually_exclusive = { focus = BRA_VYnwUGeA }
+		mutually_exclusive = { focus = BRA_tFLBiXTv }
 		search_filters = { FOCUS_FILTER_POLITICAL } 
 		ai_will_do = {
 			factor = 1
@@ -1202,17 +1202,39 @@ modifier = TAG_friend_country
 		}
 	}
 
+	#Focus for ブラジリアへの遷都 - focus ID randomly generated due to title being in non-latin characters
+	focus = {
+		id = BRA_WuaUPBZf
+		icon = GFX_focus_generic_industry_3
+		x = 16
+		y = 8
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = BRA_YKgidwHS }
+		search_filters = { FOCUS_FILTER_POLITICAL } 
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			set_capital= 505
+set_political_party= { 
+ideology = conservative 
+popularity = 0.5 
+}
+		}
+	}
+
 	#Focus for 宿敵の支配 - focus ID randomly generated due to title being in non-latin characters
 	focus = {
-		id = BRA_sJDoWpge
+		id = BRA_KJebcACU
 		icon = GFX_focus_mex_triumph_over_the_cristeros
 		x = 13
 		y = 8
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { 
-			focus = BRA_kIoLKWfz 
-			focus = BRA_cFoOyldi 
+			focus = BRA_tsdxIjpb 
+			focus = BRA_bHKnEpVx 
 		}
 		search_filters = { FOCUS_FILTER_ANNEXATION } 
 		ai_will_do = {
@@ -1228,17 +1250,17 @@ target = ARG
 
 	#Focus for 連合王国の復興 - focus ID randomly generated due to title being in non-latin characters
 	focus = {
-		id = BRA_XugicNeT
+		id = BRA_sRZgjfUN
 		icon = GFX_focus_por_the_kingdom_reunited
 		x = 9
 		y = 8
 		cost = 12
 		available_if_capitulated = yes
 		prerequisite = { 
-			focus = BRA_SrZqiNln 
+			focus = BRA_IvFlsDqQ 
 		}
 		prerequisite = { 
-			focus = BRA_fvtsDeax 
+			focus = BRA_NLnXEbFA 
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL } 
 		ai_will_do = {
@@ -1259,14 +1281,14 @@ target = ARG
 
 	#Focus for 民衆への譲歩 - focus ID randomly generated due to title being in non-latin characters
 	focus = {
-		id = BRA_jvEWMwoy
+		id = BRA_tbeGJfOz
 		icon = GFX_goal_support_democracy
 		x = 11
 		y = 0
 		cost = 10
 		available_if_capitulated = yes
 		mutually_exclusive = { 
-			focus = BRA_VYnwUGeA 
+			focus = BRA_tFLBiXTv 
 			focus = BRA_ 
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL } 
@@ -1280,13 +1302,13 @@ target = ARG
 
 	#Focus for 議会の強化 - focus ID randomly generated due to title being in non-latin characters
 	focus = {
-		id = BRA_cCvWhmxI
+		id = BRA_JKZxRtgb
 		icon = GFX_goal_generic_improve_relations
 		x = 14
 		y = 1
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = BRA_jvEWMwoy }
+		prerequisite = { focus = BRA_tbeGJfOz }
 		search_filters = { FOCUS_FILTER_POLITICAL } 
 		ai_will_do = {
 			factor = 1
@@ -1301,13 +1323,13 @@ elections_allowed = yes
 
 	#Focus for 同化政策の継続 - focus ID randomly generated due to title being in non-latin characters
 	focus = {
-		id = BRA_AZCJfuFM
+		id = BRA_fZAMrEbX
 		icon = GFX_focus_spr_crush_the_revolution
 		x = 16
 		y = 1
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = BRA_XRScBCnV }
+		prerequisite = { focus = BRA_mRBGPixO }
 		search_filters = { FOCUS_FILTER_POLITICAL } 
 		ai_will_do = {
 			factor = 1
@@ -1319,13 +1341,13 @@ elections_allowed = yes
 
 	#Focus for コーヒー産業の国有化 - focus ID randomly generated due to title being in non-latin characters
 	focus = {
-		id = BRA_EHNbVZGj
+		id = BRA_LaTWjXPc
 		icon = GFX_goal_generic_construct_civilian
 		x = 14
 		y = 4
 		cost = 10
 		available_if_capitulated = yes
-		prerequisite = { focus = BRA_TqKyOUHu }
+		prerequisite = { focus = BRA_ulDydoGC }
 		search_filters = { FOCUS_FILTER_STABILITY } 
 		ai_will_do = {
 			factor = 1
@@ -1337,15 +1359,15 @@ elections_allowed = yes
 
 	#Focus for 立憲制への移行 - focus ID randomly generated due to title being in non-latin characters
 	focus = {
-		id = BRA_fWzGhkSy
+		id = BRA_XTElPQfI
 		icon = GFX_goal_tfv_strengthen_commonwealth_ties
 		x = 12
 		y = 1
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { 
-			focus = BRA_VYnwUGeA 
-			focus = BRA_jvEWMwoy 
+			focus = BRA_tFLBiXTv 
+			focus = BRA_tbeGJfOz 
 		}
 		search_filters = { FOCUS_FILTER_POLITICAL } 
 		ai_will_do = {
