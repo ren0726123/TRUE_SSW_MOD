@@ -11,8 +11,13 @@ set_technology = {
 	early_fighter = 1
 	CAS1 = 1
 }
+
 add_ideas = {
 	civilian_economy
+	BRA_army_disagree
+	BRA_repressed_socialism
+	BRA_unpopular_government
+	BRA_coffee_companies
 }
 
 if = {
@@ -174,7 +179,6 @@ create_country_leader = {
 }
 
 set_convoys = 40
-
 create_corps_commander = {
 	name = "Eurico Gaspar Dutra"
 	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"
