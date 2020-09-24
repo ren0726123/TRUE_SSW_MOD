@@ -59,12 +59,9 @@ category = construction_tech
 			factor = 1
 		}
 		completion_reward = {
-			add_tech_bonus= {
- bonus = 0.5 
-uses = 2 
-category = radar_tech 
-}
-  state_event=SSW_TUR.1
+			country_event = {
+				id = SSW_TUR.3
+			}
 		}
 	}
 	#Focus for support_the_military_industry
@@ -384,8 +381,8 @@ days = 200
 		ai_will_do = {
 			factor = 1
 		}
-		complete_tooltip = {
-			SSW_Equal_Education
+		completion_reward = {
+			custom_effect_tooltip = 1_TUR_Equal_Education
 		}
 	}
 	#Focus for elitism
@@ -400,8 +397,8 @@ days = 200
 		ai_will_do = {
 			factor = 1
 		}
-		complete_tooltip = {
-			SSW_Industry_elitism
+		completion_reward = {
+			custom_effect_tooltip = 1_TUR_elitism
 		}
 	}
 	#Focus for Educational_Policy
@@ -417,7 +414,9 @@ days = 200
 			factor = 1
 		}
 		completion_reward = {
-			state_event= SSW_TUR.2
+			country_event = {
+				id = SSW_TUR.2
+			}
 		}
 	}
 	#Focus for Focus_on_the_electronics_industry
