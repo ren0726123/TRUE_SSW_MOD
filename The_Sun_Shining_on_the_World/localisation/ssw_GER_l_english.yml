@@ -28,6 +28,7 @@
  JGB_Remnants:0 "残党への対処"
  JGB_Gering:0 "ナチ党穏健派への対処"
  JGB_Giving_In_Gering:0 "ゲーリング派との妥協"
+ JBG_Giving_in_Himmler_desc:0 "我らがフューラーに指名された後継者ゲッベルスに対して不満を隠さないもの達がいる。ゲッベルスは、SS全国指導者のヒムラーと会談。ある一定の妥協に達した。これは反体制派への強い一手となるのだろうか？"
  JGB_Moderate:0 "穏健主義を擁護"
  JGB_Hard_Posture_To_Gering:0 "ゲーリング派への強硬姿勢"
  JGB_New_Luftwaffe:0 "新たな空軍長官"
@@ -83,6 +84,7 @@
  JGB_Special_Forces:0 "その他の特殊作戦部隊"
  JGB_Complete_Reform:0 "改造計画の完了"
  JGB_Modern_Warframe:0 "現代陸軍戦術"
+
  
 
  
