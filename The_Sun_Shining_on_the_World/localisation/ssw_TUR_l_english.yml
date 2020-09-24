@@ -1,4 +1,5 @@
 ﻿l_english:
+ #The man responsible for this file is Yamasaku
  #国民精神
  TUR_idea_1:0"後進的な軽工業社会"
  TUR_idea_1_desc:0"トルコ産業は繊維産業などの軽工業が主体であり、それらは技術的発展が著しく遅れた工場や、経済危機による資金の途絶が関わっている。この問題に早急に対応しなければ、我々は祖国を失ってしまうかもしれない。"
@@ -18,9 +19,9 @@
  
  #国家方針
  TUR_update_to_modern_industry:0"現代産業への更新"
- TUR_update_to_modern_industry_desc:0""
+ TUR_update_to_modern_industry_desc:0"トルコ産業は、繊維産業などの軽工業が主体であるが、それらの技術はとても前時代的なものである。まずこの衰退した産業を立て直すことが目下の課題だ。"
  TUR_temporary_economic_measures:0"一時的な経済対策"
- TUR_temporary_economic_measures_desc:0""
+ TUR_temporary_economic_measures_desc:0"この経済危機に、持続的かつリスクが大きすぎる対策は、かえって問題の長期化を招く結果になるかもしれない。短期間でこの問題に対処できるように、対策をいくつかのフェーズに分割し、多少のリスクを承知で問題の解決に当たる必要がある。"
  TUR_Establishment_of_a_foundation_for_heavy_industrialization:0"重工業化への基盤を確立"
  TUR_Establishment_of_a_foundation_for_heavy_industrialization_desc:0""
  TUR_Nationalization_of_the_banks:0"銀行の国営化"
@@ -67,3 +68,6 @@
  SSW_TUR.2.d:0"経済問題を安定化に導き、国内産業の強化を果たした。けれども、それは氷山の一角に過ぎない。例えば、教育水準の向上などだ。国力の増加に教育は必要不可欠であり、国家の基盤を支えるために基盤となる。だが、国内は貧困にあえぐものや、民族の所属により満足に教育を受けられないものが増えている。我々は彼らにどのような教育を受けさせるべきだろうか。"
  SSW_TUR.2.a:0"我々は平等な教育を与える"
  SSW_TUR.2.b:0"国家は優秀な人材を求めている"
+ SSW_TUR.3.t:0"トルコ産業の現状"
+ SSW_TUR.3.d:0"1947年に発生した経済危機により、ただでさえ軟弱で前時代的なトルコ産業に大打撃を与えた。この問題は産業界だけに留まらず、各民族間との対立をも深める結果をもたらしている。進化していく世界で、我々の産業はどのような道を辿るのだろうか。"
+ SSW_TUR.3.a:0"我々は決してあきらめない"
