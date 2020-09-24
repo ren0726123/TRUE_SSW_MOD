@@ -53,6 +53,10 @@
  TUR_nationalization_policy_desc:0""
  TUR_Completion_of_the_four_year_plan:0"四カ年計画の完了"
  TUR_Completion_of_the_four_year_plan_desc:0""
+ 
+ #Tooltip
+1_TUR_elitism:0"§G我が国はエリート主義教育を推進する§!"
+1_TUR_Equal_Education:0"§G我が国は平等な教育を推奨する§!"
 
  
  #イベント
