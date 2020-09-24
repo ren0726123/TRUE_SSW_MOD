@@ -167,7 +167,9 @@ add_idea = TUR_idea_6
 			factor = 1
 		}
 		bypass = {
-			has_idea=TUR_idea_10
+			NOT = {
+has_idea=TUR_idea_10
+}
 		}
 		completion_reward = {
 			random_owned_controlled_state={
@@ -328,9 +330,9 @@ category =  construction_tech
 }
 		}
 	}
-	#Focus for Nationalization_of_companies
+	#Focus for nationalization_policy
 	focus = {
-		id = TUR_nationalization_of_companies
+		id = TUR_nationalization_policy
 		icon = GFX_focus_hol_the_foundations_of_defense
 		x = 5
 		y = 3
@@ -382,6 +384,9 @@ days = 200
 		ai_will_do = {
 			factor = 1
 		}
+		complete_tooltip = {
+			SSW_Equal_Education
+		}
 	}
 	#Focus for elitism
 	focus = {
@@ -394,6 +399,9 @@ days = 200
 		prerequisite = { focus = TUR_educational_policy }
 		ai_will_do = {
 			factor = 1
+		}
+		complete_tooltip = {
+			SSW_Industry_elitism
 		}
 	}
 	#Focus for Educational_Policy
@@ -412,9 +420,9 @@ days = 200
 			state_event= SSW_TUR.2
 		}
 	}
-	#Focus for electronics_industry_is_launched
+	#Focus for Focus_on_the_electronics_industry
 	focus = {
-		id = TUR_electronics_industry_is_launched
+		id = TUR_focus_on_the_electronics_industry
 		icon = GFX_goal_generic_scientific_exchange
 		x = 1
 		y = 3
@@ -440,7 +448,7 @@ category = electronics
 		y = 4
 		cost = 5
 		available_if_capitulated = yes
-		prerequisite = { focus = TUR_nationalization_of_companies }
+		prerequisite = { focus = TUR_nationalization_policy }
 		ai_will_do = {
 			factor = 1
 		}
