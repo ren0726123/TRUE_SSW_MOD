@@ -1,0 +1,249 @@
+country_event = {
+	id = TEX.bunker.america
+	title = TEX.bunker.america.t
+	desc = {
+		text = TEX.bunker.america.d
+		trigger = {
+			original_tag = TEX
+		}
+	}
+	desc = {
+		text = TEX.bunker.america.d2
+		trigger = {
+			NOT = {
+				original_tag = TEX
+			}
+		}
+	}
+	
+	
+	picture = GFX_report_event_bunker_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = TEX.bunker.america.a
+		trigger = {
+			original_tag = TEX
+		}
+		375 = {
+			add_building_construction = {
+				type = bunker
+				province = 4955
+				level = 1
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = bunker
+				province = 1998
+				level = 1
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = bunker
+				province = 9773
+				level = 1
+				instant_build = yes
+			}
+            add_building_construction = {
+				type = bunker
+				province = 12848
+				level = 1
+				instant_build = yes
+			}
+            add_building_construction = {
+				type = bunker
+				province = 3875
+				level = 1
+				instant_build = yes
+			}
+            add_building_construction = {
+				type = bunker
+				province = 5085
+				level = 1
+				instant_build = yes
+			}
+            add_building_construction = {
+				type = bunker
+				province = 2082
+				level = 1
+				instant_build = yes
+			}
+            add_building_construction = {
+				type = bunker
+				province = 9829
+				level = 1
+				instant_build = yes
+			}
+            add_building_construction = {
+				type = bunker
+				province = 5001
+				level = 1
+				instant_build = yes
+			}
+            add_building_construction = {
+				type = bunker
+				province = 6968
+				level = 1
+				instant_build = yes
+			}
+            add_building_construction = {
+				type = bunker
+				province = 4577
+				level = 1
+				instant_build = yes
+			}
+            add_building_construction = {
+				type = bunker
+				province = 12486
+				level = 1
+				instant_build = yes
+			}
+            add_building_construction = {
+				type = bunker
+				province = 1500
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+	option = {
+		name = TEX.bunker.america.b
+		trigger = {
+			NOT = {
+				original_tag = TEX
+			}
+		}
+	}
+}
+
+country_event = {
+	id = TEX.bunker.mexico
+	title = TEX.bunker.mexico.t
+	desc = {
+		text = TEX.bunker.mexico.d
+		trigger = {
+			original_tag = TEX
+		}
+	}
+	desc = {
+		text = TEX.bunker.mexico.d2
+		trigger = {
+			NOT = {
+				original_tag = TEX
+			}
+		}
+	}
+	picture = GFX_report_event_bunker_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = TEX.bunker.mexico.a
+		trigger = {
+			original_tag = TEX
+		}
+		375 = {
+			add_building_construction = {
+				type = bunker
+				province = 12369
+				level = 3
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = bunker
+				province = 5061
+				level = 3
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = bunker
+				province = 2019
+				level = 3
+				instant_build = yes
+			}
+            add_building_construction = {
+				type = bunker
+				province = 12728
+				level = 3
+				instant_build = yes
+			}
+            add_building_construction = {
+				type = bunker
+				province = 5038
+				level = 3
+				instant_build = yes
+			}
+            add_building_construction = {
+				type = bunker
+				province = 1954
+				level = 3
+				instant_build = yes
+			}
+            add_building_construction = {
+				type = bunker
+				province = 10894
+				level = 3
+				instant_build = yes
+			}
+            add_building_construction = {
+				type = bunker
+				province = 10740
+				level = 3
+				instant_build = yes
+			}
+		}
+	}
+	option = {
+		name = TEX.bunker.mexico.b
+		trigger = {
+			NOT = {
+				original_tag = TEX
+			}
+		}
+	}
+}
+
+country_event = {
+	id = TEX.commander
+	title = TEX.commander.t
+	desc = TEX.commander.d
+	picture = GFX_report_event_bunker_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = TEX.commender.a
+        create_corps_commander = {
+	    name = "xxx"   #未定　MG Everett S. Simpsonが候補　第36歩兵師団の61年の指揮官　画像はhttps://www.nmmi.edu/alumni/hall-of-fame/1986-mg-everett-selden-simpson-aus-ret-1934-jc/　スキル系は指揮官決める前に単純に防衛向きにしたけど変更の余地あり　有識者が編集してくれたら助かります
+	    picture = "xxx"
+	    traits = { Inflexible Strategist }
+	    skill = 5
+	    attack_skill = 2
+	    defense_skill = 6
+	    planning_skill = 3
+	    logistics_skill = 4
+        }
+    }
+}
+
+country_event = {
+	id = TEX.dockyard
+	title = TEX.dockyard.t
+	desc = TEX.deckyard.d
+	picture = GFX_report_event_ast_navy
+
+	is_triggered_only = yes
+
+	option = {
+		name = TEX.dockyard.a
+		375 = {
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}	
+	}
+}
+

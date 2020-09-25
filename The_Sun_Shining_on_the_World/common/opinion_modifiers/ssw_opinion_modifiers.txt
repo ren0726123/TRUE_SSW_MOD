@@ -12,4 +12,19 @@ opinion_modifiers = {
 	TAG_friend_country = {
 	value = 50
 	}
+	TEX_defence_america_op = {
+        value = -20
+    }
+
+    TEX_defence_mexicoz_op = {
+        value = -20
+    }
+
+    TEX_bunker_america_op = {
+        value = -50
+    }
+
+    TEX_bunker_mexico_op = {
+        value = -50
+    }
 }

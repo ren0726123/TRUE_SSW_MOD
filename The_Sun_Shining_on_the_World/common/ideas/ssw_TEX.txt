@@ -1,0 +1,186 @@
+ideas = {
+
+    coutry = {
+
+         TEX_dig_id = {
+
+            picture = GFX_xxx
+
+            allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+
+            modifier = {
+                max_dig_in = 10
+		    }
+        }
+
+        TEX_defence_america_id = {
+
+            picture = GFX_xxx
+
+            allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+
+            targeted_modifier = {
+			    tag = ALF
+			    defense_bonus_against = 0.1
+		    }
+            targeted_modifier = {
+			    tag = FSA
+			    defense_bonus_against = 0.1
+		    }
+            targeted_modifier = {
+			    tag = LUI
+			    defense_bonus_against = 0.1
+		    }
+            targeted_modifier = {
+			    tag = NEL
+			    defense_bonus_against = 0.1
+		    }
+            targeted_modifier = {
+			    tag = OKL
+			    defense_bonus_against = 0.1
+		    }
+            targeted_modifier = {
+			    tag = UCT
+			    defense_bonus_against = 0.1
+		    }
+            targeted_modifier = {
+			    tag = LFF
+			    defense_bonus_against = 0.1
+		    }
+            targeted_modifier = {
+			    tag = ANS
+			    defense_bonus_against = 0.1
+		    }
+            targeted_modifier = {
+			    tag = BLS
+			    defense_bonus_against = 0.1
+		    }
+
+            modifier = {
+                max_dig_in = 10
+		    }
+        }
+
+        TEX_defence_mexico_id = {
+
+            picture = GFX_xxx
+
+            allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+
+            targeted_modifier = {
+			    tag = MEX
+			    defense_bonus_against = 0.2
+		    }
+
+            modifier = {
+                max_dig_in = 10
+		    }
+        }
+
+        TEX_defence_id = {
+
+            picture = GFX_xxx
+
+            allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+
+            targeted_modifier = {
+			    tag = ALF
+			    defense_bonus_against = 0.1
+		    }
+            targeted_modifier = {
+			    tag = FSA
+			    defense_bonus_against = 0.1
+		    }
+            targeted_modifier = {
+			    tag = LUI
+			    defense_bonus_against = 0.1
+		    }
+            targeted_modifier = {
+			    tag = NEL
+			    defense_bonus_against = 0.1
+		    }
+            targeted_modifier = {
+			    tag = OKL
+			    defense_bonus_against = 0.1
+		    }
+            targeted_modifier = {
+			    tag = UCT
+			    defense_bonus_against = 0.1
+		    }
+            targeted_modifier = {
+			    tag = LFF
+			    defense_bonus_against = 0.1
+		    }
+            targeted_modifier = {
+			    tag = ANS
+			    defense_bonus_against = 0.1
+		    }
+            targeted_modifier = {
+			    tag = BLS
+			    defense_bonus_against = 0.1
+		    }
+
+            targeted_modifier = {
+			    tag = MEX
+			    defense_bonus_against = 0.2
+		    }
+
+            modifier = {
+                max_dig_in = 10
+		    }
+        }
+
+		TEX_supply_id = {
+			picture = GFX_xxx
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			modifier = {
+                Supply_consumption_factor = -0.10
+				out_of_supply_factor = -0.10
+				no_supply_grace = 24
+				Resistance_damage_to_garrison_on_our_occupied_states　= 0.1
+				resistance_damage_to_garrison_on_our_occupied_states = 0.1
+
+		    }
+		}
+    }
+
+    hidden_ideas = {
+        TEX_defence_1year_id = { }
+    }
+}
