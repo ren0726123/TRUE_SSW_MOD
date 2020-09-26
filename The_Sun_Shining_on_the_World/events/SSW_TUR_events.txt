@@ -23,7 +23,7 @@ country_event = {
 	
 	option = {
 		name = SSW_TUR.2.a
-		complete_national_focus = TUR_Equal_Education
+		complete_national_focus = TUR_equal_education
 	}
 	option = {
 		name = SSW_TUR.2.b
@@ -74,7 +74,7 @@ country_event = {
 	}
 	option = {
 		name = SSW_TUR.5.b
-		complete_national_focus = TUR_Planned_Parenthood
+		complete_national_focus = TUR_planned_parenthood
 	}
 	option = {
 		name = SSW_TUR.5.c
