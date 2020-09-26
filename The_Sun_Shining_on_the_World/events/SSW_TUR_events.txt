@@ -70,5 +70,14 @@ country_event = {
 	
 	option = {
 		name = SSW_TUR.5.a
+		complete_national_focus = TUR_fire_control
+	}
+	option = {
+		name = SSW_TUR.5.b
+		complete_national_focus = TUR_Planned_Parenthood
+	}
+	option = {
+		name = SSW_TUR.5.c
+		complete_national_focus = TUR_mechanized_unit
 	}
 }
