@@ -54,6 +54,11 @@
  TUR_nationalization_policy_desc:0""
  TUR_Completion_of_the_four_year_plan:0"四カ年計画の完了"
  TUR_Completion_of_the_four_year_plan_desc:0""
+ TUR_Army_Reconstruction_Plan:0"陸軍の再建案"
+ TUR_Army_Reconstruction_Plan_desc:0""
+ TUR_tactical_plan:0"戦術方針"
+ TUR_tactical_plan_desc:0""
+ 
  
  #Tooltip
 1_TUR_elitism:0"§G我が国はエリート主義教育を推進する§!"
@@ -71,3 +76,10 @@
  SSW_TUR.3.t:0"トルコ産業の現状"
  SSW_TUR.3.d:0"1947年に発生した経済危機により、ただでさえ軟弱で前時代的なトルコ産業に大打撃を与えた。この問題は産業界だけに留まらず、各民族間との対立をも深める結果をもたらしている。進化していく世界で、我々の産業はどのような道を辿るのだろうか。"
  SSW_TUR.3.a:0"我々は決してあきらめない"
+ SSW_TUR.4.t:0"陸軍の再建案"
+ SSW_TUR.4.d:0""
+ SSW_TUR.4.a:0""
+ SSW_TUR.5.t:0"ドクトリンの選択"
+ SSW_TUR.5.d:0""
+ SSW_TUR.5.a:0""
+ 
