@@ -245,7 +245,7 @@ ideas = {
 				industrial_capacity_factory = 0.05
 			}
 		}
-tank_manufacturer = {
+		tank_manufacturer = {
 	
 		designer = yes
 	
@@ -270,8 +270,7 @@ tank_manufacturer = {
 				production_speed_infrastructure_factor = 0.05}
 				}	
 	}
-
-aircraft_manufacturer = {
+	aircraft_manufacturer = {
 		
 		designer = yes
 		
@@ -289,8 +288,7 @@ aircraft_manufacturer = {
 			modifier = {air_paradrop_attack_factor = 0.05}
 		}
 	}
-
-materiel_manufacturer = {
+	materiel_manufacturer = {
 			
 		designer = yes
 
@@ -308,7 +306,7 @@ materiel_manufacturer = {
 			traits = { motorized_equipment_manufacturer }
 		}	
 	}
-industrial_concern = {
+	industrial_concern = {
 
 		ezisa = {
 						
