@@ -1,0 +1,23 @@
+units = {
+	fleet = {
+		name = "Home Command"
+		naval_base = 11064
+		task_force = {		
+			name = "Home fleet"
+			location = 11064
+			ship = { name = "HMS Vanguard" pride_of_the_fleet = yes definition = Battleship  start_experience_factor = 0.5 equipment = { ship_hull_heavy_4 = { amount = 1 owner = ENG version_name = "Vanguard Class" } } }
+		}
+	}
+
+	fleet = {
+		name = "Far East Command"
+		naval_base = 7669
+		task_force = {		
+			name = "1st Aircraft Carrier Squadron"
+			location = 7669
+			ship = { name = "HMS Belfast" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "Town Class" } } }
+
+			ship = { name = "HMS Unicorn" definition = carrier start_experience_factor = 0.25 equipment = { ship_hull_carrier_3 = { amount = 1 owner = ENG version_name = "Unicorn Class" } } }
+		}
+	}
+}
