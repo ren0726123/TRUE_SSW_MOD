@@ -288,8 +288,7 @@ ideas = {
 			traits = {CAS_manufacturer}
 			modifier = {air_paradrop_attack_factor = 0.05}
 		}
-	}
-	materiel_manufacturer = {
+		materiel_manufacturer = {
 			
 		designer = yes
 
@@ -306,6 +305,7 @@ ideas = {
 				consumer_goods_factor = -0.03}
 			traits = { motorized_equipment_manufacturer }
 		}	
+	}
 	}
 	industrial_concern = {
 
@@ -325,7 +325,4 @@ ideas = {
 			traits = { refinery_concern }
 			}
 		}
-　　　　　　　　}	
-	}
-}
 }
