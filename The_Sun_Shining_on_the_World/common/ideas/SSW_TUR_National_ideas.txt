@@ -244,8 +244,9 @@ ideas = {
 				global_building_slots_factor = 0.10
 				industrial_capacity_factory = 0.05
 			}
-		}
-		tank_manufacturer = {
+		}	
+	}
+	tank_manufacturer = {
 	
 		designer = yes
 	
@@ -326,4 +327,5 @@ ideas = {
 		}
 　　　　　　　　}	
 	}
+}
 }
