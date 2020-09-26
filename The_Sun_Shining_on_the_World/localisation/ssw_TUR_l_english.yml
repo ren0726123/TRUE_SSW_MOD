@@ -58,11 +58,24 @@
  TUR_Army_Reconstruction_Plan_desc:0""
  TUR_tactical_plan:0"戦術方針"
  TUR_tactical_plan_desc:0""
+ TUR_fire_control:0"火力制圧"
+ TUR_fire_control_desc:0""
+ TUR_Planned_Parenthood:0"計画的用兵"
+ TUR_Planned_Parenthood_desc:0""
+ TUR_Operating_mechanized_unit:0"機械化部隊"
+ TUR_Operating_mechanized_unit_desc:0""
+ TUR_defence_plan:0"防衛計画"
+ TUR_defence_plan_desc:0""
+ TUR_attack_plan:0"攻勢計画"
+ TUR_attack_plan_desc:0""
  
  
- #Tooltip
+ #Tooltip#§G§!
 1_TUR_elitism:0"§G我が国はエリート主義教育を推進する§!"
 1_TUR_Equal_Education:0"§G我が国は平等な教育を推奨する§!"
+1_TUR_fire_control:0"§G火力による制圧が、トルコ陸軍の未来を切り開くだろう§!"
+1_TUR_Planned_Parenthood:0"§G綿密な計画立案により、トルコ陸軍は精強なものとなるだろう§!"
+1_TUR_mechanized_unit:0"§G機械化部隊の運用により、トルコ陸軍は機動的な侵攻作戦が実行できるだろう§!"
 
  
  #イベント
@@ -82,4 +95,5 @@
  SSW_TUR.5.t:0"ドクトリンの選択"
  SSW_TUR.5.d:0""
  SSW_TUR.5.a:0""
- 
+ SSW_TUR.5.b:0""
+ SSW_TUR.5.c:0""
