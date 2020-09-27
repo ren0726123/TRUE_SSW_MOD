@@ -1,8 +1,8 @@
 ﻿l_english:
  
- ###############################################
- #The man responsible for this file is Yamasaku#
- ###############################################
+ #################################################
+ # The man responsible for this file is Yamasaku #
+ #################################################
  
  #国民精神
  TUR_idea_1:0"後進的な軽工業社会"
@@ -27,6 +27,9 @@
  TUR_idea_14:0"TIA(トルコ産業協会)"
  TUR_idea_15:0"要塞化の取り組み"
  TUR_idea_16:0"攻勢準備"
+ TUR_idea_17:0"対空戦術理論"
+ TUR_idea_18:0"砲撃攻勢戦研究の成果"
+ TUR_idea_19:0"砲撃防御戦研究の成果"
  
  #国家方針
  TUR_update_to_modern_industry:0"現代産業への更新"
@@ -89,7 +92,22 @@
  TUR_specializing_in_automobiles_desc:0""
  TUR_fortification_efforts:0"要塞化への取り組み"
  TUR_fortification_efforts_desc:0""
- TUR_
+ TUR_prepare_for_the_offensive:0"攻勢準備"
+ TUR_prepare_for_the_offensive_desc:0""
+ TUR_draft_campaign:0"徴兵キャンペーン"
+ TUR_draft_campaign_desc:0"「トルコは、何世紀にもわたり西アジア地域を席巻してきた。その血は今、我々に受け継がれている。若き獅子どもよ、祖国は諸君を必要としている!」"
+ TUR_sophisticated_planning:0"高度な立案能力"
+ TUR_sophisticated_planning_desc:0""
+ TUR_anti-aircraft_bombardment:0"対空砲撃戦"
+ TUR_anti-aircraft_bombardment_desc:0""
+ TUR_bombardment_defense_research:0"砲撃防御戦研究"
+ TUR_bombardment_defense_research_desc:0""
+ TUR_bombardment_research:0"砲撃攻勢戦研究"
+ TUR_bombardment_research_desc:0""
+ TUR_shipyard_construction:0"造船所の建設"
+ TUR_shipyard_construction_desc:0""
+ TUR_establishment_of_tia:0"TIAの設立"
+ TUR_establishment_of_tia_desc:0""
  
  
  #Tooltip#§G§!
