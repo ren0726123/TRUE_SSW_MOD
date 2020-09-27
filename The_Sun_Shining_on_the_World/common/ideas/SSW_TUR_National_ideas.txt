@@ -277,7 +277,7 @@ ideas = {
 				conscription_factor = 0.05
 			}
 		}
-		#
+		#対空戦術理論
 		TUR_idea_17 = {
 			
 			allowed = {always = yes}
@@ -290,7 +290,39 @@ ideas = {
 			
 			modifier = {
 				production_speed_anti_air_building_factor = 0.25
-				
+				enemy_army_bonus_air_superiority_factor = -0.10
+			}
+		}
+		#砲撃攻勢戦研究の成果
+		TUR_idea_18 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				army_artillery_attack_factor = 0.15
+				army_artillery_defence_factor = -0.05
+			}
+		}
+		#砲撃防御戦研究の成果
+		TUR_idea_19 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				army_artillery_attack_factor = -0.05
+				army_artillery_defence_factor = 0.15
 			}
 		}
 	}
