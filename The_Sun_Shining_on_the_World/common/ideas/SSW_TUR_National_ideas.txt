@@ -325,5 +325,57 @@ ideas = {
 				army_artillery_defence_factor = 0.15
 			}
 		}
+		#砲製造技術の確立
+		TUR_idea_20 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				artillery_equipment = {
+                    build_cost_ic = -0.10
+                    instant = yes
+                }
+			}
+		}
+		#機械化機動戦術
+		TUR_idea_21 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				army_speed_factor = 0.10
+				army_armor_defence_factor = -0.10
+				army_armor_speed_factor = 0.10
+			}
+		}
+		#精鋭機械化部隊運用
+		TUR_idea_22 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				training_time_factor = 0.10
+				army_armor_attack_factor = 0.10
+				army_armor_defence_factor = 0.10
+			}
+		}
 	}
 }
