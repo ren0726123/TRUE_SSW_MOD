@@ -23,7 +23,29 @@ ideas = {
 
 			modifier = {
 				production_speed_infrastructure_factor = 0.05}
-				}	
+				}
+				#トルコ国立戦車製造局
+				TNTBA = {
+			
+			allowed = {
+				original_tag = TUR
+				has_completed_focus = TUR_establishment_of the_turkish_national_tank_production_department
+			}
+				
+			research_bonus = {
+				armor = 0.05
+				industry = 0.05}
+
+			traits = { tank_manufacturer }
+			
+			equipment_bonus = {
+				medium_tank_equipment = {
+					build_cost_ic = -0.05}
+					}
+
+			modifier = {
+				production_speed_infrastructure_factor = 0.05}
+				}
 	}
 
 	aircraft_manufacturer = {
