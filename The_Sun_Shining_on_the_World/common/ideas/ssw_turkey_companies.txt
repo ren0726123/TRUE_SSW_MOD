@@ -46,6 +46,28 @@ ideas = {
 			modifier = {
 				production_speed_infrastructure_factor = 0.05}
 				}
+				#トルコ国立機動戦闘車製造局
+				TNMCVMA = {
+			
+			allowed = {
+				original_tag = TUR
+				has_completed_focus = TUR_turkish_national_mobile_combat_vehicle_manufacturing_authority
+			}
+				
+			research_bonus = {
+				armor = 0.05
+				industry = 0.05}
+
+			traits = { tank_manufacturer }
+			
+			equipment_bonus = {
+				medium_tank_equipment = {
+					build_cost_ic = -0.05}
+					}
+
+			modifier = {
+				production_speed_infrastructure_factor = 0.05}
+				}
 	}
 
 	aircraft_manufacturer = {
