@@ -377,5 +377,75 @@ ideas = {
 				army_armor_defence_factor = 0.10
 			}
 		}
+		#機械化部隊の大量運用戦術
+		TUR_idea_23 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				training_time_factor = -0.20
+				army_armor_attack_factor = -0.10
+				army_armor_defence_factor = 0.10
+			}
+		}
+		#徴兵キャンペーン
+		TUR_idea_24 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				conscription_factor = 0.20
+				conscription = 0.015
+				non_core_manpower = 0.05
+			}
+		}
+		#防衛計画戦術
+		TUR_idea_25 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				defence = 0.10
+				offence = -0.025
+				army_defence_factor = 0.1
+				army_attack_factor = -0.025
+			}
+		}
+		#攻勢計画戦術
+		TUR_idea_26 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				defence = -0.025
+				offence = 0.10
+				army_defence_factor = -0.025
+				army_attack_factor = 0.10
+			}
+		}
 	}
 }
