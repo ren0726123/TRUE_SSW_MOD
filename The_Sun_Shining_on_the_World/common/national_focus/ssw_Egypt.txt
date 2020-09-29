@@ -28,15 +28,14 @@ focus_tree = {
 		x = 68
 		y = 5
 		completion_reward = {
-				set_rule = {
-can_create_factions = yes
-can_force_government = yes
-can_only_justify_war_on_threat_country = yes
-autonomy_gain = 10
-	subjects_autonomy_gain = -11
-}
+			set_rule = {
+				can_create_factions = yes
+				can_force_government = yes
+				can_only_justify_war_on_threat_country = yes
+				autonomy_gain = 10
+				ubjects_autonomy_gain = -11
+			}
 		}
-
 	}
 	focus = {
 		id = EGY_focus_ssw_naisei_2
@@ -51,12 +50,12 @@ autonomy_gain = 10
 		}
 		x = 3
 		y = 1
-completion_reward = {
-	add_opinion_modifier = {
-target = GER
-modifier = offered_support
-}
-}
+		completion_reward = {
+			add_opinion_modifier = {
+				target = GER
+				modifier = offered_support
+			}
+		}
 	}
 	focus = {
 		id = EGY_focus_ssw_naisei_3
@@ -77,7 +76,6 @@ modifier = offered_support
 				modifier = offered_support
 			}
 		}
-
 	}
 	focus = {
 		id = EGY_focus_ssw_naisei_4
@@ -145,9 +143,9 @@ modifier = offered_support
 		}
 		x = 9
 		y = 4
-completion_reward = {
-	add_ideas = EGY_misr_reform
-}
+		completion_reward = {
+			add_ideas = EGY_misr_reform
+		}
 	}
 	focus = {
 		id = EGY_focus_ssw_naisei_20
@@ -160,13 +158,13 @@ completion_reward = {
 		x = 9
 		y = 5
 
-completion_reward = {
-	64 = { 446
-	add_extra_state_shared_building_slots = 1
-	add_building_construction = {
-		type = infrastructure
-		level = 2
-		instant_build = yes
+		completion_reward = {
+			64 = { #446
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
 				}
 			}
 		}
@@ -181,44 +179,40 @@ completion_reward = {
 		}
 		x = 8
 		y = 6
-completion_reward = {
-	64 = { 452 
-	add_extra_state_shared_building_slots = 2
-	add_building_construction = {
-		type = infrastructure
-		level = 2
-		instant_build = yes
-	}
-
-	}
-		64 = { 447 
-	add_extra_state_shared_building_slots = 2
-	add_building_construction = {
-		type = infrastructure
-		level = 2
-		instant_build = yes
-	}
-
-	}
-		64 = {  446 
-	add_extra_state_shared_building_slots = 2
-	add_building_construction = {
-		type = infrastructure
-		level = 2
-		instant_build = yes
-	}
-
-	}
-		64 = { 453
-	add_extra_state_shared_building_slots = 2
-	add_building_construction = {
-		type = infrastructure
-		level = 2
-		instant_build = yes
-	}
-
-	}
-}
+		completion_reward = {
+			64 = { #452 
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			64 = { #447 
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			64 = {  #446
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			64 = { #453
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
 	}
 	focus = {
 		id = EGY_focus_ssw_naisei_17
@@ -231,26 +225,22 @@ completion_reward = {
 		x = 10
 		y = 6
 		completion_reward = {
-			64 = { 456 
-			add_building_construction = {
-				type = infrastructure 
-				level = 2
-				instant_build = yes
+			64 = { #456 
+				add_building_construction = {
+					type = infrastructure 
+					level = 2
+					instant_build = yes
+				}
 			}
-
-			}
-						64 = { 446
-			add_building_construction = {
-				type = infrastructure 
-				level = 2
-				instant_build = yes
-			}
-
+			64 = { #446
+				add_building_construction = {
+					type = infrastructure 
+					level = 2
+					instant_build = yes
+				}
 			}
 		}
-}
-
-	
+	}
 	focus = {
 		id = EGY_focus_ssw_naisei_24
 		text = EGY_naisei_24
@@ -264,15 +254,15 @@ completion_reward = {
 		}
 		x = 9
 		y = 7
-completion_reward = {
-	64 = {446
-		add_building_construction = {
-			type = infrastructure 
-			level = 3
-			instant_build = yes
+		completion_reward = {
+			64 = {	#446
+				add_building_construction = {
+					type = infrastructure 
+					level = 3
+					instant_build = yes
+				}
+			}
 		}
-	}
-}
 	}
 	focus = {
 		id = EGY_focus_ssw_naisei_18
@@ -285,39 +275,35 @@ completion_reward = {
 		x = 12
 		y = 5
 		completion_reward = { 
-			64 = { 447 
+			64 = { #447 
 			add_building_construction = { 
 				type = industrial_complex
 				level = 3
 				instant_build = yes
-
 			}
 		}
-			64 = { 452 
+			64 = { #452 
 				add_building_construction = { 
 				type = industrial_complex
 				level = 3
 				instant_build = yes
-
 			}
 		}
-					64 = { 446
-			add_building_construction = { 
-				type = industrial_complex
-				level = 3
-				instant_build = yes
-
+			64 = { #446
+				add_building_construction = { 
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
+			64 = { #456
+				add_building_construction = { 
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
 			}
 		}
-							64 = { 456
-			add_building_construction = { 
-				type = industrial_complex
-				level = 3
-				instant_build = yes
-
-			}
-		}
-	}
 	}
 	focus = {
 		id = EGY_focus_ssw_naisei_22
@@ -330,22 +316,21 @@ completion_reward = {
 		x = 12
 		y = 6
 		completion_reward = {
-			64 = { 453			
-			add_building_construction = {
-				type = industrial_complex
-				level = 3
-				instant_build = yes
-			}	
+			64 = { #453
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}	
 			}
-				64 = { 446			
-			add_building_construction = {
-				type = industrial_complex
-				level = 3
-				instant_build = yes
-			}	
+			64 = { #446			
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
 			}
 		}
-
 	}
 	focus = {
 		id = EGY_focus_ssw_naisei_21
@@ -358,32 +343,28 @@ completion_reward = {
 		x = 15
 		y = 5
 		completion_reward = {
-			64 = { 446
-			add_building_construction =　{
-				type = infrastructure
-				level = 1
-				instant_build = yes
+			64 = { #446
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
 			}
-
+			64 = { #447
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
 			}
-						64 = { 447
-			add_building_construction =　{
-				type = infrastructure
-				level = 1
-				instant_build = yes
-			}
-
-			}
-									64 = { 452
-			add_building_construction =　{
-				type = infrastructure
-				level = 1
-				instant_build = yes
-			}
-
+			64 = { #452
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
 			}
 		}
-
 	}
 	focus = {
 		id = EGY_focus_ssw_23
@@ -399,22 +380,21 @@ completion_reward = {
 		x = 12
 		y = 7
 		completion_reward = {
-			64 ={ 552
-			add_building_construction = {
+			64 ={ #552
+				add_building_construction = {
+					type = industrial_complex 
+					level = 3
+					instant_build = yes
+				}
+			}
+			64 ={ #457
 				type = industrial_complex 
-				level = 3
-				instant_build = yes
-			}
-			}
-						64 ={ 457
-			add_building_construction = {
-				type = industrial_complex 
-				level = 3
-				instant_build = yes
-			}
+					add_building_construction = {
+					level = 3
+					instant_build = yes
+				}
 			}
 		}
-
 	}
 	focus = {
 		id = EGY_focus_ssw_naisei_25
@@ -429,32 +409,29 @@ completion_reward = {
 		}
 		x = 12
 		y = 8
-completion_reward = {
-	64 = { 452 
-	add_building_construction = {
-		type = industrial_complex 
-		level = 3
-		instant_build = yes
-	}
-
-	}
-		64 = { 447
-	add_building_construction = {
-		type = industrial_complex 
-		level = 3
-		instant_build = yes
-	}
-
-	}
-			64 = { 446
-	add_building_construction = {
-		type = industrial_complex 
-		level = 3
-		instant_build = yes
-	}
-
-	}
-}
+		completion_reward = {
+			64 = { #452 
+				add_building_construction = {
+					type = industrial_complex 
+					level = 3
+					instant_build = yes
+				}
+			}
+			64 = { #447
+				add_building_construction = {
+					type = industrial_complex 
+					level = 3
+					instant_build = yes
+				}
+			}
+			64 = { #446
+				add_building_construction = {
+					type = industrial_complex 
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
 	}
 	focus = {
 		id = EGY_focus_ssw_political_1
@@ -467,9 +444,9 @@ completion_reward = {
 		}
 		x = 20
 		y = 2
-completion_reward = {
-	add_political_power = 150
-}
+		completion_reward = {
+			add_political_power = 150
+		}
 	}
 	focus = {
 		id = EGY_focus_ssw_political_2
@@ -487,18 +464,18 @@ completion_reward = {
 		}
 		x = 18
 		y = 3
-completion_reward = {
-	add_popularity = {
-ideology = fascism
-popularity = 0.2
-}
-add_popularity = {
-ideology = nazism
-popularity = 0.2
-}
-nazism_drift = 0.1
-fascism_drift = 0.1
-}
+		completion_reward = {
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.2
+			}
+			add_popularity = {
+				ideology = nazism
+				popularity = 0.2
+			}
+			nazism_drift = 0.1
+			fascism_drift = 0.1
+		}
 	}
 	focus = {
 		id = EGY_focus_ssw_political_3
@@ -513,18 +490,18 @@ fascism_drift = 0.1
 		}
 		x = 22
 		y = 3
-completion_reward = {
-	add_popularity = {
-		ideology = conservatism
-		popularity = 0.1
-	}
-	add_popularity = { 
-		ideology = democratic
-		popularity = 0.1
-	}
-	democratic_drift = 0.1
-   conservatism_drift = 0.1 
-}
+		completion_reward = {
+			add_popularity = {
+				ideology = conservatism
+				popularity = 0.1
+			}
+			add_popularity = { 
+				ideology = democratic
+				popularity = 0.1
+			}
+			democratic_drift = 0.1
+			conservatism_drift = 0.1 
+		}
 	}
 	focus = {
 		id = EGY_focus_ssw_political_4
@@ -541,7 +518,6 @@ completion_reward = {
 			remove_ideas = EGY_free_general
 			stability_factor = 0.01
 		}
-
 	}
 	focus = {
 		id = EGY_focus_ssw_political_5
@@ -574,7 +550,6 @@ completion_reward = {
 				}
 			}
 		}
-
 	}
 	focus = {
 		id = EGY_focus_ssw_political_6
@@ -592,7 +567,7 @@ completion_reward = {
 		}
 		x = 21
 		y = 5
-	completion_reward = {
+		completion_reward = {
 			set_politics = {
 				parties = {
 					democratic = {
@@ -621,10 +596,10 @@ completion_reward = {
 		}
 		x = 21
 		y = 6
-completion_reward = {
-	stability_factor_weekly = 0.1
-	stability_factor = 0.01
-	}
+		completion_reward = {
+			stability_factor_weekly = 0.1
+			stability_factor = 0.01
+		}
 	}
 	focus = {
 		id = EGY_focus_ssw_political_17
@@ -639,12 +614,11 @@ completion_reward = {
 		}
 		x = 20
 		y = 7
-completion_reward = {
-	add_political_power = 150
-	political_power_gain = 0.3
-}
+		completion_reward = {
+			add_political_power = 150
+			political_power_gain = 0.3
+		}
 	}
-	
 	focus = {
 		id = EGY_focus_ssw_political_16
 		text = EGY_political_16
@@ -659,10 +633,10 @@ completion_reward = {
 		x = 22
 		y = 7
 
-completion_reward = {
-	stability_factor = 0.3
-	stability_factor_weekly = 0.01
-}
+		completion_reward = {
+			stability_factor = 0.3
+			stability_factor_weekly = 0.01
+		}
 	}
 	focus = {
 		id = EGY_focus_ssw_political_15
@@ -679,7 +653,6 @@ completion_reward = {
 			stability_factor  = 0.1
 			political_power_factor = 0.1
 		}
-
 	}
 	focus = {
 		id = EGY_focus_ssw_political_18
