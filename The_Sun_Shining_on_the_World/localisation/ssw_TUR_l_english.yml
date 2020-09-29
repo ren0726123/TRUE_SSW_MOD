@@ -77,13 +77,13 @@
  TUR_planned_parenthood:0"計画的用兵"
  TUR_planned_parenthood_desc:0""
  TUR_operating_mechanized_unit:0"機械化部隊"
- TUR_o perating_mechanized_unit_desc:0""
+ TUR_operating_mechanized_unit_desc:0""
  TUR_defence_plan:0"防衛計画"
  TUR_defence_plan_desc:0""
  TUR_attack_plan:0"攻勢計画"
  TUR_attack_plan_desc:0""
- TUR_anti-tank_specialization:0"対戦車特化"
- TUR_anti-tank_specialization_desc:0""
+ TUR_antitank_specialization:0"対戦車特化"
+ TUR_antitank_specialization_desc:0""
  TUR_interpersonal_specialization:0"対人特化"
  TUR_interpersonal_specialization_desc:0""
  TUR_specializing_in_tanks:0"戦車に特化"
@@ -108,6 +108,7 @@
  TUR_shipyard_construction_desc:0""
  TUR_establishment_of_tia:0"TIAの設立"
  TUR_establishment_of_tia_desc:0""
+ 
  
  
  #Tooltip#§G§!
