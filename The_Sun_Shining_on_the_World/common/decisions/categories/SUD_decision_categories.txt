@@ -1,4 +1,7 @@
 SUD_investment_from_the_overlord = {
+
+    icon = generic_industry
+	
     allowed = {
 	    original_tag = SUD
 	}
@@ -7,10 +10,33 @@ SUD_investment_from_the_overlord = {
 	}
 }
 SUD_resources_development = {
+
+	icon = generic_prospect_for_resources
+	
     allowed = {
 	    original_tag = SUD
 	}
 	visible = {
 	    has_completed_focus = SUD_southern_resources
+	}
+}
+SUD_religious_confrontation_decision = {
+	
+	icon = power_struggle
+	
+	picture = GFX_decision_cat_picture_spr_the_inevitable_civil_war
+	
+    allowed = {
+	    original_tag = SUD
+	}
+	priority = 80
+	visible = {
+	    OR = {
+		    has_idea = SUD_absolute_advantage_of_islam
+			has_idea = SUD_advantage_of_islam
+			has_idea = SUD_religious_confrontation
+			has_idea = SUD_advantage_of_church
+			has_idea = SUD_absolute_advantage_of_church
+		}
 	}
 }

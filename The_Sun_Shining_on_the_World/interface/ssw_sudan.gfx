@@ -1,0 +1,10 @@
+﻿spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_CBOS"
+		texturefile = "gfx/interface/ideas/SUD/idea_CBOS.tga"		
+	}
+	spriteType = {
+		name = "GFX_idea_sudan_khalil"
+		texturefile = "gfx/interface/ideas/SUD/idea_sudan_khalil.dds"		
+	}
+}

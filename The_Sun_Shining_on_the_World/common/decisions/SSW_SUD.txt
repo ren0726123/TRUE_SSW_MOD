@@ -224,6 +224,9 @@ SUD_resources_development = {
 		ai_will_do = {
 			factor = 0.1
 		}
+		modifier = {
+			civilian_factory_use = 3
+		}
 		
 		fire_only_once = no
 		
@@ -255,6 +258,9 @@ SUD_resources_development = {
 		ai_will_do = {
 			factor = 0.1
 		}
+		modifier = {
+			civilian_factory_use = 3
+		}
 		
 		fire_only_once = no
 		
@@ -268,5 +274,323 @@ SUD_resources_development = {
 				}
 			}
 		}
+	}
+	SUD_expand_the_oil_field = {
+	    icon = oil
+		
+		allowed = {
+			tag = SUD
+		}
+		
+		available = {
+		    has_tech = excavation3
+			has_completed_focus = SUD_discover_the_oil_field
+			NOT = {
+			    has_country_flag = SUD_oil_field_expand_without_resources_develop
+			}
+		}
+		
+		cost = 30
+		
+		ai_will_do = {
+			factor = 0.1
+		}
+		modifier = {
+			civilian_factory_use = 3
+		}
+		
+		fire_only_once = no
+		
+		days_remove = 200
+		
+		remove_effect = {
+		    549 = {
+			    add_resource = {
+					type = oil
+					amount = 6
+				}
+			}
+		}
+	}
+}
+SUD_religious_confrontation_decision = {
+    SUD_transfer_lands_to_church = {
+	    icon = eng_blackshirt_march
+		
+		fire_only_once = no
+		
+		days_remove = 90
+		
+		allowed = {
+			original_tag = SUD
+		}
+		
+		available = {
+			NOT = { has_country_flag = SUD_does_anyother_religious_policy }
+			NOT = { has_idea = SUD_absolute_advantage_of_church }
+		}
+		
+		complete_effect = { set_country_flag = SUD_does_anyother_religious_policy }
+		
+		cost = 75
+		
+		remove_effect = {
+			SUD_advantage_church = yes		
+			clr_country_flag = SUD_does_anyother_religious_policy
+		}
+		
+		ai_will_do = { factor = 1 }
+	}
+	SUD_transfer_lands_to_mosque = {
+	    icon = generic_operation
+		
+		fire_only_once = no
+		
+		days_remove = 90
+		
+		allowed = {
+			original_tag = SUD
+		}
+		
+		available = {
+			NOT = { has_idea = SUD_absolute_advantage_of_islam }
+			NOT = { has_country_flag = SUD_does_anyother_religious_policy }
+		}
+		
+		cost = 75
+		
+		complete_effect = { set_country_flag = SUD_does_anyother_religious_policy }
+		
+		remove_effect = {
+			SUD_advantage_muslims = yes		
+			clr_country_flag = SUD_does_anyother_religious_policy
+		}
+		
+		ai_will_do = { factor = 1 }
+	}
+	SUD_invite_muslim_to_gov = {
+	    icon = eng_trade_unions_support
+		
+		fire_only_once = no
+		
+		days_remove = 60
+		
+		allowed = {
+			original_tag = SUD
+		}
+		
+		available = {
+			NOT = { has_idea = SUD_absolute_advantage_of_islam }
+			NOT = { has_country_flag = SUD_does_anyother_religious_policy }
+		}
+		
+		complete_effect = { set_country_flag = SUD_does_anyother_religious_policy }
+		
+		cost = 50
+		
+		remove_effect = {
+		    add_stability = -0.06
+			add_war_support = 0.05
+			add_popularity = {
+				ideology = conservatism
+				popularity = 0.02
+			}
+			SUD_advantage_muslims = yes	
+clr_country_flag = SUD_does_anyother_religious_policy			
+		}
+		
+		ai_will_do = { factor = 1 }
+	}
+	SUD_invite_christian_to_gov = {
+	    icon = generic_civil_support
+		
+		fire_only_once = no
+		
+		days_remove = 60
+		
+		allowed = {
+			original_tag = SUD
+		}
+		
+		available = {
+			NOT = { has_idea = SUD_absolute_advantage_of_church }
+			NOT = { has_country_flag = SUD_does_anyother_religious_policy }
+		}
+		
+		complete_effect = { set_country_flag = SUD_does_anyother_religious_policy }
+		
+		cost = 50
+		
+		remove_effect = {
+		    add_stability = 0.05
+			add_war_support = -0.06
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.02
+			}
+			SUD_advantage_church = yes	
+			clr_country_flag = SUD_does_anyother_religious_policy
+		}
+		
+		ai_will_do = { factor = 1 }
+	}
+	SUD_strengthen_hizb_al_umma = {
+	    icon = eng_trade_unions_support
+		
+		fire_only_once = no
+		
+		days_remove = 80
+		
+		allowed = {
+			original_tag = SUD
+		}
+		
+		available = {
+		    has_completed_focus = SUD_support_for_the_hizb_al_umma
+			NOT = { has_idea = SUD_absolute_advantage_of_islam }
+			NOT = { has_country_flag = SUD_does_anyother_religious_policy }
+		}
+		
+		complete_effect = { set_country_flag = SUD_does_anyother_religious_policy }
+		
+		modifier = { political_power_factor = -0.2 }
+		
+		remove_effect = {
+			add_popularity = {
+				ideology = conservatism
+				popularity = 0.05
+			}
+			SUD_advantage_church = yes	
+			clr_country_flag = SUD_does_anyother_religious_policy
+		}
+		
+		ai_will_do = { factor = 1 }
+	}
+	SUD_strengthen_hizb_al_umma = {
+	    icon = eng_propaganda_campaigns
+		
+		fire_only_once = no
+		
+		days_remove = 80
+		
+		allowed = {
+			original_tag = SUD
+		}
+		
+		available = {
+		    has_completed_focus = SUD_support_for_the_hizb_al_umma
+			NOT = { has_idea = SUD_absolute_advantage_of_islam }
+			NOT = { has_country_flag = SUD_does_anyother_religious_policy }
+		}
+		
+		complete_effect = { set_country_flag = SUD_does_anyother_religious_policy }
+		
+		modifier = { political_power_factor = -0.2 }
+		
+		cost = 25
+		
+		remove_effect = {
+			add_popularity = {
+				ideology = conservatism
+				popularity = 0.05
+			}
+			SUD_advantage_muslims = yes	
+			clr_country_flag = SUD_does_anyother_religious_policy
+		}
+		
+		ai_will_do = { factor = 1 }
+	}
+	SUD_invite_priest = {
+	icon = generic_political_rally
+		
+		fire_only_once = no
+		
+		days_remove = 80
+		
+		allowed = {
+			original_tag = SUD
+		}
+		
+		cost = 25
+		
+		available = {
+		    has_completed_focus = SUD_continue_the_condominium
+			NOT = { has_idea = SUD_absolute_advantage_of_church }
+			NOT = { has_country_flag = SUD_does_anyother_religious_policy }
+		}
+		
+		complete_effect = { set_country_flag = SUD_does_anyother_religious_policy }
+		
+		modifier = { political_power_factor = -0.2 }
+		
+		remove_effect = {
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.05
+			}
+			SUD_advantage_church = yes	
+			clr_country_flag = SUD_does_anyother_religious_policy
+		}
+		
+		ai_will_do = { factor = 1 }
+	}
+	SUD_assasinate_church_leader = {
+	icon = spr_political_assassination
+		
+		fire_only_once = no
+		
+		days_remove = 80
+		
+		allowed = {
+			original_tag = SUD
+		}
+		
+		cost = 25
+		
+		available = {
+		    has_government = conservatism
+			NOT = { has_idea = SUD_absolute_advantage_of_islam }
+			NOT = { has_country_flag = SUD_does_anyother_religious_policy }
+		}
+		
+		complete_effect = { set_country_flag = SUD_does_anyother_religious_policy }
+		
+		modifier = { stability_weekly = -0.05 }
+		
+		remove_effect = {
+			SUD_advantage_muslims = yes	
+		}
+		
+		ai_will_do = { factor = 1 }
+	}
+	SUD_nationalize_mosque_lands = {
+	icon = infiltrate_state
+		
+		fire_only_once = no
+		
+		days_remove = 80
+		
+		allowed = {
+			original_tag = SUD
+		}
+		
+		cost = 25
+		
+		available = {
+		    has_government = fascism
+			NOT = { has_idea = SUD_absolute_advantage_of_church }
+			NOT = { has_country_flag = SUD_does_anyother_religious_policy }
+		}
+		
+		complete_effect = { set_country_flag = SUD_does_anyother_religious_policy }
+		
+		modifier = { war_support_weekly = -0.05 }
+		
+		remove_effect = {
+			SUD_advantage_church = yes	
+			clr_country_flag = SUD_does_anyother_religious_policy
+		}
+		
+		ai_will_do = { factor = 1 }
 	}
 }

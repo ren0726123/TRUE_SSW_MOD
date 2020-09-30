@@ -92,6 +92,9 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
+			    conscription = 0.01
+				industrial_capacity_factory = -0.1
+				war_support_factor = 0.1
 			}
 		}
 		SUD_advantage_of_islam = {
@@ -105,6 +108,9 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
+				conscription = 0.005
+				industrial_capacity_factory = -0.05
+				war_support_factor = 0.05
 			}
 		}
 		SUD_religious_confrontation = {
@@ -118,6 +124,7 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
+			    stability_factor = -0.1
 			}
 		}
 		SUD_advantage_of_church = {
@@ -131,6 +138,9 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
+				consumer_goods_factor = -0.02
+				industrial_capacity_factory = 0.05
+				war_support_factor = -0.05
 			}
 		}
 		SUD_absolute_advantage_of_church= {
@@ -144,6 +154,9 @@ ideas = {
 			}
 			removal_cost = -1
 			modifier = {
+			    consumer_goods_factor = -0.05
+				industrial_capacity_factory = 0.1
+				war_support_factor = -0.1
 			}
 		}
 		SUD_italian_and_egyptian_condominium = {
@@ -401,6 +414,382 @@ ideas = {
 			    conscription_factor = 0.05
 				production_factory_efficiency_gain_factor = 0.02
 				conservatism_drift = 0.10
+			}
+		}
+	}
+	minister_of_Foreign_Affairs = {
+		SUD_muhammad_ahmad_mahgoub = {
+		    picture = muhammad_mahgoub
+			allowed = {
+				original_tag = SUD
+			}
+			
+			traits = { smooth_talking_charmer }
+		}
+	}
+	minister_of_Finance = {
+		SUD_sayed_abdallah_khalil = {
+		    picture = sudan_khalil
+			allowed = {
+				original_tag = SUD
+			}
+			
+			traits = { silent_workhorse }
+		}
+	}
+	minister_of_Education = {
+		SUD_al_khalifa_al_hassan = {
+		    picture = al_khalifa_al_hassan
+			allowed = {
+				original_tag = SUD
+			}
+			
+			traits = { backroom_backstabber }
+		}
+	}
+	tank_manufacturer = {
+	designer = yes
+	
+		fiat = {
+			
+			
+			allowed = {
+				original_tag = SUD
+			}
+			available = {
+				NOT = { has_war_with = ITA }
+			}
+			
+			research_bonus = {
+				armor = 0.15
+			}
+			
+			traits = { tank_manufacturer }
+		}
+	}
+	materiel_manufacturer = {
+			
+		designer = yes
+		
+		beretta = {
+			
+			
+			allowed = {
+				original_tag = SUD
+			}
+			available = {
+				NOT = { has_war_with = ITA }
+			}
+			
+
+			
+			research_bonus = {
+				infantry_weapons = 0.15
+			}
+			
+			traits = { infantry_equipment_manufacturer }
+		}
+		
+		lancia = {
+			
+			
+			allowed = {
+				original_tag = SUD
+			}
+			available = {
+				NOT = { has_war_with = ITA }
+			}
+			
+			
+			research_bonus = {
+				motorized_equipment = 0.15
+			}
+			
+			traits = { motorized_equipment_manufacturer }
+		}
+		
+		breda = {
+			
+			
+			allowed = {
+				original_tag = SUD
+			}
+			available = {
+				NOT = { has_war_with = ITA }
+			}
+			
+
+			
+			research_bonus = {
+				artillery = 0.15
+			}
+			
+			traits = { artillery_manufacturer }
+		}
+	}
+	aircraft_manufacturer = {	
+		
+		designer = yes
+		
+		macchi = {
+			
+			
+			allowed = {
+				original_tag = SUD
+			}
+			available = {
+				NOT = { has_war_with = ITA }
+			}
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { light_aircraft_manufacturer }
+		}
+		
+		savoia_marchetti = {
+			
+			
+			allowed = {
+				original_tag = SUD
+			}
+			available = {
+				NOT = { has_war_with = ITA }
+			}
+
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { medium_aircraft_manufacturer }
+		}
+		
+		caproni = {
+						
+			allowed = {
+				original_tag = SUD
+			}
+			available = {
+				NOT = { has_war_with = ITA }
+			}
+						
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { naval_aircraft_manufacturer }
+		}
+		
+		sudan_airways = {
+		
+			picture = generic_air_research
+						
+			allowed = {
+				original_tag = SUD
+			}
+						
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { heavy_aircraft_manufacturer }
+		}
+	}
+	industrial_concern = {
+		SUD_CBOS = {
+			picture = CBOS
+			allowed = {
+				original_tag = SUD
+			}
+			traits = { central_bank }
+						
+			ai_will_do = {
+				factor = 1
+			}
+			research_bonus = {
+				industry = 0.05
+			}
+		}
+		danieli = {
+			
+			allowed = {
+				original_tag = SUD
+			}
+			available = {
+				NOT = { has_war_with = ITA }
+			}
+			
+			research_bonus = {
+				industry = 0.15
+				
+			}
+			
+			traits = { industrial_concern }
+		}	
+	}
+	naval_manufacturer = {
+	
+		designer = yes
+		
+		crda = {
+						
+			allowed = {
+				original_tag = SUD
+			}
+			available = {
+				NOT = { has_war_with = ITA }
+			}
+						
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			
+			traits = { naval_manufacturer }
+		}
+	}
+	army_chief = {
+	    SUD_ibrahim_abboud = {
+			picture = ibrahim_abboud
+		    allowed = {
+				original_tag = SUD
+			}
+						
+			traits = { army_chief_offensive_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	theorist = {
+		SUD_mt = {
+			ledger = army
+			
+			picture = generic_army_african_6
+
+			allowed = {
+				original_tag = SUD
+			}
+			
+			research_bonus = {
+				land_doctrine = 0.10
+			}
+			
+			traits = { military_theorist }
+		}
+		
+		SUD_nt = {
+			ledger = navy
+
+			picture = generic_navy_african_3
+			
+			allowed = {
+				original_tag = SUD
+			}
+			
+			research_bonus = {
+				naval_doctrine = 0.10
+			}
+			
+			traits = { naval_theorist }
+		}	
+
+		SUD_awt = {
+			ledger = air
+
+			picture = generic_air_african_2
+			
+			allowed = {
+				original_tag = SUD
+			}
+			
+			research_bonus = {
+				air_doctrine = 0.10
+			}
+			
+			traits = { air_warfare_theorist }
+		}
+
+	}
+	high_command = {
+		SUD_ar = {
+			ledger = army
+			
+			picture = generic_army_african_5
+			
+			allowed = {
+				original_tag = SUD
+			}
+			
+			traits = { army_regrouping_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		SUD_ai2 = {
+			ledger = army
+
+			picture = generic_army_african_3
+			
+			allowed = {
+				original_tag = SUD
+			}
+			
+			traits = { army_infantry_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		SUD_aa2 = {
+			ledger = army
+
+			picture = generic_army_african_2
+			
+			allowed = {
+				original_tag = SUD
+			}
+			
+			traits = { army_armored_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		SUD_acas = {
+			ledger = air
+
+			picture = generic_air_african_2
+			
+			allowed = {
+				original_tag = SUD
+			}
+			
+			traits = { air_close_air_support_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		SUD_ncs = {
+			ledger = navy
+
+			picture = generic_navy_african_2
+			
+			allowed = {
+				original_tag = SUD
+			}
+			
+			traits = { navy_capital_ship_2 }
+			
+			ai_will_do = {
+				factor = 1
 			}
 		}
 	}
