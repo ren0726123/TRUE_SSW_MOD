@@ -52,6 +52,7 @@ units = {
 		ship = { name = "HMS Cleopatra" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "Dido Class" } } }
 		ship = { name = "HMS Diadem" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "Dido Class" } } }
 		ship = { name = "HMS Royalist" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "Dido Class" } } }
+		ship = { name = "HMS Apollo" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_heavy_3 = { amount = 1 owner = ENG version_name = "Abdiel Class" } } }
 
 	}
 }
@@ -121,19 +122,19 @@ units = {
 			}
 			}
 			ship = { name = "HMS Achilles" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "Leander Class" } } }
-			ship = { name = "HMS Argonaut" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "Dido Class" } } }
-			ship = { name = "HMS Bermuda" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "Fiji Class" } } }
-		#	ship = { name = "HMS Black Prince" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "Dido Class" } } }
-			ship = { name = "HMS Euryalus" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "Dido Class" } } }
-			ship = { name = "HMS Gambia" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "Fiji Class" } } }
-			ship = { name = "HMS Newfoundland" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "Fiji Class" } } }
-			ship = { name = "HMS Swiftsure " definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "Minotaur Class" } } }
+			ship = { name = "HMS Argonaut" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_3 = { amount = 1 owner = ENG version_name = "Dido Class" } } }
+			ship = { name = "HMS Bermuda" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_3 = { amount = 1 owner = ENG version_name = "Fiji Class" } } }
+		#	ship = { name = "HMS Black Prince" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_3 = { amount = 1 owner = ENG version_name = "Dido Class" } } }
+			ship = { name = "HMS Euryalus" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_3 = { amount = 1 owner = ENG version_name = "Dido Class" } } }
+			ship = { name = "HMS Gambia" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_3 = { amount = 1 owner = ENG version_name = "Fiji Class" } } }
+			ship = { name = "HMS Newfoundland" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_3 = { amount = 1 owner = ENG version_name = "Fiji Class" } } }
+			ship = { name = "HMS Swiftsure " definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_4 = { amount = 1 owner = ENG version_name = "Minotaur Class" } } }
 
 		}
 	}
 	fleet = {
-		name = "Far East Command"
-		naval_base = 7669
+		name = "North America Command"
+		naval_base = 6732
 		task_force = {
 			name = "North America fleet"
 			location = 6732
@@ -152,7 +153,30 @@ units = {
 				cv_CAS_equipment_3 = { owner = "ENG" amount = 18 }
 					}
 			}
-			ship = { name = "HMS Phoebe" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "Dido Class" } } }
+			ship = { name = "HMS Phoebe" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_3 = { amount = 1 owner = ENG version_name = "Dido Class" } } }
+			ship = { name = "HMS Jamaica" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_3 = { amount = 1 owner = ENG version_name = "Fiji Class" } } }
+			ship = { name = "HMS Kenya" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_3 = { amount = 1 owner = ENG version_name = "Fiji Class" } } }
+			ship = { name = "HMS Tiger" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_4 = { amount = 1 owner = ENG version_name = "Tiger Class" } } }
 
 		}
+	}
+	fleet = {
+		name = "Reserve Command"
+		naval_base = 6300
+		task_force = {
+			name = "Reserve fleet"
+			location = 6300
+			ship = { name = "HMS Devonshire" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
+			ship = { name = "HMS London" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
+			ship = { name = "HMS Sussex" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
+			ship = { name = "HMS Sirius" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_3 = { amount = 1 owner = ENG version_name = "Dido Class" } } }
+			ship = { name = "HMS Scylla" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_3 = { amount = 1 owner = ENG version_name = "Dido Class" } } }
+			ship = { name = "HMS Nigeria" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_3 = { amount = 1 owner = ENG version_name = "Fiji Class" } } }
+			ship = { name = "HMS Dido" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_3 = { amount = 1 owner = ENG version_name = "Dido Class" } } }
+			ship = { name = "HMS Arethusa" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "Arethusa Class" } } }
+			ship = { name = "HMS Aurora" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "Arethusa Class" } } }
+			ship = { name = "HMS Ariadne" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_heavy_3 = { amount = 1 owner = ENG version_name = "Abdiel Class" } } }
+
+		}
+
 }
