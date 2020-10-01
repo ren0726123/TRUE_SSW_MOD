@@ -6,18 +6,153 @@ units = {
 			name = "Home fleet"
 			location = 11064
 			ship = { name = "HMS Vanguard" pride_of_the_fleet = yes definition = Battleship  start_experience_factor = 0.5 equipment = { ship_hull_heavy_4 = { amount = 1 owner = ENG version_name = "Vanguard Class" } } }
+			ship = { name = "HMS Implacable" definition = carrier start_experience_factor = 0.25 equipment = { ship_hull_carrier_3 = { amount = 1 owner = ENG version_name = "Implacable Class" } }
+			air_wings = {
+				cv_fighter_equipment_3 = { owner = "ENG" amount = 24 }
+				cv_nav_bomber_equipment_3 = { owner =  "ENG" amount = 20 }
+				cv_CAS_equipment_3 = { owner = "ENG" amount = 18 }
+			}
+		}
+		ship = { name = "HMS Indefatigable " definition = carrier start_experience_factor = 0.25 equipment = { ship_hull_carrier_3 = { amount = 1 owner = ENG version_name = "Implacable Class" } }
+		air_wings = {
+			cv_fighter_equipment_3 = { owner = "ENG" amount = 24 }
+			cv_nav_bomber_equipment_3 = { owner =  "ENG" amount = 20 }
+			cv_CAS_equipment_3 = { owner = "ENG" amount = 18 }
 		}
 	}
+		ship = { name = "HMS Ocean" definition = carrier start_experience_factor = 0.25 equipment = { ship_hull_carrier_3 = { amount = 1 owner = ENG version_name = "Colossus Class" } }
+			air_wings = {
+				cv_fighter_equipment_3 = { owner = "ENG" amount = 24 }
+				cv_nav_bomber_equipment_3 = { owner =  "ENG" amount = 20 }
+				cv_CAS_equipment_3 = { owner = "ENG" amount = 18 }
+			}
+			}
+		ship = { name = "HMS Triumph" definition = carrier start_experience_factor = 0.25 equipment = { ship_hull_carrier_3 = { amount = 1 owner = ENG version_name = "Colossus Class" } }
+			air_wings = {
+				cv_fighter_equipment_3 = { owner = "ENG" amount = 24 }
+				cv_nav_bomber_equipment_3 = { owner =  "ENG" amount = 20 }
+				cv_CAS_equipment_3 = { owner = "ENG" amount = 18 }
+			}
+			}
+		ship = { name = "HMS Theseus" definition = carrier start_experience_factor = 0.25 equipment = { ship_hull_carrier_3 = { amount = 1 owner = ENG version_name = "Colossus Class" } }
+			air_wings = {
+				cv_fighter_equipment_3 = { owner = "ENG" amount = 24 }
+				cv_nav_bomber_equipment_3 = { owner =  "ENG" amount = 20 }
+				cv_CAS_equipment_3 = { owner = "ENG" amount = 18 }
+			}
+			}
+		ship = { name = "HMS Glory" definition = carrier start_experience_factor = 0.25 equipment = { ship_hull_carrier_3 = { amount = 1 owner = ENG version_name = "Colossus Class" } }
+			air_wings = {
+				cv_fighter_equipment_3 = { owner = "ENG" amount = 24 }
+				cv_nav_bomber_equipment_3 = { owner =  "ENG" amount = 20 }
+				cv_CAS_equipment_3 = { owner = "ENG" amount = 18 }
+			}
+			}
+		ship = { name = "HMS Sheffield" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "Town Class" } } }
+		ship = { name = "HMS Cleopatra" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "Dido Class" } } }
+		ship = { name = "HMS Diadem" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "Dido Class" } } }
+		ship = { name = "HMS Royalist" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "Dido Class" } } }
+
+	}
+}
 
 	fleet = {
 		name = "Far East Command"
 		naval_base = 7669
+		task_force = {
+			name = "East Indies fleet"
+			location = 9975
+			ship = { name = "HMS Norfolk" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "County Class" } } }
+			ship = { name = "HMS Birmingham" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "Town Class" } } }
+			ship = { name = "HMS Manchester" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "Town Class" } } }
+			ship = { name = "HMS Liverpool" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "Town Class" } } }
+			ship = { name = "HMS Glasgow" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "Town Class" } } }
+			ship = { name = "HMS Newcastle" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "Town Class" } } }
+
+		}
 		task_force = {		
-			name = "1st Aircraft Carrier Squadron"
+			name = "Far East fleet"
 			location = 7669
 			ship = { name = "HMS Belfast" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "Town Class" } } }
+			ship = { name = "HMS Unicorn" definition = carrier start_experience_factor = 0.25 equipment = { ship_hull_carrier_3 = { amount = 1 owner = ENG version_name = "Unicorn Class" } }
+			air_wings = {
+				cv_fighter_equipment_3 = { owner = "ENG" amount = 24 }
+				cv_nav_bomber_equipment_3 = { owner =  "ENG" amount = 20 }
+				cv_CAS_equipment_3 = { owner = "ENG" amount = 18 }
+			}
+		}
+		ship = { name = "HMS Pioneer" definition = carrier start_experience_factor = 0.25 equipment = { ship_hull_carrier_3 = { amount = 1 owner = ENG version_name = "Colossus Class" } }
+		air_wings = {
+			cv_fighter_equipment_3 = { owner = "ENG" amount = 24 }
+			cv_nav_bomber_equipment_3 = { owner =  "ENG" amount = 20 }
+			cv_CAS_equipment_3 = { owner = "ENG" amount = 18 }
+				}
+			}
+			ship = { name = "HMS Anson" definition = Battleship  start_experience_factor = 0.5 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ENG version_name = "King George V Class" } } }
+			ship = { name = "HMS Duke of York" definition = Battleship  start_experience_factor = 0.5 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ENG version_name = "King George V Class" } } }
+			ship = { name = "HMS King George V" definition = Battleship  start_experience_factor = 0.5 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ENG version_name = "King George V Class" } } }
+			ship = { name = "HMS Howe" definition = Battleship  start_experience_factor = 0.5 equipment = { ship_hull_heavy_2 = { amount = 1 owner = ENG version_name = "King George V Class" } } }
+			ship = { name = "HMS Indomitable" definition = carrier start_experience_factor = 0.25 equipment = { ship_hull_carrier_2 = { amount = 1 owner = ENG version_name = "Illustrious Class" } } 
+			air_wings = {
+				cv_fighter_equipment_3 = { owner = "ENG" amount = 24 }
+				cv_nav_bomber_equipment_3 = { owner =  "ENG" amount = 20 }
+				cv_CAS_equipment_3 = { owner = "ENG" amount = 18 }
+			}
+			}
+			ship = { name = "HMS Colossus" definition = carrier start_experience_factor = 0.25 equipment = { ship_hull_carrier_3 = { amount = 1 owner = ENG version_name = "Colossus Class" } }
+			air_wings = {
+				cv_fighter_equipment_3 = { owner = "ENG" amount = 24 }
+				cv_nav_bomber_equipment_3 = { owner =  "ENG" amount = 20 }
+				cv_CAS_equipment_3 = { owner = "ENG" amount = 18 }
+			}
+			}
+			ship = { name = "HMS Venerable" definition = carrier start_experience_factor = 0.25 equipment = { ship_hull_carrier_3 = { amount = 1 owner = ENG version_name = "Colossus Class" } }
+			air_wings = {
+				cv_fighter_equipment_3 = { owner = "ENG" amount = 24 }
+				cv_nav_bomber_equipment_3 = { owner =  "ENG" amount = 20 }
+				cv_CAS_equipment_3 = { owner = "ENG" amount = 18 }
+			}
+			}
+			ship = { name = "HMS Vengeance" definition = carrier start_experience_factor = 0.25 equipment = { ship_hull_carrier_3 = { amount = 1 owner = ENG version_name = "Colossus Class" } }
+			air_wings = {
+				cv_fighter_equipment_3 = { owner = "ENG" amount = 24 }
+				cv_nav_bomber_equipment_3 = { owner =  "ENG" amount = 20 }
+				cv_CAS_equipment_3 = { owner = "ENG" amount = 18 }
+			}
+			}
+			ship = { name = "HMS Achilles" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "Leander Class" } } }
+			ship = { name = "HMS Argonaut" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "Dido Class" } } }
+			ship = { name = "HMS Bermuda" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "Fiji Class" } } }
+		#	ship = { name = "HMS Black Prince" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "Dido Class" } } }
+			ship = { name = "HMS Euryalus" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "Dido Class" } } }
+			ship = { name = "HMS Gambia" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "Fiji Class" } } }
+			ship = { name = "HMS Newfoundland" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "Fiji Class" } } }
+			ship = { name = "HMS Swiftsure " definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "Minotaur Class" } } }
 
-			ship = { name = "HMS Unicorn" definition = carrier start_experience_factor = 0.25 equipment = { ship_hull_carrier_3 = { amount = 1 owner = ENG version_name = "Unicorn Class" } } }
 		}
 	}
+	fleet = {
+		name = "Far East Command"
+		naval_base = 7669
+		task_force = {
+			name = "North America fleet"
+			location = 6732
+			ship = { name = "HMS Perseus" definition = carrier start_experience_factor = 0.25 equipment = { ship_hull_carrier_3 = { amount = 1 owner = ENG version_name = "Colossus Class" } }
+			air_wings = {
+				cv_fighter_equipment_3 = { owner = "ENG" amount = 24 }
+				cv_nav_bomber_equipment_3 = { owner =  "ENG" amount = 20 }
+				cv_CAS_equipment_3 = { owner = "ENG" amount = 18 }
+					}
+			}
+
+			ship = { name = "HMS Warrior " definition = carrier start_experience_factor = 0.25 equipment = { ship_hull_carrier_3 = { amount = 1 owner = ENG version_name = "Colossus Class" } }
+			air_wings = {
+				cv_fighter_equipment_3 = { owner = "ENG" amount = 24 }
+				cv_nav_bomber_equipment_3 = { owner =  "ENG" amount = 20 }
+				cv_CAS_equipment_3 = { owner = "ENG" amount = 18 }
+					}
+			}
+			ship = { name = "HMS Phoebe" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "Dido Class" } } }
+
+		}
 }

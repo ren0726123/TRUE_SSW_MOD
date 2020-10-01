@@ -54,6 +54,7 @@
  SPR_faranhe_doitu:0 "ドイツ征服"
  SPR_faranhe_igirisu:0 "イギリス征服"
  SPR_franco:0 "フランコが全権を獲得"
+ SPR_franco_desc:0 ""
  SPR_franco_gunhenotyuusei:0 "軍隊への忠誠"
  SPR_franco_hoheijyuu:0 "歩兵銃の生産"
  SPR_franco_taihou:0 "大砲の生産"
