@@ -1,14 +1,14 @@
 country_event = {
-	id = TEX.bunker.america
-	title = TEX.bunker.america.t
+	id = TEX.bunker_america
+	title = TEX.bunker_america.t
 	desc = {
-		text = TEX.bunker.america.d
+		text = TEX.bunker_america.d
 		trigger = {
 			original_tag = TEX
 		}
 	}
 	desc = {
-		text = TEX.bunker.america.d2
+		text = TEX.bunker_america.d2
 		trigger = {
 			NOT = {
 				original_tag = TEX
@@ -22,7 +22,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = TEX.bunker.america.a
+		name = TEX.bunker_america.a
 		trigger = {
 			original_tag = TEX
 		}
@@ -108,7 +108,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = TEX.bunker.america.b
+		name = TEX.bunker_america.b
 		trigger = {
 			NOT = {
 				original_tag = TEX
@@ -118,16 +118,16 @@ country_event = {
 }
 
 country_event = {
-	id = TEX.bunker.mexico
-	title = TEX.bunker.mexico.t
+	id = TEX.bunker_mexico
+	title = TEX.bunker_mexico.t
 	desc = {
-		text = TEX.bunker.mexico.d
+		text = TEX.bunker_mexico.d
 		trigger = {
 			original_tag = TEX
 		}
 	}
 	desc = {
-		text = TEX.bunker.mexico.d2
+		text = TEX.bunker_mexico.d2
 		trigger = {
 			NOT = {
 				original_tag = TEX
@@ -139,7 +139,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = TEX.bunker.mexico.a
+		name = TEX.bunker_mexico.a
 		trigger = {
 			original_tag = TEX
 		}
@@ -195,7 +195,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = TEX.bunker.mexico.b
+		name = TEX.bunker_mexico.b
 		trigger = {
 			NOT = {
 				original_tag = TEX
@@ -245,5 +245,3 @@ country_event = {
 				}
 			}	
 	}
-}
-
