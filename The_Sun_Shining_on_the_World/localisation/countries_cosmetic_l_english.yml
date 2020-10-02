@@ -22,7 +22,6 @@
  PAO_JAP:0 "日本領大南洋諸島"
  PAO_JAP_DEF:0 "日本領大南洋諸島"
  PAO_JAP_ADJ:0 "日領太平洋"
- 
  CLC_JAP:0 "日本領中国租借及び租界地"
  CLC_JAP_DEF:0 "日本領中国租借及び租界地"
  CLC_JAP:0 "日領租借・租界地"
@@ -51,11 +50,6 @@
  INS_JAP_DEF:0 "インドネシア共和国"
  INS_JAP_ADJ:0 "インドネシア"
  
-#中華民国
- CLC_CHI:0 "中華民国特別行政区"
- CLC_CHI_DEF:0 "中華民国特別行政区"
- CLC_CHI_ADJ:0 "中国行政特区"
- 
 #ドイツ国
  CZE_GER:0 "ベーメン・メーレン保護領"
  CZE_GER_DEF:0 "ベーメン・メーレン保護領"
@@ -69,9 +63,9 @@
  HOL_GER:0 "ホラント国家弁務官区"
  HOL_GER_DEF:0 "ホラント国家弁務官区"
  HOL_GER_ADJ:0 "独領オランダ"
- BEL_GER:0 "ベルギエン＝ノードフランクライヒ国家弁務官区"
- BEL_GER_DEF:0 "ベルギエン＝ノードフランクライヒ国家弁務官区"
- BEL_GER_ADJ:0 "独領ベルギー＝北フランス"
+ BEL_GER:0 "ベルギエン国家弁務官区"
+ BEL_GER_DEF:0 "ベルギエン国家弁務官区"
+ BEL_GER_ADJ:0 "独領ベルギー"
  NFR_GER:0 "北フランス国家弁務官区"
  NFR_GER:0 "北フランス国家弁務官区"
  NFR_GER:0 "北仏国家弁務官区"
@@ -103,25 +97,6 @@
  MAD_GER_DEF:0 "マダガスカル国家植民地"
  MAD_GER_ADJ:0 "独領マダガスカル"
  
-#フランス国
- NWA_VFR:0 "フランス領西アフリカ連邦"
- NWA_VFR_DEF:0 "フランス領西アフリカ連邦"
- NWA_VFR_ADJ:0 "仏領西アフリカ"
- EQA_VFR:0 "フランス領赤道アフリカ"
- EQA_VFR_DEF:0 "フランス領赤道アフリカ"
- EQA_VFR_ADJ:0 "仏領赤道アフリカ"
- 
-#スペイン国
- RIF_SPR:0 "スペイン保護領モロッコ"
- RIF_SPR_DEF:0 "スペイン保護領モロッコ"
- RIF_SPR_ADJ:0 "西領モロッコ"
- WES_SPR:0 "スペイン領サハラ州"
- WES_SPR_DEF:0 "スペイン領サハラ州"
- WES_SPR_ADJ:0 "西領サハラ"
- EQG_SPR:0 "スペイン領ギニア州"
- EQG_SPR_DEF:0 "スペイン領ギニア州"
- EQG_SPR_ADJ:0 "西領ギニア"
- 
 #イタリア王国
  LBA_ITA:0 "イタリア領リビア"
  LBA_ITA_DEF:0 "イタリア領リビア"
@@ -138,20 +113,6 @@
  TUN_ITA:0 "イタリア領チュニジア"
  TUN_ITA_DEF:0 "イタリア領チュニジア"
  TUN_ITA_ADJ:0 "伊領チュニジア"
- MOR_AFR:0 "フランス保護領モロッコ王国"
- MOR_AFR_DEF:0 "フランス保護領モロッコ王国"
- MOR_AFR_ADJ:0 "仏領モロッコ王国"
-
-#ポルトガル共和国
- ANG_POR:0 "ポルトガル領アンゴラ"
- ANG_POR_DEF:0 "ポルトガル領アンゴラ"
- ANG_POR_DEF:0 "葡領アンゴラ"
- MZB_POR:0 "ポルトガル領モザンビーク"
- MZB_POR_DEF:0 "ポルトガル領モザンビーク"
- MZB_POR_ADJ:0 "葡領モザンビーク"
- GNB_POR:0 "ポルトガル領ギニア"
- GNB_POR_DEF:0 "ポルトガル領ギニア"
- GNB_POR_DEF:0 "葡領ギニア"
  
 #英連邦王国
  CAN_UK:0 "カナダ連邦"
@@ -169,3 +130,43 @@
  NEL_UK:0 "ニューイングランド王国"
  NEL_UK_DEF:0 "ニューイングランド王国"
  NEL_UK_ADJ:0 "ニューイングランド"
+ 
+#フランス国
+ NWA_VFR:0 "フランス領西アフリカ連邦"
+ NWA_VFR_DEF:0 "フランス領西アフリカ連邦"
+ NWA_VFR_ADJ:0 "仏領西アフリカ"
+ EQA_VFR:0 "フランス領赤道アフリカ"
+ EQA_VFR_DEF:0 "フランス領赤道アフリカ"
+ EQA_VFR_ADJ:0 "仏領赤道アフリカ"
+ 
+#フランス帝国
+ MOR_AFR:0 "フランス保護領モロッコ"
+ MOR_AFR_DEF:0 "フランス保護領モロッコ"
+ MOR_AFR_ADJ:0 "仏領モロッコ"
+ 
+#スペイン国
+ RIF_SPR:0 "スペイン保護領モロッコ"
+ RIF_SPR_DEF:0 "スペイン保護領モロッコ"
+ RIF_SPR_ADJ:0 "西領モロッコ"
+ WES_SPR:0 "スペイン領サハラ州"
+ WES_SPR_DEF:0 "スペイン領サハラ州"
+ WES_SPR_ADJ:0 "西領サハラ"
+ EQG_SPR:0 "スペイン領ギニア州"
+ EQG_SPR_DEF:0 "スペイン領ギニア州"
+ EQG_SPR_ADJ:0 "西領ギニア"
+ 
+#ポルトガル共和国
+ ANG_POR:0 "ポルトガル領アンゴラ"
+ ANG_POR_DEF:0 "ポルトガル領アンゴラ"
+ ANG_POR_DEF:0 "葡領アンゴラ"
+ MZB_POR:0 "ポルトガル領モザンビーク"
+ MZB_POR_DEF:0 "ポルトガル領モザンビーク"
+ MZB_POR_ADJ:0 "葡領モザンビーク"
+ GNB_POR:0 "ポルトガル領ギニア"
+ GNB_POR_DEF:0 "ポルトガル領ギニア"
+ GNB_POR_DEF:0 "葡領ギニア"
+ 
+#中華民国
+ CLC_CHI:0 "中華民国特別行政区"
+ CLC_CHI_DEF:0 "中華民国特別行政区"
+ CLC_CHI_ADJ:0 "中国行政特区"
