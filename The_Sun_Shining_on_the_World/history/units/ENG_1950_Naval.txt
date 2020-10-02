@@ -49,9 +49,9 @@ units = {
 			}
 			}
 		ship = { name = "HMS Sheffield" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "Town Class" } } }
-		ship = { name = "HMS Cleopatra" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "Dido Class" } } }
-		ship = { name = "HMS Diadem" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "Dido Class" } } }
-		ship = { name = "HMS Royalist" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "Dido Class" } } }
+		ship = { name = "HMS Cleopatra" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_3 = { amount = 1 owner = ENG version_name = "Dido Class" } } }
+		ship = { name = "HMS Diadem" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_3 = { amount = 1 owner = ENG version_name = "Dido Class" } } }
+		ship = { name = "HMS Royalist" definition = light_cruiser start_experience_factor = 0.25 equipment = { ship_hull_cruiser_3 = { amount = 1 owner = ENG version_name = "Dido Class" } } }
 		ship = { name = "HMS Apollo" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { ship_hull_heavy_3 = { amount = 1 owner = ENG version_name = "Abdiel Class" } } }
 
 	}
