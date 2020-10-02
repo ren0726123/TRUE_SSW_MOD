@@ -1,3 +1,11 @@
+
+
+#未来のイギリス担当者に告ぐ
+#コーディング・シナリオで困ったことがあればDiscordID = Chiyo#4420またはTwitter = @chiyo_crowまで
+#シナリオについては脳内で完結してるので誰も知りません！
+
+
+
 focus_tree = {
 	id = ssw_Great_Britain_focus
 	country = {
