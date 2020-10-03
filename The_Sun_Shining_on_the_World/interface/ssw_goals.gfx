@@ -395,5 +395,53 @@ spriteTypes = {
 		name = "GFX_focus_Australia_federation"
 		texturefile = "gfx/interface/goals/ENG/focus_Australia_federation.dds"
 	}
+	SpriteType = {
+		name = "GFX_LTV_Bulgaria"
+		texturefile = "gfx/interface/goals/LTV/LTV_Bulgaria.dds"
+	}
+	SpriteType = {
+		name = "GFX_LTV_Hungry"
+		texturefile = "gfx/interface/goals/LTV/LTV_Hungry.dds"
+	}
+	SpriteType = {
+		name = "GFX_LTV_car"
+		texturefile = "gfx/interface/goals/LTV/LTV_car.dds"
+	}
+	SpriteType = {
+		name = "GFX_LTV_ship"
+		texturefile = "gfx/interface/goals/LTV/LTV_ship.dds"
+	}
+	SpriteType = {
+		name = "GFX_LTV_oranda"
+		texturefile = "gfx/interface/goals/LTV/LTV_oranda.dds"
+	}
+	SpriteType = {
+		name = "GFX_LTV_porando"
+		texturefile = "gfx/interface/goals/LTV/LTV_porando.dds"
+	}
+	SpriteType = {
+		name = "GFX_LTV_dorunie"
+		texturefile = "gfx/interface/goals/LTV/LTV_dorunie.dds"
+	}
+	SpriteType = {
+		name = "GFX_LTV_jyuusensya"
+		texturefile = "gfx/interface/goals/LTV/LTV_jyuusensya.dds"
+	}
+	SpriteType = {
+		name = "GFX_LTV_Krupp"
+		texturefile = "gfx/interface/goals/LTV/LTV_Krupp.dds"
+	}
+	SpriteType = {
+		name = "GFX_LTV_kuubo"
+		texturefile = "gfx/interface/goals/LTV/LTV_kuubo.dds"
+	}
+	SpriteType = {
+		name = "GFX_LTV_MAN"
+		texturefile = "gfx/interface/goals/LTV/LTV_MAN.dds"
+	}
+	SpriteType = {
+		name = "GFX_LTV_messa"
+		texturefile = "gfx/interface/goals/LTV/LTV_messa.dds"
+	}
 
 }

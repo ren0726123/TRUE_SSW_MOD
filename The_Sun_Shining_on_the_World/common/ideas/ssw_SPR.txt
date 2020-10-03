@@ -1,5 +1,24 @@
 ideas = {
 	country = {
+		spr_debahu_01 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = prc_low_popular_support
+			
+			modifier = {
+				army_org_Factor = -0.1	
+				air_ace_generation_chance_factor = -0.10	
+					
+				war_support_factor  = -0.1
+				stability_factor = -0.1
+							}
+						}
+
 		spr_debahu_02 = {
 			
 			allowed = {always = yes}
@@ -11,9 +30,31 @@ ideas = {
 			picture = HUN_hungarian_monarchy_democratic
 			
 			modifier = {
+				army_core_attack_factor = -0.1	
+				army_core_defence_factor = -0.1
 				neutrality_drift = 0.10
+				stability_factor = -0.1
 							}
 						}
+
+						spr_debahu_03 = {
+			
+							allowed = {always = yes}
+							
+							removal_cost = -1
+				
+							allowed_civil_war = {always = yes}
+				
+							picture = SPA_fet_y_de_las_jons
+							
+							modifier = {
+								army_core_attack_factor = -0.1	
+								army_core_defence_factor = -0.1	
+								conscription_factor = -0.25	
+								stability_factor = -0.1
+	
+											}
+										}
 
 		spr_ideas_01 = {
 			
@@ -338,6 +379,26 @@ ideas = {
 				drift_defence_factor = 0.2		
 					}
 		}
+
+		spr_ideas_1999 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = generic_monarchist_uprising
+			
+			modifier = {
+				stability_factor = 0.2
+				neutrality_drift = 0.2
+				drift_defence_factor = 0.2
+				army_core_attack_factor = 0.1	
+				army_core_defence_factor = 0.1		
+					}
+		}
+
 		spr_ideas_19 = {
 			
 			allowed = {always = yes}
@@ -354,6 +415,25 @@ ideas = {
 				army_org_Factor = 0.1		
 					}
 		}
+
+		spr_ideas_555 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = chi_forced_conscription
+			
+			modifier = {
+				industrial_capacity_factory = 0.15
+				production_speed_buildings_factor = 0.15	
+				war_support_factor  = -0.2
+				stability_factor = -0.2
+					}
+		}	
+
 		spr_ideas_20 = {
 			
 			allowed = {always = yes}

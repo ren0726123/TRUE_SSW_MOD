@@ -81,11 +81,11 @@ oob = "SPR_1950"
 set_naval_oob = "SPR_1950_naval"
 
 add_ideas = {
+	spr_debahu_01
 	spr_debahu_02
+	spr_debahu_03
 }
-add_ideas = {
-	civilian_economy
-}
+
 
 set_war_support = 0.1
 set_stability = 0.8
