@@ -174,13 +174,1088 @@ ideas = {
 			picture = home_of_revolution
 			
 			modifier = {
-				industrial_capacity_factory = 0.12
-				communism_drift = 0.10	
+				industrial_capacity_factory = 0.07
+				communism_drift = -0.10	
 							}
 			
 		}
 
+		ltv_ideas_13 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
 
+			allowed_civil_war = {always = yes}
+
+			picture = home_of_revolution
+			
+			modifier = {
+				navy_leader_start_level = 1
+							}
+			
+		}
+
+		ltv_ideas_14 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = home_of_revolution
+			
+			modifier = {
+				industrial_capacity_dockyard = 0.15
+							}
+			
+		}
+
+		ltv_ideas_15 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = home_of_revolution
+			
+			modifier = {
+				industrial_capacity_factory = 0.07
+				communism_drift = -0.10	
+				war_support_factor = 0.2
+				surrender_limit = 0.2
+							}
+			
+		}
+
+		ltv_ideas_16 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = home_of_revolution
+			
+			modifier = {
+				industrial_capacity_factory = 0.07
+				communism_drift = -0.10	
+				war_support_factor = 0.2
+				surrender_limit = 0.2
+				justify_war_goal_time = -0.25
+							}
+			
+		}
+
+		ltv_ideas_17 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = home_of_revolution
+			
+			modifier = {
+				production_speed_arms_factory_factor = 0.15
+				production_speed_industrial_complex_factor = -0.15		
+							}
+			
+		}
+
+		ltv_ideas_18 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = home_of_revolution
+			
+			modifier = {
+				army_leader_start_level = 1			
+							}
+			
+		}
+
+		ltv_ideas_19 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = home_of_revolution
+			
+			modifier = {
+				industrial_capacity_factory = 0.15		
+							}
+			
+		}
+
+		ltv_ideas_20 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = home_of_revolution
+			
+			modifier = {
+				production_speed_arms_factory_factor = 0.12		
+				production_speed_dockyard_factor = 0.12
+				production_speed_industrial_complex_factor = -0.18	
+							}
+			
+		}
+
+		ltv_ideas_21 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = home_of_revolution
+			
+			modifier = {
+				research_speed_factor = 0.07	
+							}
+			
+		}
+
+		ltv_ideas_22 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = home_of_revolution
+			
+			modifier = {
+				industrial_capacity_dockyard = 0.2		
+							}
+			
+		}
+
+		ltv_ideas_23 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = home_of_revolution
+			equipment_bonus = {
+			ship_hull_submarine = {
+				build_cost_ic = -0.2 instant = yes
+			}
+		}
+			
+		}
+
+		ltv_ideas_24 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = home_of_revolution
+			
+			modifier = {
+				political_power_gain = 0.2	
+							}
+			
+		}
+
+		ltv_ideas_25 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = home_of_revolution
+			
+			modifier = {
+				democratic_acceptance = 85	
+				production_factory_efficiency_gain_factor = 0.12
+							}
+			
+		}
+
+		ltv_ideas_26 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = home_of_revolution
+			
+			modifier = {
+				political_advisor_cost_factor = -0.25
+				production_speed_buildings_factor = 0.12
+							}
+			
+		}
+
+		ltv_ideas_27 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = home_of_revolution
+			
+			modifier = {
+				command_power_gain = 1.0	
+				generate_wargoal_tension = -0.40	
+							}
+			
+		}
+
+		ltv_ideas_28 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = home_of_revolution
+			
+			modifier = {
+				navy_capital_ship_defence_factor = 0.07	
+							}
+			
+		}
+
+		ltv_ideas_29 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = home_of_revolution
+			
+			modifier = {
+				army_infantry_attack_factor = 0.07	
+							}
+			
+		}
+
+		ltv_ideas_30 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = home_of_revolution
+			
+			modifier = {
+				air_ace_generation_chance_factor = 0.12	
+							}
+			
+		}
+
+		ltv_ideas_31 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = home_of_revolution
+			
+			modifier = {
+				stability_factor = 0.07
+				industrial_capacity_factory = 0.12
+							}
+			
+		}
+
+		ltv_ideas_32 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = home_of_revolution
+			
+			modifier = {
+				stability_factor = 0.07
+				production_factory_efficiency_gain_factor = 0.12
+							}
+			
+		}
+
+		ltv_ideas_33 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = home_of_revolution
+			
+			modifier = {
+				stability_factor = 0.15
+				industrial_capacity_factory = 0.15
+				production_factory_efficiency_gain_factor = 0.15
+				consumer_goods_factor = -0.05	
+							}
+			
+		}
+
+		ltv_ideas_34 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = home_of_revolution
+			
+			modifier = {
+				industrial_capacity_factory = 0.1	
+				industrial_capacity_dockyard = 0.1
+							}
+			
+		}
+
+		ltv_ideas_35 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = home_of_revolution
+			
+			modifier = {
+				conscription_factor = 0.2
+				training_time_factor = -0.2
+							}
+			
+		}
+
+		ltv_ideas_36 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = home_of_revolution
+			
+			modifier = {
+				conscription_factor = 0.2
+				training_time_factor = -0.2
+				cavalry_attack_factor = 0.15
+				cavalry_defence_factor = 0.15
+							}
+			
+		}
+
+		ltv_ideas_37 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = home_of_revolution
+			
+			modifier = {
+				political_power_gain = 0.15
+							}
+			
+		}
+
+		ltv_ideas_38 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = home_of_revolution
+			
+			modifier = {
+				political_power_gain = 0.15
+				research_speed_factor = 0.1
+							}
+			
+		}
+
+		ltv_ideas_39 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = home_of_revolution
+			
+			modifier = {
+				research_speed_factor = 0.07	
+							}
+			
+		}
+
+		ltv_ideas_40 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = home_of_revolution
+			
+			modifier = {
+				local_resources_factor = 0.2
+				min_export = 0.2
+							}
+			
+		}
+
+		ltv_ideas_377 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = home_of_revolution
+			
+			modifier = {
+				consumer_goods_factor = -0.05	
+							}
+			
+		}
+
+		ltv_ideas_388 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = home_of_revolution
+			
+			modifier = {
+				consumer_goods_factor = -0.12	
+							}
+			
+		}
+
+		ltv_ideas_399 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = home_of_revolution
+			
+			modifier = {
+				stability_factor = 0.15
+				industrial_capacity_factory = 0.15
+				production_factory_efficiency_gain_factor = 0.15
+				consumer_goods_factor = -0.05	
+							}
+			
+		}
+
+		ltv_ideas_411 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = home_of_revolution
+			
+			modifier = {
+				industrial_capacity_factory = 0.1	
+				industrial_capacity_dockyard = 0.1
+							}
+			
+		}
+
+		ltv_ideas_400 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = home_of_revolution
+			
+			modifier = {
+				experience_gain_navy = 0.05	
+				conscription_factor = 0.2
+							}
+			
+		}
+
+		ltv_ideas_401 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = home_of_revolution
+			
+			modifier = {
+				experience_gain_navy = 0.05	
+				conscription_factor = 0.2
+							}
+			equipment_bonus = {
+				ship_hull_heavy = {
+					build_cost_ic = -0.2 instant = yes
+				}
+			}
+			
+		}
+
+		ltv_ideas_42 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = home_of_revolution
+			
+			modifier = {
+				production_speed_industrial_complex_factor = 0.4
+				production_speed_synthetic_refinery_factor = 0.4
+				production_speed_nuclear_reactor_factor = 0.2
+				production_speed_arms_factory_factor = -0.7	
+				production_speed_dockyard_factor = -0.7
+							}
+			
+		}
+
+		ltv_ideas_43 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = home_of_revolution
+			
+			modifier = {
+				production_speed_infrastructure_factor = 0.25	
+							}
+			
+		}
+
+		ltv_ideas_44 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = home_of_revolution
+			
+			modifier = {
+				production_speed_buildings_factor = 0.25	
+							}
+			
+		}
+
+		ltv_ideas_45 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = home_of_revolution
+			
+			modifier = {
+				industrial_capacity_factory = -0.7
+				global_building_slots_factor = 0.25
+							}
+			
+		}
+
+		ltv_ideas_46 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = home_of_revolution
+			
+			modifier = {
+				industrial_capacity_dockyard = -0.7
+				global_building_slots_factor = 0.25
+							}
+			
+		}
+
+		ltv_ideas_47 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = home_of_revolution
+			
+			equipment_bonus = {
+				motorized_equipment = {
+					build_cost_ic = -0.2 instant = yes
+				}
+			}
+			
+		}
+
+		ltv_ideas_48 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = home_of_revolution
+			
+			equipment_bonus = {
+				ship_hull_heavy = {
+					build_cost_ic = -0.2 instant = yes
+				}
+			}
+			equipment_bonus = {
+				ship_hull_light = {
+					build_cost_ic = -0.2 instant = yes
+				}
+			}
+		}
+			
+		ltv_ideas_49 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = home_of_revolution
+			
+			modifier = {
+				industrial_capacity_factory = 0.35
+				industrial_capacity_dockyard = 0.35
+				global_building_slots_factor = 0.5
+				production_speed_arms_factory_factor = 0.35
+				production_speed_dockyard_factor = 0.35
+							}
+		}
+
+		ltv_debahu_1 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = home_of_revolution
+			
+			modifier = {
+				stability_factor = -0.2
+				war_support_factor = -0.2
+				political_power_factor = -0.2
+				conscription_factor = -0.5
+							}
+		}
+
+		ltv_debahu_2 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = home_of_revolution
+			
+			modifier = {
+				stability_factor = -0.1
+				war_support_factor = -0.1
+				army_core_defence_factor = -0.1
+				army_core_attack_factor = -0.1	
+				consumer_goods_factor = 0.1	
+							}
+		}
+
+		ltv_ideas_50 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = home_of_revolution
+			
+			modifier = {
+				special_forces_attack_factor = 0.1
+				special_forces_defence_factor = 0.1		
+				special_forces_cap = 0.03
+							}
+		}
+
+		ltv_ideas_51 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = home_of_revolution
+			
+			modifier = {
+				special_forces_attack_factor = 0.15
+				special_forces_defence_factor = 0.15	
+				special_forces_cap = 0.05
+							}
+		}
+
+		ltv_ideas_52 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = home_of_revolution
+			
+			modifier = {
+				army_speed_factor = 0.1
+				army_armor_speed_factor = 0.05	
+							}
+		}
+
+		ltv_ideas_53 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = home_of_revolution
+			
+			equipment_bonus = {
+				armor = {
+					build_cost_ic = -0.12 instant = yes
+				}
+            }
+		}
+
+		ltv_ideas_54 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = home_of_revolution
+			
+			equipment_bonus = {
+				cat_mechanized_equipment = {
+					build_cost_ic = -0.08 instant = yes
+				}
+			}
+			equipment_bonus = {
+				motorized_equipment = {
+					build_cost_ic = -0.08 instant = yes
+				}
+            }
+		}
+
+		ltv_ideas_55 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = home_of_revolution
+			
+			equipment_bonus = {
+				cat_mechanized_equipment = {
+					build_cost_ic = -0.08 instant = yes
+				}
+			}
+			equipment_bonus = {
+				motorized_equipment = {
+					build_cost_ic = -0.08 instant = yes
+				}
+			}
+			equipment_bonus = {
+				artillery = {
+					build_cost_ic = -0.08 instant = yes
+				}
+			}
+			modifier = {
+				army_artillery_attack_factor = 0.15	
+							}
+		}
+
+		ltv_ideas_56 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = home_of_revolution
+			
+			equipment_bonus = {
+				armor = {
+					build_cost_ic = -0.08 instant = yes
+				}
+			}
+		}
+
+		ltv_ideas_57 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = home_of_revolution
+			
+			equipment_bonus = {
+				armor = {
+					build_cost_ic = -0.08 instant = yes
+				}
+			}
+			equipment_bonus = {
+				heavy_tank_equipment = {
+					build_cost_ic = -0.08 instant = yes
+				}
+			}
+			equipment_bonus = {
+				super_heavy_tank_equipment  = {
+					build_cost_ic = -0.08 instant = yes
+				}
+			}
+		}
+
+		ltv_ideas_58 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = home_of_revolution
+			
+			modifier = {
+				navy_capital_ship_attack_factor = 0.2
+							}
+		}
+
+		ltv_ideas_59 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = home_of_revolution
+			
+			equipment_bonus = {
+				submarine = {
+					build_cost_ic = -0.2 instant = yes
+				}
+			}
+		}
+
+		ltv_ideas_60 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = home_of_revolution
+			
+			equipment_bonus = {
+				cv_fighter_equipment = {
+					build_cost_ic = -0.2 instant = yes
+				}
+				cv_CAS_equipment = {
+					build_cost_ic = -0.2 instant = yes
+				}
+				cv_nav_bomber_equipment = {
+					build_cost_ic = -0.2 instant = yes
+				}
+				nav_bomber_equipment = {
+					build_cost_ic = -0.2 instant = yes
+				}
+			}
+		}
+
+		ltv_ideas_61 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = home_of_revolution
+			
+			equipment_bonus = {
+				fighter_equipment = {
+					build_cost_ic = -0.2 instant = yes
+				}
+			}
+		}
+
+		ltv_ideas_62 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = home_of_revolution
+			
+			modifier = {
+				naval_strike_attack_factor = 0.04
+				naval_strike_targetting_factor = 0.04
+				naval_strike_agility_factor = 0.04
+							}
+		}
+
+		ltv_ideas_63 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = home_of_revolution
+			
+			modifier = {
+				air_air_superiority_attack_factor = 0.04	
+				air_air_superiority_defence_factor = 0.04
+				air_air_superiority_agility_factor = 0.04		
+			}
+		}
+
+		ltv_ideas_64 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = home_of_revolution
+			equipment_bonus = {
+				fighter_equipment = {
+					build_cost_ic = -0.1 instant = yes
+				}
+			}
+			equipment_bonus = {
+				heavy_fighter_equipment = {
+					build_cost_ic = -0.1 instant = yes
+				}
+			}
+		}
+
+		ltv_ideas_65 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = home_of_revolution
+			equipment_bonus = {
+				tactical_bomber = {
+					build_cost_ic = -0.1 instant = yes
+				}
+			}
+			equipment_bonus = {
+				cat_strategic_bomber = {
+					build_cost_ic = -0.1 instant = yes
+				}
+			}
+		}
 
 		
 	}

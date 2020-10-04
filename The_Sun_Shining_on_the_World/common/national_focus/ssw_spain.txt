@@ -434,6 +434,7 @@ focus_tree = {
 		x = 17
 		y = 2
 		completion_reward = {
+			remove_ideas = { spr_debahu_03 }
 			SPR = {
 					set_politics = {
 					ruling_party = militarism 
@@ -480,15 +481,11 @@ focus_tree = {
 		}
 		x = 13
 		y = 4
-		available = {
-			has_idea = {
-				spr_ideas_01 
+				completion_reward = {
+				remove_ideas = { spr_debahu_01 }
 				}
-				remove_ideas = { brm_debahu_01 }
 		}
 
-
-	}
 	focus = {
 		id = SPR_faranhe_basukusyokumin
 		icon = GFX_focus_generic_the_giant_wakes
@@ -1229,8 +1226,26 @@ focus_tree = {
 				add_idea = spr_ideas_20
 			}
 		}
+	}
+
+	focus = {
+		id = SPR_franco_minzoku
+		icon = GFX_goal_generic_political_pressure
+		cost = 9.00
+		prerequisite = {
+			focus = SPR_franco_katorikkukyouryoku
+		}
+		prerequisite = {
+			focus = SPR_franco_barearesu
+		}
+		x = 34
+		y = 5
+		completion_reward = {
+			remove_ideas = { spr_debahu_01 }
+		}
 
 	}
+
 	focus = {
 		id = SPR_franco_outouha
 		icon = GFX_focus_rom_royal_dictatorship
@@ -1826,6 +1841,10 @@ focus_tree = {
 			SPR = {
 				country_event = { id = ssw_spr.51 days = 1 }
 			}
+			swap_ideas = {
+				remove_idea = spr_debahu_02
+				add_idea = spr_ideas_1999
+			}
 		}
 
 	}
@@ -1843,8 +1862,25 @@ focus_tree = {
 				add_manpower = 37000
 			}
 		}
-
 	}
+
+	focus = {
+		id = SPR_outouha_noud
+		icon = GFX_goal_continuous_restrict_freedom
+		cost = 2.00
+		prerequisite = {
+			focus = SPR_outouha_kizokunokikan
+		}
+		x = 46
+		y = 5
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = spr_debahu_01
+				add_idea = spr_ideas_555
+			}
+		}
+	}
+
 	focus = {
 		id = SPR_outouha_tougyuujyou
 		icon = GFX_goal_demand_sudetenland
@@ -3003,7 +3039,7 @@ focus_tree = {
 		prerequisite = {
 			focus = SPR_franco_seisanzouka
 		}
-		x = 27
+		x = 28
 		y = 7
 		completion_reward = {
 			SPR = {
@@ -3019,7 +3055,7 @@ focus_tree = {
 		prerequisite = {
 			focus = SPR_franco_suiryoku
 		}
-		x = 27
+		x = 28
 		y = 8
 		completion_reward = {
 			add_resource = {
@@ -3183,6 +3219,7 @@ focus_tree = {
 		completion_reward = {
 			SPR = {
 				add_ideas = spr_ideas_34
+				remove_ideas = { spr_debahu_03 }
 			}
 		}
 
@@ -3716,6 +3753,21 @@ focus_tree = {
 				add_idea = spr_ideas_14
 			}
 		}
+
+	}
+
+	focus = {
+		id = SPR_fanco_uha
+		icon = GFX_focus_generic_military_mission
+		cost = 9.00
+		prerequisite = {
+			focus = SPR_fanco_tyouhei
+		}
+		x = 26
+		y = 7
+		completion_reward = {
+			remove_ideas = { spr_debahu_03 }
+			}
 
 	}
 }
