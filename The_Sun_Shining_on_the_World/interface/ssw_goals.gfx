@@ -443,9 +443,14 @@ spriteTypes = {
 		name = "GFX_LTV_messa"
 		texturefile = "gfx/interface/goals/LTV/LTV_messa.dds"
 	}
+#トルコ
 	SpriteType = {
 		name = "GFX_TUR_Sam"
 		texturefile = "gfx/interface/goals/TRU/SSW_TUR_goal_Sam.dds"
+	}
+	SpriteType = {
+		name = "GFX_TUR_Form_Roman_Empire"
+		texturefile = "gfx/interface/goals/TRU/SSW_TUR_form_the_roman_empire.dds"
 	}
 
 }
