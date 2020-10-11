@@ -1,0 +1,15 @@
+state = {
+	id = 929
+	name = "STATE_929"
+	manpower = 0
+	state_category = rural
+	
+	history = {
+		owner = NWA
+		add_core_of = NWA
+	}
+	
+	provinces = {
+		10771
+	}
+}

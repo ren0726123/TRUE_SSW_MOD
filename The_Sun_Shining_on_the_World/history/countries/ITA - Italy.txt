@@ -143,7 +143,6 @@ add_to_faction = JOR
 add_to_faction = SUC
 add_to_faction = GIB
 add_to_faction = AFR
-add_to_faction = TUN
 add_to_faction = MOR
 set_autonomy = {
 	target = LBA
@@ -187,12 +186,6 @@ set_autonomy = {
 
 set_autonomy = {
 	target = AFR
-	autonomous_state = dominion
-}
-
-#保護国
-set_autonomy = {
-	target = TUN
 	autonomous_state = dominion
 }
 

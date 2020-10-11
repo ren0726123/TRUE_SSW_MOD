@@ -1459,6 +1459,11 @@ JAK = {	#ジャンムー・カシミール
 	color_ui = rgb { 153 0 48 }
 }
 
+SAH = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+
 HGR = {
 	color = rgb { 50 0 75 }
 	color_ui = rgb { 50 0 75 }
