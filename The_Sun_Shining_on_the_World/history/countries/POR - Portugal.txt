@@ -21,6 +21,15 @@ set_technology = {
 	CAS1 = 1
 }
 
+
+set_autonomy = {
+	target = CPV
+	autonomous_state = colony
+}
+set_autonomy = {
+	target = STP
+	autonomous_state = colony
+}
 set_autonomy = {
 	target = ANG
 	autonomous_state = colony

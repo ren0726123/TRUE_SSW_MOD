@@ -46,9 +46,6 @@
  ARC_JAP:0 "日本領北極圏"
  ARC_JAP_DEF:0 "日本領北極圏"
  ARC_JAP_ADJ:0 "日領北極"
- INS_JAP:0 "インドネシア共和国"
- INS_JAP_DEF:0 "インドネシア共和国"
- INS_JAP_ADJ:0 "インドネシア"
  
 #ドイツ国
  CZE_GER:0 "ベーメン・メーレン保護領"
@@ -110,9 +107,6 @@
  SUC_ITA:0 "イタリア領スエズ運河地区"
  SUC_ITA_DEF:0 "イタリア領スエズ運河地区"
  SUC_ITA_ADJ:0 "伊領スエズ運河"
- TUN_ITA:0 "イタリア領チュニジア"
- TUN_ITA_DEF:0 "イタリア領チュニジア"
- TUN_ITA_ADJ:0 "伊領チュニジア"
  
 #英連邦王国
  CAN_UK:0 "カナダ連邦"
@@ -156,15 +150,21 @@
  EQG_SPR_ADJ:0 "西領ギニア"
  
 #ポルトガル共和国
- ANG_POR:0 "ポルトガル領アンゴラ"
- ANG_POR_DEF:0 "ポルトガル領アンゴラ"
- ANG_POR_DEF:0 "葡領アンゴラ"
+ CPV_POR:0 "ポルトガル領カーボベルデ"
+ CPV_POR_DEF:0 "ポルトガル領カーボベルデ"
+ CPV_POR_ADJ:0 "葡領カーボベルデ"
+ STP_POR:0 "ポルトガル領サントメ・プリンシペ"
+ STP_POR_DEF:0 "ポルトガル領サントメ・プリンシペ"
+ STP_POR_ADJ:0 "葡領サントメ・プリンシペ"
+ GNB_POR:0 "ポルトガル領ギニア"
+ GNB_POR_DEF:0 "ポルトガル領ギニア"
+ GNB_POR_ADJ:0 "葡領ギニア"
  MZB_POR:0 "ポルトガル領モザンビーク"
  MZB_POR_DEF:0 "ポルトガル領モザンビーク"
  MZB_POR_ADJ:0 "葡領モザンビーク"
- GNB_POR:0 "ポルトガル領ギニア"
- GNB_POR_DEF:0 "ポルトガル領ギニア"
- GNB_POR_DEF:0 "葡領ギニア"
+ ANG_POR:0 "ポルトガル領アンゴラ"
+ ANG_POR_DEF:0 "ポルトガル領アンゴラ"
+ ANG_POR_DEF:0 "葡領アンゴラ"
  
 #中華民国
  CLC_CHI:0 "中華民国特別行政区"

@@ -188,6 +188,16 @@ MOR_AFR = {
 	color_ui = rgb { 0 18 127 }
 }
 
+CPV_POR = {
+	color = rgb { 53 82 85 }
+	color_ui = rgb { 53 82 85 }
+}
+
+STP_POR = {
+	color = rgb { 53 82 85 }
+	color_ui = rgb { 53 82 85 }
+}
+
 ANG_POR = {
 	color = rgb { 53 82 85 }
 	color_ui = rgb { 53 82 85 }
