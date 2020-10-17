@@ -1314,7 +1314,7 @@ MDU = {	#マドゥライ
 	color_ui = rgb { 139 69 19 }
 }
 
-TRA = {	#トラヴァンコール
+TRV = {	#トラヴァンコール
 	color = rgb { 140 100 120 }
 	color_ui = rgb { 140 100 120 }
 }
@@ -1472,6 +1472,11 @@ CPV = {	#カーボベルデ
 STP = {	#サントメ・プリンシペ
 	color = rgb { 115 95 50 }
 	color_ui = rgb { 115 95 50 }
+}
+
+SKM = {	#シッキム
+	color = rgb { 253 36 30 }
+	color_ui = rgb { 253 36 30 }
 }
 
 HGR = {

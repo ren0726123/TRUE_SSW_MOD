@@ -1,0 +1,17 @@
+state = {
+	id = 931
+	name = "STATE_931"
+	manpower = 194000
+	state_category = rural
+	
+	history = {
+		owner = SKM
+		add_core_of = SKM
+		add_core_of = NIN
+		add_core_of = PIN
+	}
+	
+	provinces = {
+		4435
+	}
+}

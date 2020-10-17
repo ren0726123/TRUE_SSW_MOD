@@ -1,9 +1,0 @@
-leader_traits = {
-    central_bank = {
-		random = no
-		stability_factor = 0.05
-		consumer_goods_factor = -0.01
-		ai_will_do = {
-			factor = 1
-		}
-	}

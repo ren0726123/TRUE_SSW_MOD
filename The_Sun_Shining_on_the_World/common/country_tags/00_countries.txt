@@ -222,7 +222,7 @@ PIN = "countries/People India.txt"		#人民インド
 BOM = "countries/Bombay.txt"			#ボンベイ
 HYD = "countries/Hyderabad.txt"			#ハイデラバード
 MDU = "countries/Madurai.txt"			#マドゥライ
-TRA = "countries/Travancore.txt"		#トラヴァンコール
+TRV = "countries/Travancore.txt"		#トラヴァンコール
 
 #####Chiyo#####
 NFR = "countries/North France.txt"	#北フランス
@@ -264,3 +264,4 @@ SMR = "countries/San Marino.txt"	#サンマリノ共和国
 SAH = "countries/Africa.txt"	#サハラ
 CPV = "countries/Africa.txt"	#カーボベルデ
 STP = "countries/Africa.txt"	#サントメ・プリンシペ
+SKM = "countries/Asia.txt"	#シッキム
