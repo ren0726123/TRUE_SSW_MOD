@@ -3,7 +3,7 @@ country_event = {
 	id = SSW_TUR.1
 	title = SSW_TUR.1.t
 	desc = SSW_TUR.1.d
-	picture = 
+	picture = GFX_Attlee_speech
 
 	is_triggered_only = yes
 	fire_only_once = yes
@@ -15,7 +15,7 @@ country_event = {
 	id = SSW_TUR.2
 	title = SSW_TUR.2.t
 	desc = SSW_TUR.2.d
-	picture = 
+	picture = GFX_Attlee_speech
 
 	is_triggered_only = yes
 	
@@ -34,7 +34,7 @@ country_event = {
 	id = SSW_TUR.3
 	title = SSW_TUR.3.t
 	desc = SSW_TUR.3.d
-	picture = 
+	picture = GFX_Attlee_speech
 
 	is_triggered_only = yes
 	
@@ -48,7 +48,7 @@ country_event = {
 	id = SSW_TUR.4
 	title = SSW_TUR.4.t
 	desc = SSW_TUR.4.d
-	picture = 
+	picture = GFX_Attlee_speech
 
 	is_triggered_only = yes
 	
@@ -62,7 +62,7 @@ country_event = {
 	id = SSW_TUR.5
 	title = SSW_TUR.5.t
 	desc = SSW_TUR.5.d
-	picture = 
+	picture = GFX_Attlee_speech
 
 	is_triggered_only = yes
 	
@@ -85,7 +85,7 @@ country_event = {
 	id = SSW_TUR.6
 	title = SSW_TUR.6.t
 	desc = SSW_TUR.6.d
-	picture = 
+	picture = GFX_Attlee_speech
 
 	is_triggered_only = yes
 	
@@ -99,7 +99,7 @@ country_event = {
 	id = SSW_TUR.7
 	title = SSW_TUR.7.t
 	desc = SSW_TUR.7.d
-	picture = 
+	picture = GFX_Attlee_speech
 
 	is_triggered_only = yes
 	
@@ -113,7 +113,7 @@ country_event = {
 	id = SSW_TUR.8
 	title = SSW_TUR.8.t
 	desc = SSW_TUR.8.d
-	picture = 
+	picture = GFX_Attlee_speech
 
 	is_triggered_only = yes
 	
