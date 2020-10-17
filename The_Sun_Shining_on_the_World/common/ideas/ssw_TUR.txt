@@ -1,0 +1,727 @@
+ideas = {
+#国民精神
+	country = {
+	    #後進的な軽工業社会
+		TUR_idea_1 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				production_factory_max_efficiency_factor = -0.30
+				industrial_capacity_factory = -0.30
+				consumer_goods_factor = 0.30
+			}
+		}
+		#外交的孤立
+		TUR_idea_2 = {
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				generate_wargoal_tension = 0.40
+				political_advisor_cost_factor = 0.25
+				trade_laws_cost_factor = 0.25
+				mobilization_laws_cost_factor = 0.25
+				economy_cost_factor = 0.25
+			}
+		}
+		#アルメニア人弾圧
+		TUR_idea_3 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				surrender_limit = -0.15
+				mobilization_speed = -0.20
+				stability_factor = -0.1
+				war_support_factor = -0.1
+			}
+		}
+		#正教会の帰属問題
+		TUR_idea_4 = {
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				stability_factor = -0.1
+				war_support_factor = -0.1
+				political_power_factor = -0.25
+			}
+		}
+		#経済危機
+		TUR_idea_5 = {
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				production_speed_arms_factory_factor = -0.50
+				production_speed_industrial_complex_factor = -0.50
+				research_speed_factor = -0.20
+				consumer_goods_factor = 0.30
+			}
+		}
+		#一時的な経済対策
+		TUR_idea_6 = {
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				production_speed_arms_factory_factor = -0.30
+				production_speed_industrial_complex_factor = -0.30
+				research_speed_factor = -0.10
+				consumer_goods_factor = 0.20
+			}
+                }
+		#紙幣の大量印刷
+		TUR_idea_7 = {
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				political_power_gain = -0.15
+				stability_weekly = 0.0075
+				consumer_goods_factor = 0.05
+			}
+                }
+		#重工業化への準備
+		TUR_idea_8 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				production_factory_max_efficiency_factor = -0.10
+				industrial_capacity_factory = -0.10
+				consumer_goods_factor = 0.10
+			}
+		}
+		#安定傾向にある経済
+		TUR_idea_9 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				production_speed_arms_factory_factor = -0.10
+				production_speed_industrial_complex_factor = -0.10
+				research_speed_factor = -0.05
+				consumer_goods_factor = 0.10
+			}
+		}
+		#4カ年計画の開始
+		TUR_idea_10 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+			
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				production_speed_arms_factory_factor = 0.10
+				production_speed_industrial_complex_factor = -0.10
+				consumer_goods_factor = 0.10
+			}
+		}
+		#乾燥地域への熟練
+		TUR_idea_11 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				attrition = -0.15
+				heat_attrition_factor = -0.5
+				acclimatization_hot_climate_gain_factor = 0.25
+				out_of_supply_factor = -0.05
+				supply_consumption_factor = -0.05
+				training_time_factor = 0.1
+			}
+		}
+		#復活の前兆
+		TUR_idea_12 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				production_speed_arms_factory_factor = -0.05
+				production_speed_industrial_complex_factor = -0.05
+				consumer_goods_factor = 0.05
+			}
+		}
+		#伝統的な産業を維持
+		TUR_idea_13 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				production_factory_max_efficiency_factor = -0.10
+				line_change_production_efficiency_factor = 0.20
+				industrial_capacity_factory = -0.05
+				production_factory_start_efficiency_factor = 0.05
+			}
+		}
+		#TIAの設立
+		TUR_idea_14 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				trade_laws_cost_factor = -0.25
+				economy_cost_factor = -0.25
+				global_building_slots_factor = 0.10
+				industrial_capacity_factory = 0.05
+			}
+		}
+		#要塞化の取り組み
+		TUR_idea_15 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				production_speed_bunker_factor = 0.25
+				production_speed_coastal_bunker_factor = 0.25
+			}
+		}
+		#攻勢準備
+		TUR_idea_16 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				production_speed_arms_factory_factor = 0.25
+				conscription_factor = 0.05
+			}
+		}
+		#対空戦術理論
+		TUR_idea_17 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				production_speed_anti_air_building_factor = 0.25
+				enemy_army_bonus_air_superiority_factor = -0.10
+			}
+		}
+		#砲撃攻勢戦研究の成果
+		TUR_idea_18 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				army_artillery_attack_factor = 0.15
+				army_artillery_defence_factor = -0.05
+			}
+		}
+		#砲撃防御戦研究の成果
+		TUR_idea_19 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				army_artillery_attack_factor = -0.05
+				army_artillery_defence_factor = 0.15
+			}
+		}
+		#砲製造技術の確立
+		TUR_idea_20 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				artillery_equipment = {
+                    build_cost_ic = -0.10
+                    instant = yes
+                }
+			}
+		}
+		#機械化機動戦術
+		TUR_idea_21 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				army_speed_factor = 0.10
+				army_armor_defence_factor = -0.10
+				army_armor_speed_factor = 0.10
+			}
+		}
+		#精鋭機械化部隊運用
+		TUR_idea_22 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				training_time_factor = 0.10
+				army_armor_attack_factor = 0.10
+				army_armor_defence_factor = 0.10
+			}
+		}
+		#機械化部隊の大量運用戦術
+		TUR_idea_23 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				training_time_factor = -0.20
+				army_armor_attack_factor = -0.10
+				army_armor_defence_factor = 0.10
+			}
+		}
+		#徴兵キャンペーン
+		TUR_idea_24 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				conscription_factor = 0.20
+				conscription = 0.015
+				non_core_manpower = 0.05
+			}
+		}
+		#防衛計画戦術
+		TUR_idea_25 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				defence = 0.10
+				offence = -0.025
+				army_defence_factor = 0.1
+				army_attack_factor = -0.025
+			}
+		}
+		#攻勢計画戦術
+		TUR_idea_26 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				defence = -0.025
+				offence = 0.10
+				army_defence_factor = -0.025
+				army_attack_factor = 0.10
+			}
+		}
+		#日本企業との連携
+		TUR_idea_27 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				defence = -0.025
+				offence = 0.10
+				army_defence_factor = -0.025
+				army_attack_factor = 0.10
+			}
+		}
+		#ドイツ企業との連携
+		TUR_idea_28 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				defence = -0.025
+				offence = 0.10
+				army_defence_factor = -0.025
+				army_attack_factor = 0.10
+			}
+		}
+		#イタリア企業との連携
+		TUR_idea_29 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				defence = -0.025
+				offence = 0.10
+				army_defence_factor = -0.025
+				army_attack_factor = 0.10
+			}
+		}
+		#訓練方式の改定
+		TUR_idea_30 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				training_time_army_factor = -0.10
+				training_time_factor = -0.05
+				minimum_training_level = -0.10
+			}
+		}
+		#優秀な新人参謀たち
+		TUR_idea_31 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				planning_speed = 0.10
+				max_planning = 0.25
+				army_org_Factor = 0.10
+			}
+		}
+		#騎兵戦
+		TUR_idea_32 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				cavalry_attack_factor = 0.25
+				cavalry_defence_factor = 0.25
+				army_speed_factor = 0.05
+			}
+		}
+		#効率的な補給運用
+		TUR_idea_33 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				supply_consumption_factor = -0.10
+				out_of_supply_factor = -0.5
+				no_supply_grace = 48
+			}
+		}
+		#小アジアの覇者たれ
+		TUR_idea_34 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				conscription = 0.05
+				army_core_attack_factor = 0.10
+				army_core_defence_factor = 0.10
+				experience_gain_army = 0.05
+			}
+		}
+		#最先端繊維産業
+		TUR_idea_35 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				industrial_capacity_factory = 0.10
+				production_factory_efficiency_gain_factor = 0.05
+			}
+		}
+		#草案状態の憲法
+		TUR_idea_36 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				stability_weekly = 0.0010
+				political_power_factor = 0.05
+			}
+		}
+		#大統領権限を強化
+		TUR_idea_37 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				stability_weekly = 0.0050
+				political_power_factor = 0.45
+				despotism_drift = 0.01
+				fascism_drift = 0.01
+				authoritative_democracy_drift = 0.01
+			}
+		}
+		#自由な共和国を
+		TUR_idea_38 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				stability_weekly = 0.0050
+				political_power_factor = 0.45
+				social_democracy_drift = 0.01
+				democratic_drift = 0.01
+				conservatism_drift = 0.01
+			}
+		}
+		#諸民族への対応
+		TUR_idea_39 = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				surrender_limit = -0.10
+				mobilization_speed = -0.15
+				stability_factor = -0.075
+				war_support_factor = -0.075
+			}
+		}
+		#宗教への対応
+		TUR_idea_40 = {
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				stability_factor = -0.075
+				war_support_factor = -0.075
+				political_power_factor = -0.20
+			}
+		}
+		#ユダヤ人科学者の受け入れ
+		TUR_idea_41 = {
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				stability_factor = -0.03
+				research_speed_factor = 0.05
+			}
+		}
+		#核技術研究
+		TUR_idea_42 = {
+			allowed = {always = yes}
+			
+			removal_cost = -1
+
+			allowed_civil_war = {always = yes}
+
+			picture = generic_goods_red_bonus
+			
+			modifier = {
+				research_bonus = {
+                                      nuclear = 0.10
+                                      }
+				      nuclear_production_factor = 0.1
+			}
+		}
+	}
+}
