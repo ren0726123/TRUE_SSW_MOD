@@ -1,0 +1,35 @@
+ideas = {
+	country = {
+		BAL_Female_workers = {
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = GFX_goal_molotov_ribbentrop_pact
+			modifier = {
+				industrial_capacity_factory = 0.1
+				industrial_capacity_dockyard = 0.1
+				conscription = 0.01
+				}
+			}
+	}
+	
+	country = {
+		BAL_Female_conscription = {
+			allowed = {
+				always = yes
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			picture = GFX_goal_molotov_ribbentrop_pact
+			modifier = {
+				conscription_factor = 0.1
+			}
+		}
+	}
+}

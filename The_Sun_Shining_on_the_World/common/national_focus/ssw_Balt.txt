@@ -1,0 +1,430 @@
+focus_tree = {
+	id = ssw_Balt_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = BAL
+		}
+	}
+	default = no
+	focus = {
+		id = Plan_trial
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 10.00
+		x = 3
+		y = 0
+		completion_reward = {
+            add_political_power = 150
+        }
+	}
+	focus = {
+		id = Attracting_companies
+		icon = GFX_focus_generic_concessions
+		cost = 10.00
+		prerequisite = {
+			focus = Plan_trial
+		}
+		x = 3
+		y = 1
+		completion_reward = {
+			#	Adds a civilian Factory 
+			random_owned_controlled_state = {
+				prioritize = { 10 }
+				limit = {									
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = Focus_on_private_demand
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10.00
+		prerequisite = {
+			focus = Attracting_companies
+		}
+		mutually_exclusive = {
+			focus = Focus_on_munitions
+		}
+		x = 2
+		y = 2
+		completion_reward = {
+			#	Adds a civilian Factory 
+			random_owned_controlled_state = {
+				prioritize = { 10 }
+				limit = {									
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = Primary_industrialization
+		icon = GFX_focus_generic_industry_1
+		cost = 10.00
+		prerequisite = {
+			focus = Focus_on_private_demand
+		}
+		x = 2
+		y = 3
+		completion_reward = {
+			#	Adds a civilian Factory 
+			random_owned_controlled_state = {
+				prioritize = { 10 }
+				limit = {									
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = Secondary_industrialization
+		icon = GFX_focus_generic_industry_2
+		cost = 10.00
+		prerequisite = {
+			focus = Primary_industrialization
+		}
+		x = 2
+		y = 4
+		completion_reward = {
+			#	Adds a civilian Factory 
+			random_owned_controlled_state = {
+				prioritize = { 10 }
+				limit = {									
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = Tertiary_industrialization
+		icon = GFX_focus_generic_industry_3
+		cost = 10.00
+		prerequisite = {
+			focus = Secondary_industrialization
+		}
+		x = 2
+		y = 5
+		completion_reward = {
+			#	Adds a civilian Factory 
+			random_owned_controlled_state = {
+				prioritize = { 10 }
+				limit = {									
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = Focus_on_munitions
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10.00
+		prerequisite = {
+			focus = Attracting_companies
+		}
+		mutually_exclusive = {
+			focus = Focus_on_private_demand
+		}
+		x = 4
+		y = 2
+		completion_reward = {
+			#	Adds a civilian Factory 
+			random_owned_controlled_state = {
+				prioritize = { 10 }
+				limit = {									
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = Female_conscription
+		icon = GFX_focus_generic_little_entente
+		cost = 10.00
+		prerequisite = {
+			focus = Focus_on_private_demand
+			focus = Focus_on_munitions
+		}
+		mutually_exclusive = {
+			focus = Female_workers
+		}
+		x = 4
+		y = 3
+		completion_reward = {
+			BAL = {
+				add_ideas = BAL_Female_conscription
+			}
+	}
+}
+	focus = {
+		id = Female_workers
+		icon = GFX_focus_generic_military_academy
+		cost = 10.00
+		prerequisite = {
+			focus = Focus_on_private_demand
+			focus = Focus_on_munitions
+		}
+		mutually_exclusive = {
+			focus = Female_conscription
+		}
+		x = 6
+		y = 3
+		completion_reward = {
+			BAL = {
+				add_ideas = BAL_Female_workers 
+			}
+	}
+}
+	focus = {
+		id = Establishment_of_Walter_Institute
+		icon = GFX_goal_generic_scientific_exchange
+		cost = 10.00
+		prerequisite = {
+			focus = Tertiary_industrialization
+		}
+		x = 5
+		y = 6
+		completion_reward = {
+			add_research_slot= 1
+		}
+	}
+	focus = {
+		id = Invest_in_munitions
+		icon = GFX_goal_generic_production2
+		cost = 10.00
+		prerequisite = {
+			focus = Focus_on_munitions
+		}
+		x = 8
+		y = 3
+		completion_reward = {
+			#	Adds a civilian Factory 
+			random_owned_controlled_state = {
+				prioritize = { 10 }
+				limit = {									
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = Munitions_factory_from_Germany
+		icon = GFX_focus_chi_mission_to_germany
+		cost = 10.00
+		prerequisite = {
+			focus = Invest_in_munitions
+		}
+		x = 8
+		y = 4
+		completion_reward = {
+			#	Adds a civilian Factory 
+			random_owned_controlled_state = {
+				prioritize = { 10 }
+				limit = {									
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = Build_a_transport_ship
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 10.00
+		prerequisite = {
+			focus = Munitions_factory_from_Germany
+		}
+		x = 8
+		y = 5
+		completion_reward = {
+			#	Adds a civilian Factory 
+			random_owned_controlled_state = {
+				prioritize = { 10 }
+				limit = {									
+					free_building_slots = {
+						building = dockyard
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = Attracting_laboratories
+		icon = GFX_focus_research
+		cost = 10.00
+		prerequisite = {
+			focus = Build_a_transport_ship
+		}
+		x = 9
+		y = 6
+		completion_reward = {
+			add_research_slot= 1
+		}
+	}
+	focus = {
+		id = And_the_road_continues
+		icon = GFX_goal_continuous_repairments
+		cost = 10.00
+		prerequisite = {
+			focus = Attracting_laboratories
+			focus = Establishment_of_Walter_Institute
+		}
+		x = 8
+		y = 7
+		completion_reward = {
+			#	Adds a civilian Factory 
+			random_owned_controlled_state = {
+				prioritize = { 10 }
+				limit = {									
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = industrial_complex
+					level = 4
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = Open_a_building_slot
+		icon = GFX_goal_generic_construction2
+		cost = 10.00
+		prerequisite = {
+			focus = Attracting_laboratories
+			focus = Establishment_of_Walter_Institute
+		}
+		x = 7
+		y = 6
+        completion_reward = {
+			#	Adds a civilian Factory 
+			random_owned_controlled_state = {
+				prioritize = { 10 }
+				limit = {									
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+					#	Adds a civilian Factory 
+					random_owned_controlled_state = {
+						prioritize = { 10 }
+						limit = {									
+							free_building_slots = {
+								building = industrial_complex
+								size > 0
+								include_locked = yes
+							}
+						}
+						add_extra_state_shared_building_slots = 2
+					#	Adds a civilian Factory 
+					random_owned_controlled_state = {
+						prioritize = { 10 }
+						limit = {									
+							free_building_slots = {
+								building = industrial_complex
+								size > 0
+								include_locked = yes
+							}
+						}
+						add_extra_state_shared_building_slots = 2
+				}
+				}
+			}
+		}
+	}

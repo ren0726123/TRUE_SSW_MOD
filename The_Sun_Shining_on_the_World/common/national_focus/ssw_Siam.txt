@@ -1,0 +1,204 @@
+focus_tree = {
+	id = ssw_Siam_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SIA
+		}
+	}
+	default = no
+	focus = {
+		id = Thai_cultural_revolution
+		icon = GFX_goal_generic_national_unity
+		cost = 10.00
+		x = 6
+		y = 0
+
+	}
+	focus = {
+		id = Karen_conflict
+		icon = GFX_focus_generic_provoke_border_clashes
+		cost = 10.00
+		x = 13
+		y = 0
+
+	}
+	focus = {
+		id = Thai_made_Thai_use_Thai_charoen_policy
+		icon = GFX_focus_hol_the_foundations_of_defense
+		cost = 10.00
+		prerequisite = {
+			focus = Thai_cultural_revolution
+		}
+		x = 3
+		y = 1
+
+	}
+	focus = {
+		id = Thailand_declares_independence
+		icon = GFX_focus_generic_support_the_left_right
+		cost = 10.00
+		prerequisite = {
+			focus = Thai_made_Thai_use_Thai_charoen_policy
+		}
+		x = 3
+		y = 2
+
+	}
+	focus = {
+		id = Peace_talks_with_Japan
+		icon = GFX_focus_chi_collaboration_with_the_japanese
+		cost = 10.00
+		prerequisite = {
+			focus = Thailand_declares_independence
+		}
+		mutually_exclusive = {
+			focus = Declare_war_with_Japan
+		}
+		x = 1
+		y = 3
+
+	}
+	focus = {
+		id = Declare_war_with_Japan
+		icon = GFX_focus_attack_japan
+		cost = 10.00
+		prerequisite = {
+			focus = Thailand_declares_independence
+		}
+		mutually_exclusive = {
+			focus = Peace_talks_with_Japan
+		}
+		x = 4
+		y = 0
+		relative_position_id = Peace_talks_with_Japan
+
+	}
+	focus = {
+		id = Deal_with_the_Chinese
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 10.00
+		prerequisite = {
+			focus = Thai_cultural_revolution
+		}
+		x = 6
+		y = 1
+
+	}
+	focus = {
+		id = Chinese_foreign_workers
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
+		cost = 10.00
+		prerequisite = {
+			focus = Deal_with_the_Chinese
+		}
+		x = 6
+		y = 2
+
+	}
+	focus = {
+		id = Thai_propaganda
+		icon = GFX_focus_generic_military_academy
+		cost = 10.00
+		prerequisite = {
+			focus = Thai_cultural_revolution
+		}
+		x = 9
+		y = 1
+
+	}
+	focus = {
+		id = Situation_of_Karen
+		icon = GFX_focus_cze_german_puppet
+		cost = 10.00
+		prerequisite = {
+			focus = Karen_conflict
+		}
+		x = 13
+		y = 1
+
+	}
+	focus = {
+		id = Not_care_about_them
+		icon = GFX_goal_generic_neutrality_focus
+		cost = 10.00
+		prerequisite = {
+			focus = Situation_of_Karen
+		}
+		mutually_exclusive = {
+			focus = Expel_back_to_Burma
+		}
+		x = 10
+		y = 2
+
+	}
+	focus = {
+		id = Expel_back_to_Burma
+		icon = GFX_focus_spr_crush_the_revolution
+		cost = 10.00
+		prerequisite = {
+			focus = Situation_of_Karen
+		}
+		mutually_exclusive = {
+			focus = Not_care_about_them
+			focus = Purge_Karen_people
+		}
+		x = 13
+		y = 2
+
+	}
+	focus = {
+		id = Learn_technology_from_Japan
+		icon = GFX_focus_research2
+		cost = 10.00
+		prerequisite = {
+			focus = Peace_talks_with_Japan
+		}
+		x = 1
+		y = 4
+
+	}
+	focus = {
+		id = Reich_seek_support
+		icon = GFX_focus_chi_mission_to_germany
+		cost = 10.00
+		prerequisite = {
+			focus = Declare_war_with_Japan
+		}
+		mutually_exclusive = {
+			focus = British_seek_support
+		}
+		x = 4
+		y = 4
+
+	}
+	focus = {
+		id = British_seek_support
+		icon = GFX_focus_chi_british_cooperation
+		cost = 10.00
+		prerequisite = {
+			focus = Declare_war_with_Japan
+		}
+		mutually_exclusive = {
+			focus = Reich_seek_support
+		}
+		x = 6
+		y = 4
+
+	}
+	focus = {
+		id = Purge_Karen_people
+		icon = GFX_focus_generic_manpower
+		cost = 10.00
+		prerequisite = {
+			focus = Situation_of_Karen
+		}
+		mutually_exclusive = {
+			focus = Expel_back_to_Burma
+		}
+		x = 16
+		y = 2
+
+	}
+}
