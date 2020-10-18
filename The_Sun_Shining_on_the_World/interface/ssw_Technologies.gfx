@@ -26,6 +26,27 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/semi_modern_destroyer.dds"
 	}		
 	SpriteType = {
+		name = "GFX_JAP_ssw_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/JAP_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_ssw_infantry_weapons2_medium"
+		texturefile = "gfx/interface/technologies/JAP_infantry_equipment_5.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_ssw_infantry_weapons3_medium"
+		texturefile = "gfx/interface/technologies/JAP_infantry_equipment_6.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_ssw_infantry_weapons4_medium"
+		texturefile = "gfx/interface/technologies/JAP_infantry_equipment_7.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_ssw_infantry_weapons5_medium"
+		texturefile = "gfx/interface/technologies/JAP_infantry_equipment_8.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_JAP_tech_ship_hull_heavy_5_medium"
 		texturefile = "gfx/interface/technologies/JAP_semi_modern_battleship.dds"
 	}	
