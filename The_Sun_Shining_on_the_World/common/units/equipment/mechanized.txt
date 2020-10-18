@@ -126,7 +126,7 @@ equipments = {
 		}
 	}
 	mechanized_equipment_5 = {
-		year = 1951
+		year = 1954
 		archetype = mechanized_equipment
 		parent = mechanized_equipment_4
 		priority = 40
@@ -149,4 +149,53 @@ equipments = {
 #			oil = 2
 		}
 	}
+	mechanized_equipment_6 = {
+		year = 1958
+		archetype = mechanized_equipment
+		parent = mechanized_equipment_5
+		priority = 40
+		visual_level = 4
+		
+		maximum_speed = 16
+		#Defensive Abilities
+		defense = 42
+		breakthrough = 7.5
+		hardness = 0.85
+		armor_value = 28
+
+		#Offensive Abilities
+		ap_attack = 30
+		
+		build_cost_ic = 14
+		resources = {
+			steel = 6
+			rubber = 2
+#			oil = 2
+		}
+	}
+	mechanized_equipment_7 = {
+		year = 1964
+		archetype = mechanized_equipment
+		parent = mechanized_equipment_6
+		priority = 40
+		visual_level = 4
+		
+		maximum_speed = 17
+		#Defensive Abilities
+		defense = 43
+		breakthrough = 7.5
+		hardness = 0.88
+		armor_value = 29
+
+		#Offensive Abilities
+		ap_attack = 30
+		
+		build_cost_ic = 14
+		resources = {
+			steel = 6
+			rubber = 2
+#			oil = 2
+		}
+	}
+
 }

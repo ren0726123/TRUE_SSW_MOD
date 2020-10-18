@@ -199,6 +199,19 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/support_weapons5.dds"
 	}	
 	SpriteType = {
+		name = "GFX_support_weapons6_medium"
+		texturefile = "gfx/interface/technologies/support_weapons6.dds"
+	}	
+	SpriteType = {
+		name = "GFX_support_weapons7_medium"
+		texturefile = "gfx/interface/technologies/support_weapons7.dds"
+	}	
+	SpriteType = {
+		name = "GFX_support_weapons8_medium"
+		texturefile = "gfx/interface/technologies/support_weapons8.dds"
+	}	
+
+	SpriteType = {
 		name = "GFX_infantry_at3_medium"
 		texturefile = "gfx/interface/technologies/infantry_at3.dds"
 	}	
@@ -206,6 +219,36 @@ spriteTypes = {
 		name = "GFX_infantry_at4_medium"
 		texturefile = "gfx/interface/technologies/infantry_at4.dds"
 	}
+	SpriteType = {
+		name = "GFX_infantry_at5_medium"
+		texturefile = "gfx/interface/technologies/infantry_at5.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantry_at6_medium"
+		texturefile = "gfx/interface/technologies/infantry_at6.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantry_at7_medium"
+		texturefile = "gfx/interface/technologies/infantry_at7.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_advanced_infantry_weapons3_medium"
+		texturefile = "gfx/interface/technologies/advanced_infantry_weapons4.dds"
+	}
+	SpriteType = {
+		name = "GFX_advanced_infantry_weapons4_medium"
+		texturefile = "gfx/interface/technologies/advanced_infantry_weapons5.dds"
+	}
+	SpriteType = {
+		name = "GFX_advanced_infantry_weapons5_medium"
+		texturefile = "gfx/interface/technologies/advanced_infantry_weapons6.dds"
+	}
+	SpriteType = {
+		name = "GFX_advanced_infantry_weapons6_medium"
+		texturefile = "gfx/interface/technologies/advanced_infantry_weapons7.dds"
+	}
+
 	SpriteType = {
 		name = "GFX_ssw_infantry_weapons_medium"
 		texturefile = "gfx/interface/technologies/infantry_equipment_4.dds"
@@ -218,4 +261,13 @@ spriteTypes = {
 		name = "GFX_ssw_infantry_weapons3_medium"
 		texturefile = "gfx/interface/technologies/infantry_equipment_6.dds"
 	}
+	SpriteType = {
+		name = "GFX_ssw_infantry_weapons4_medium"
+		texturefile = "gfx/interface/technologies/infantry_equipment_7.dds"
+	}
+	SpriteType = {
+		name = "GFX_ssw_infantry_weapons5_medium"
+		texturefile = "gfx/interface/technologies/infantry_equipment_8.dds"
+	}
+
 }
