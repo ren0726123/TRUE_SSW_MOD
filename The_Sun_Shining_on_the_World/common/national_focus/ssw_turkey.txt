@@ -1,0 +1,1771 @@
+focus_tree = {
+	id = SSW_TUR_FOCUS
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = TUR
+		}
+	}
+	#Focus for improvements_in_construction_technology
+	focus = {
+		id = TUR_improvements_in_construction_technology
+		icon = GFX_goal_generic_production2
+		x = 12
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_establishment_of_a_foundation_for_heavy_industrialization }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus= {
+ bonus = 1.0
+uses = 2 
+category = construction_tech
+}
+		}
+	}
+	#Focus for naval_construction_expertise
+	focus = {
+		id = TUR_naval_construction_expertise
+		icon = GFX_goal_generic_navy_cruiser
+		x = 14
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_shipyard_construction }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			341={
+ limit = {
+ free_building_slots = {
+ building =infrastructure
+ size > 0
+ include_locked = yes
+ }
+
+ }
+
+ add_extra_state_shared_building_slots = 1
+ add_building_construction = {
+ type =infrastructure
+ level = 2
+ instant_build = yes
+ }
+
+ set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+ }
+341 = {
+add_building_construction = {
+    type = naval_base
+    level = 3
+    instant_build = yes
+    province = 849
+}
+}
+340={
+ limit = {
+ free_building_slots = {
+ building =infrastructure
+ size > 0
+ include_locked = yes
+ }
+
+ }
+
+ add_extra_state_shared_building_slots = 1
+ add_building_construction = {
+ type =infrastructure
+ level = 2
+ instant_build = yes
+ }
+
+ set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+}
+340 = {
+add_building_construction = {
+    type = naval_base
+    level = 3
+    instant_build = yes
+    province = 947
+}
+}
+		}
+	}
+	#Focus for cooperation_with_overseas_companies
+	focus = {
+		id = TUR_cooperation_with_overseas_companies
+		icon = GFX_goal_generic_dangerous_deal
+		x = 12
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = TUR_naval_construction_expertise 
+			focus = TUR_establishment_of_tia 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event= {
+id = SSW_TUR.6
+}
+		}
+	}
+	#Focus for industrial_compatibility
+	focus = {
+		id = TUR_industrial_compatibility
+		icon = GFX_goal_generic_construction2
+		x = 7
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = TUR_nationalization_of_the_banks 
+			focus = TUR_start_of_heavy_industrialization 
+		}
+		mutually_exclusive = { focus = TUR_four_year_plan }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas=TUR_idea_13
+		}
+	}
+	#Focus for update_to_modern_industry
+	focus = {
+		id = TUR_update_to_modern_industry
+		icon = GFX_goal_generic_production
+		x = 7
+		y = 0
+		cost = 5
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event = {
+				id = SSW_TUR.3
+			}
+		}
+	}
+	#Focus for support_the_military_industry
+	focus = {
+		id = TUR_support_the_military_industry
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 12
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_improvements_in_construction_technology }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			random_owned_controlled_state={
+ limit = {
+ free_building_slots = {
+ building = arms_factory
+ size > 0
+ include_locked = yes
+ }
+
+ }
+
+ add_extra_state_shared_building_slots = 2
+ add_building_construction = {
+ type = arms_factory
+ level = 2
+ instant_build = yes
+ }
+
+ set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+ }
+		}
+	}
+	#Focus for expanding_the_textile_industry
+	focus = {
+		id = TUR_expanding_the_textile_industry
+		icon = GFX_goal_generic_construct_civilian
+		x = 7
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_industrial_compatibility }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			random_owned_controlled_state={
+ limit = {
+ free_building_slots = {
+ building = industrial_complex
+ size > 0
+ include_locked = yes
+ }
+
+ }
+
+ add_extra_state_shared_building_slots = 2
+ add_building_construction = {
+ type = industrial_complex
+ level = 2
+ instant_build = yes
+ }
+
+ set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+ }
+		}
+	}
+	#Focus for temporary_economic_measures
+	focus = {
+		id = TUR_temporary_economic_measures
+		icon = GFX_goal_generic_consumer_goods
+		x = 6
+		y = 1
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_update_to_modern_industry }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			swap_ideas= {
+ remove_idea = TUR_idea_5
+add_idea = TUR_idea_6
+}
+		}
+	}
+	#Focus for completion_of_the_four_year_plan
+	focus = {
+		id = TUR_completion_of_the_four_year_plan
+		icon = GFX_focus_generic_treaty
+		x = 10
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_four_year_plan }
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+			NOT = {
+has_idea=TUR_idea_10
+}
+		}
+		completion_reward = {
+			random_owned_controlled_state={
+ limit = {
+ free_building_slots = {
+ building = arms_factory
+ size > 0
+ include_locked = yes
+ }
+
+ }
+
+ add_extra_state_shared_building_slots = 2
+ add_building_construction = {
+ type = arms_factory
+ level = 2
+ instant_build = yes
+ }
+
+ set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+ }
+  random_owned_controlled_state={
+ limit = {
+ free_building_slots = {
+ building = arms_factory
+ size > 0
+ include_locked = yes
+ }
+
+ }
+
+ add_extra_state_shared_building_slots = 2
+ add_building_construction = {
+ type = arms_factory
+ level = 2
+ instant_build = yes
+ }
+
+ set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+ }
+  random_owned_controlled_state={
+ limit = {
+ free_building_slots = {
+ building = arms_factory
+ size > 0
+ include_locked = yes
+ }
+
+ }
+
+ add_extra_state_shared_building_slots = 2
+ add_building_construction = {
+ type = arms_factory
+ level = 2
+ instant_build = yes
+ }
+
+ set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+ }
+add_tech_bonus = {
+bonus = 0.75
+uses = 2
+category = industry_tech
+}
+		}
+	}
+	#Focus for establishment_of_a_foundation_for_heavy_industrialization
+	focus = {
+		id = TUR_establishment_of_a_foundation_for_heavy_industrialization
+		icon = GFX_goal_generic_construct_civilian
+		x = 8
+		y = 1
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_update_to_modern_industry }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			swap_ideas= {
+ remove_idea = TUR_idea_1
+add_idea = TUR_idea_8
+}
+		}
+	}
+	#Focus for nationalization_of_the_banks
+	focus = {
+		id = TUR_nationalization_of_the_banks
+		icon = GFX_focus_spa_save_the_alcazar
+		x = 5
+		y = 2
+		cost = 6
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_temporary_economic_measures }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas= TUR_idea_7
+		}
+	}
+	#Focus for expansion_of_consumer_goods
+	focus = {
+		id = TUR_expansion_of_consumer_goods
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 1
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_temporary_economic_measures }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			random_owned_controlled_state={
+ limit = {
+ free_building_slots = {
+ building = industrial_complex
+ size > 0
+ include_locked = yes
+ }
+
+ }
+
+ add_extra_state_shared_building_slots = 2
+ add_building_construction = {
+ type = industrial_complex
+ level = 2
+ instant_build = yes
+ }
+
+ set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+ }
+		}
+	}
+	#Focus for start_of_heavy_industrialization
+	focus = {
+		id = TUR_start_of_heavy_industrialization
+		icon = GFX_focus_generic_tank_production
+		x = 9
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_establishment_of_a_foundation_for_heavy_industrialization }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus= {
+ bonus = 0.5 
+uses = 2 
+category = radar_tech 
+}
+add_tech_bonus= {
+ bonus = 1.5 
+uses = 2 
+category =  construction_tech
+}
+		}
+	}
+	#Focus for nationalization_policy
+	focus = {
+		id = TUR_nationalization_policy
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 4
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = TUR_nationalization_of_the_banks 
+			focus = TUR_start_of_heavy_industrialization 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			swap_ideas= {
+ remove_idea = TUR_idea_6
+add_idea = TUR_idea_9
+}
+		}
+	}
+	#Focus for four_year_plan
+	focus = {
+		id = TUR_four_year_plan
+		icon = GFX_focus_generic_the_giant_wakes
+		x = 10
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_start_of_heavy_industrialization }
+		mutually_exclusive = { focus = TUR_industrial_compatibility }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_timed_idea= { 
+idea = TUR_idea_10
+days = 200
+}
+		}
+	}
+	#Focus for equal_education
+	focus = {
+		id = TUR_equal_education
+		icon = GFX_focus_generic_concessions
+		x = 0
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_educational_policy }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			custom_effect_tooltip = 1_TUR_Equal_Education
+		}
+	}
+	#Focus for elitism
+	focus = {
+		id = TUR_elitism
+		icon = GFX_focus_generic_military_mission
+		x = 2
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_educational_policy }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			custom_effect_tooltip = 1_TUR_elitism
+		}
+	}
+	#Focus for educational_policy
+	focus = {
+		id = TUR_educational_policy
+		icon = GFX_focus_generic_military_academy
+		x = 2
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_expansion_of_consumer_goods }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event = {
+				id = SSW_TUR.2
+			}
+		}
+	}
+	#Focus for focus_on_the_electronics_industry
+	focus = {
+		id = TUR_focus_on_the_electronics_industry
+		icon = GFX_goal_generic_scientific_exchange
+		x = 0
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_expansion_of_consumer_goods }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus= {
+ bonus = 1.0
+uses = 2 
+category = electronics
+}
+		}
+	}
+	#Focus for final_stage_of_recovery
+	focus = {
+		id = TUR_final_stage_of_recovery
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		x = 4
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_nationalization_policy }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			swap_ideas= {
+ remove_idea = TUR_idea_9
+add_idea = TUR_idea_12
+}
+		}
+	}
+	#Focus for national_istanbul_institute
+	focus = {
+		id = TUR_national_istanbul_institute
+		icon = GFX_goal_tfv_generic_tech_sharing
+		x = 1
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = TUR_elitism 
+			focus = TUR_equal_education 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_research_slot= 1
+		}
+	}
+	#Focus for establishment_of_tia
+	focus = {
+		id = TUR_establishment_of_tia
+		icon = GFX_focus_usa_guarantee_the_american_dream
+		x = 12
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_support_the_military_industry }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas= TUR_idea_14
+		}
+	}
+	#Focus for shipyard_construction
+	focus = {
+		id = TUR_shipyard_construction
+		icon = GFX_goal_generic_construct_naval_dockyard
+		x = 14
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_improvements_in_construction_technology }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			random_owned_controlled_state={
+ limit = {
+ free_building_slots = {
+ building = dockyard
+ size > 0
+ include_locked = yes
+ }
+
+ }
+
+ add_extra_state_shared_building_slots = 2
+ add_building_construction = {
+ type = dockyard
+ level = 2
+ instant_build = yes
+ }
+
+ set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+ }
+		}
+	}
+	#Focus for collaboration_with_italian_companies
+	focus = {
+		id = TUR_collaboration_with_italian_companies
+		icon = GFX_focus_mex_restore_the_army_of_christ
+		x = 14
+		y = 6
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_cooperation_with_overseas_companies }
+		mutually_exclusive = { 
+			focus = TUR_cooperation_with_german_companies 
+		}
+		mutually_exclusive = { 
+			focus = TUR_collaboration_with_japanese_companies 
+		}
+		mutually_exclusive = { 
+			focus = TUR_ 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for end_of_the_economic_crisis
+	focus = {
+		id = TUR_end_of_the_economic_crisis
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+		x = 4
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_final_stage_of_recovery }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			remove_ideas= TUR_idea_12
+		}
+	}
+	#Focus for completion_of_the_industrial_update
+	focus = {
+		id = TUR_completion_of_the_industrial_update
+		icon = GFX_goal_generic_production
+		x = 10
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_completion_of_the_four_year_plan }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			remove_ideas= TUR_idea_8
+		}
+	}
+	#Focus for cooperation_with_german_companies
+	focus = {
+		id = TUR_cooperation_with_german_companies
+		icon = GFX_focus_spr_the_anti_fascist_workers_revolution
+		x = 12
+		y = 6
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_cooperation_with_overseas_companies }
+		mutually_exclusive = { 
+			focus = TUR_collaboration_with_japanese_companies 
+		}
+		mutually_exclusive = { 
+			focus = TUR_collaboration_with_italian_companies 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for collaboration_with_japanese_companies
+	focus = {
+		id = TUR_collaboration_with_japanese_companies
+		icon = GFX_focus_jap_zaibatsu
+		x = 10
+		y = 6
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_cooperation_with_overseas_companies }
+		mutually_exclusive = { 
+			focus = TUR_cooperation_with_german_companies 
+		}
+		mutually_exclusive = { 
+			focus = TUR_collaboration_with_italian_companies 
+		}
+		mutually_exclusive = { 
+			focus = TUR_ 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for advanced_textile_industry
+	focus = {
+		id = TUR_advanced_textile_industry
+		icon = GFX_focus_generic_industry_3
+		x = 7
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_expanding_the_textile_industry }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas=  TUR_idea_35
+		}
+	}
+	#Focus for acceptance_of_jewish_scientists
+	focus = {
+		id = TUR_acceptance_of_jewish_scientists
+		icon = GFX_goal_generic_national_unity
+		x = 0
+		y = 6
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_national_istanbul_institute }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas=TUR_idea_41
+		}
+	}
+	#Focus for nuclear_research
+	focus = {
+		id = TUR_nuclear_research
+		icon = GFX_focus_generic_strike_at_democracy2
+		x = 2
+		y = 6
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_national_istanbul_institute }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus= {
+ bonus = 1.5 
+uses = 2 
+category =nuclear 
+}
+add_ideas=TUR_idea_42
+		}
+	}
+	#Focus for carrier_mobility_tactics
+	focus = {
+		id = TUR_carrier_mobility_tactics
+		icon = GFX_goal_generic_navy_carrier
+		x = 12
+		y = 7
+		cost = 5
+		available_if_capitulated = yes
+		mutually_exclusive = { 
+			focus = TUR_submarine_operationalism 
+		}
+		mutually_exclusive = { 
+			focus = TUR_naval_architecture 
+		}
+		mutually_exclusive = { 
+			focus = TUR_ 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus= {
+ bonus = 1.0
+uses = 2 
+category = cat_base_strike
+}
+		}
+	}
+	#Focus for massive_operational_tactics_of_the_mechanized_forces
+	focus = {
+		id = TUR_massive_operational_tactics_of_the_mechanized_forces
+		icon = GFX_focus_generic_military_mission
+		x = 32
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = TUR_specializing_in_tanks 
+			focus = TUR_specializing_in_automobiles 
+		}
+		mutually_exclusive = { 
+			focus = TUR_operation_of_an_elite_mechanized_unit 
+		}
+		mutually_exclusive = { 
+			focus = TUR_mechanized_maneuvering_tactics 
+		}
+		mutually_exclusive = { 
+			focus = TUR_ 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas=TUR_idea_23
+		}
+	}
+	#Focus for bombardment_defense_research
+	focus = {
+		id = TUR_bombardment_defense_research
+		icon = GFX_focus_hol_war_on_pacifism
+		x = 19
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = TUR_antitank_specialization 
+			focus = TUR_antiaircraft_bombardment 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas=TUR_idea_19
+		}
+	}
+	#Focus for the_mighty_turkish_army
+	focus = {
+		id = TUR_the_mighty_turkish_army
+		icon = GFX_focus_generic_monarchy_2
+		x = 25
+		y = 7
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = TUR_efficient_supply_operations 
+		}
+		prerequisite = { 
+			focus = TUR_continuity_of_tradition 
+		}
+		prerequisite = { 
+			focus = TUR_sophisticated_planning 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas=TUR_idea_34
+		}
+	}
+	#Focus for efficient_supply_operations
+	focus = {
+		id = TUR_efficient_supply_operations
+		icon = GFX_focus_por_luso_tropicalism
+		x = 20
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = TUR_establishing_firepower_tactics 
+		}
+		prerequisite = { 
+			focus = TUR_establishment_of_artillery_manufacturing_technology 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas=TUR_idea_33
+		}
+	}
+	#Focus for continuity_of_tradition
+	focus = {
+		id = TUR_continuity_of_tradition
+		icon = GFX_goal_generic_cavalry
+		x = 30
+		y = 6
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = TUR_establishment_of_the_turkish_national_tank_production_department 
+			focus = TUR_turkish_national_mobile_combat_vehicle_manufacturing_authority 
+			focus = TUR_mechanized_maneuvering_tactics 
+			focus = TUR_operation_of_an_elite_mechanized_unit 
+			focus = TUR_massive_operational_tactics_of_the_mechanized_forces 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas=TUR_idea_32
+		}
+	}
+	#Focus for specializing_in_tanks
+	focus = {
+		id = TUR_specializing_in_tanks
+		icon = GFX_goal_generic_army_tanks
+		x = 29
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_operating_mechanized_unit }
+		mutually_exclusive = { focus = TUR_specializing_in_automobiles }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus= {
+ bonus = 1.0
+uses = 2 
+category = armor
+}
+		}
+	}
+	#Focus for specializing_in_automobiles
+	focus = {
+		id = TUR_specializing_in_automobiles
+		icon = GFX_goal_generic_army_motorized
+		x = 31
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_operating_mechanized_unit }
+		mutually_exclusive = { focus = TUR_specializing_in_tanks }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus= {
+ bonus = 2.0
+uses = 1
+category = cat_mechanized_equipment
+}
+		}
+	}
+	#Focus for anti-tank_specialization
+	focus = {
+		id = TUR_antitank_specialization
+		icon = GFX_focus_generic_army_tanks2
+		x = 18
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_fire_control }
+		mutually_exclusive = { 
+			focus = TUR_antiaircraft_bombardment 
+		}
+		mutually_exclusive = { 
+			focus = TUR_interpersonal_specialization 
+		}
+		mutually_exclusive = { 
+			focus = TUR_ 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus= {
+ bonus = 1.0
+uses = 2 
+category = cat_anti_tank
+}
+		}
+	}
+	#Focus for interpersonal_specialization
+	focus = {
+		id = TUR_interpersonal_specialization
+		icon = GFX_goal_generic_army_artillery2
+		x = 22
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_fire_control }
+		mutually_exclusive = { 
+			focus = TUR_antiaircraft_bombardment 
+		}
+		mutually_exclusive = { 
+			focus = TUR_antitank_specialization 
+		}
+		mutually_exclusive = { 
+			focus = TUR_ 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus= {
+ bonus = 1.0
+uses = 2 
+category = artillery
+}
+		}
+	}
+	#Focus for defence_plan
+	focus = {
+		id = TUR_defence_plan
+		icon = GFX_goal_generic_build_tank
+		x = 24
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_planned_parenthood }
+		mutually_exclusive = { focus = TUR_attack_plan }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas=TUR_idea_25
+		}
+	}
+	#Focus for attack_plan
+	focus = {
+		id = TUR_attack_plan
+		icon = GFX_goal_generic_major_war
+		x = 26
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_planned_parenthood }
+		mutually_exclusive = { focus = TUR_defence_plan }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas=TUR_idea_26
+		}
+	}
+	#Focus for TEST
+	focus = {
+		id = TUR_test
+		icon = GFX_goal_unknown
+		x = 16
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for army_reconstruction_plan
+	focus = {
+		id = TUR_army_reconstruction_plan
+		icon = GFX_goal_rhineland
+		x = 25
+		y = 0
+		cost = 5
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			army_experience= 15
+country_event = {
+				id = SSW_TUR.4
+			}
+		}
+	}
+	#Focus for TEST2
+	focus = {
+		id = TUR_test2
+		icon = GFX_goal_unknown
+		x = 16
+		y = 0
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for tactical_plan
+	focus = {
+		id = TUR_tactical_plan
+		icon = GFX_goal_generic_territory_or_war
+		x = 25
+		y = 1
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_army_reconstruction_plan }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event= {
+id = SSW_TUR.5
+}
+add_tech_bonus= {
+ bonus = 1.5
+uses = 1
+category = land_doctrine
+}
+		}
+	}
+	#Focus for fire_control
+	focus = {
+		id = TUR_fire_control
+		icon = GFX_focus_generic_combined_arms
+		x = 20
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_tactical_plan }
+		mutually_exclusive = { 
+			focus = TUR_planned_parenthood 
+		}
+		mutually_exclusive = { 
+			focus = TUR_operating_mechanized_unit 
+		}
+		mutually_exclusive = { 
+			focus = TUR_ 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+			always= no
+		}
+		completion_reward = {
+			custom_effect_tooltip = 1_TUR_fire_control
+		}
+	}
+	#Focus for planned_parenthood
+	focus = {
+		id = TUR_planned_parenthood
+		icon = GFX_goal_generic_intelligence_exchange
+		x = 25
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_tactical_plan }
+		mutually_exclusive = { 
+			focus = TUR_operating_mechanized_unit 
+		}
+		mutually_exclusive = { 
+			focus = TUR_fire_control 
+		}
+		mutually_exclusive = { 
+			focus = TUR_ 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+			always= no
+		}
+		completion_reward = {
+			custom_effect_tooltip = 1_TUR_Planned_Parenthood
+		}
+	}
+	#Focus for operating_mechanized_unit
+	focus = {
+		id = TUR_operating_mechanized_unit
+		icon = GFX_focus_generic_license_production
+		x = 30
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_tactical_plan }
+		mutually_exclusive = { 
+			focus = TUR_planned_parenthood 
+		}
+		mutually_exclusive = { 
+			focus = TUR_fire_control 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		bypass = {
+			always= no
+		}
+		completion_reward = {
+			custom_effect_tooltip = 1_TUR_mechanized_unit
+		}
+	}
+	#Focus for fortification_efforts
+	focus = {
+		id = TUR_fortification_efforts
+		icon = GFX_goal_generic_construct_military
+		x = 24
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_defence_plan }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas=TUR_idea_15
+		}
+	}
+	#Focus for prepare_for_the_offensive
+	focus = {
+		id = TUR_prepare_for_the_offensive
+		icon = GFX_goal_demand_sudetenland
+		x = 26
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_attack_plan }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas=TUR_idea_16
+		}
+	}
+	#Focus for anti-aircraft_bombardment
+	focus = {
+		id = TUR_antiaircraft_bombardment
+		icon = GFX_focus_generic_paratrooper
+		x = 20
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_fire_control }
+		mutually_exclusive = { 
+			focus = TUR_antitank_specialization 
+		}
+		mutually_exclusive = { 
+			focus = TUR_interpersonal_specialization 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas=TUR_idea_17
+  add_tech_bonus= {
+ bonus = 1.5
+uses = 1
+category = radar_tech 
+}
+		}
+	}
+	#Focus for draft_campaign
+	focus = {
+		id = TUR_draft_campaign
+		icon = GFX_TUR_draft_campaign-53890
+		x = 25
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = TUR_fortification_efforts 
+			focus = TUR_prepare_for_the_offensive 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_manpower= 10000
+ add_ideas=TUR_idea_24
+		}
+	}
+	#Focus for sophisticated_planning
+	focus = {
+		id = TUR_sophisticated_planning
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 25
+		y = 6
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_draft_campaign }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus= {
+ bonus = 1.0
+uses = 2 
+category = cat_grand_battle_plan
+}
+		}
+	}
+	#Focus for bombardment_research
+	focus = {
+		id = TUR_bombardment_research
+		icon = GFX_focus_generic_provoke_border_clashes
+		x = 21
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = TUR_interpersonal_specialization 
+			focus = TUR_antiaircraft_bombardment 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas=TUR_idea_18
+		}
+	}
+	#Focus for establishing_firepower_tactics
+	focus = {
+		id = TUR_establishing_firepower_tactics
+		icon = GFX_goal_generic_axis_build_infantry
+		x = 19
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = TUR_bombardment_defense_research 
+			focus = TUR_bombardment_research 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus= {
+ bonus = 1.5 
+uses = 2 
+category =  cat_superior_firepower
+}
+		}
+	}
+	#Focus for establishment_of_artillery_manufacturing_technology
+	focus = {
+		id = TUR_establishment_of_artillery_manufacturing_technology
+		icon = GFX_focus_generic_industry_2
+		x = 21
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = TUR_bombardment_research 
+			focus = TUR_bombardment_defense_research 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas=TUR_idea_20
+		}
+	}
+	#Focus for operation_of_an_elite_mechanized_unit
+	focus = {
+		id = TUR_operation_of_an_elite_mechanized_unit
+		icon = GFX_goal_generic_more_territorial_claims
+		x = 30
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = TUR_specializing_in_tanks 
+			focus = TUR_specializing_in_automobiles 
+		}
+		mutually_exclusive = { 
+			focus = TUR_mechanized_maneuvering_tactics 
+		}
+		mutually_exclusive = { 
+			focus = TUR_massive_operational_tactics_of_the_mechanized_forces 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas= TUR_idea_22
+		}
+	}
+	#Focus for mechanized_maneuvering_tactics
+	focus = {
+		id = TUR_mechanized_maneuvering_tactics
+		icon = GFX_focus_generic_strike_at_democracy1
+		x = 28
+		y = 4
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = TUR_specializing_in_automobiles 
+			focus = TUR_specializing_in_tanks 
+		}
+		mutually_exclusive = { 
+			focus = TUR_massive_operational_tactics_of_the_mechanized_forces 
+		}
+		mutually_exclusive = { 
+			focus = TUR_operation_of_an_elite_mechanized_unit 
+		}
+		mutually_exclusive = { 
+			focus = TUR_ 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas=TUR_idea_21
+		}
+	}
+	#Focus for establishment_of the_turkish_national_tank_production_department
+	focus = {
+		id = TUR_establishment_of_the_turkish_national_tank_production_department
+		icon = GFX_focus_usa_guarantee_the_american_dream
+		x = 29
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_specializing_in_tanks }
+		mutually_exclusive = { focus = TUR_turkish_national_mobile_combat_vehicle_manufacturing_authority }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas= TNTBA
+		}
+	}
+	#Focus for turkish_national_mobile_combat_vehicle_manufacturing_authority
+	focus = {
+		id = TUR_turkish_national_mobile_combat_vehicle_manufacturing_authority
+		icon = GFX_focus_spa_save_the_alcazar
+		x = 31
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_specializing_in_automobiles }
+		mutually_exclusive = { focus = TUR_establishment_of_the_turkish_national_tank_production_department }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas= TNMCVMA
+		}
+	}
+	#Focus for submarine_operationalism
+	focus = {
+		id = TUR_submarine_operationalism
+		icon = GFX_focus_chi_flying_tigers
+		x = 18
+		y = 7
+		cost = 5
+		available_if_capitulated = yes
+		mutually_exclusive = { 
+			focus = TUR_carrier_mobility_tactics 
+		}
+		mutually_exclusive = { 
+			focus = TUR_naval_architecture 
+		}
+		mutually_exclusive = { 
+			focus = TUR_ 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus= {
+ bonus = 1.0
+uses = 2 
+category = submarine_doctrine 
+}
+		}
+	}
+	#Focus for naval_architecture
+	focus = {
+		id = TUR_naval_architecture
+		icon = GFX_focus_generic_navy_battleship2
+		x = 15
+		y = 7
+		cost = 5
+		available_if_capitulated = yes
+		mutually_exclusive = { 
+			focus = TUR_carrier_mobility_tactics 
+		}
+		mutually_exclusive = { 
+			focus = TUR_submarine_operationalism 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus= {
+ bonus = 1.0
+uses = 2 
+category = fleet_in_being_tree
+}
+		}
+	}
+	#Focus for revision_of_the_training_system
+	focus = {
+		id = TUR_revision_of_the_training_system
+		icon = GFX_focus_generic_little_entente
+		x = 27
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = TUR_fortification_efforts 
+			focus = TUR_prepare_for_the_offensive 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas=TUR_idea_30
+		}
+	}
+	#Focus for stricter_selection_of_staff
+	focus = {
+		id = TUR_stricter_selection_of_staff
+		icon = GFX_focus_generic_manpower
+		x = 23
+		y = 5
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = TUR_prepare_for_the_offensive 
+			focus = TUR_fortification_efforts 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas=TUR_idea_31
+		}
+	}
+	focus_tree = {
+	id = TUR_political_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = TUR
+		}
+	}
+	#Focus for pursuing_freedom
+	focus = {
+		id = TUR_pursuing_freedom
+		icon = GFX_goal_support_democracy
+		x = 53
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_constitution_of_the_free_republic }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for religious_bill
+	focus = {
+		id = TUR_religious_bill
+		icon = GFX_goal_tripartite_pact
+		x = 46
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = TUR_strengthening_presidential_powers 
+			focus = TUR_constitution_of_the_free_republic 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event= {
+days = 1 
+id = SSW_TUR.6
+}
+  swap_ideas= {
+ remove_idea = TUR_idea_4
+add_idea = TUR_idea_40
+}
+		}
+	}
+	#Focus for the_people_bill
+	focus = {
+		id = TUR_the_people_bill
+		icon = GFX_goal_generic_improve_relations
+		x = 50
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = TUR_strengthening_presidential_powers 
+			focus = TUR_constitution_of_the_free_republic 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event= {
+days = 1 
+id = SSW_TUR.7
+}
+  swap_ideas= {
+ remove_idea = TUR_idea_3
+add_idea = TUR_idea_39
+}
+		}
+	}
+	#Focus for the_new_republican_constitution
+	focus = {
+		id = TUR_the_new_republican_constitution
+		icon = GFX_goal_generic_forceful_treaty
+		x = 46
+		y = 0
+		cost = 5
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event= {
+days = 1 
+id = 
+}
+add_ideas=TUR_idea_36
+		}
+	}
+	#Focus for TEST
+	focus = {
+		id = TUR_test
+		icon = GFX_goal_unknown
+		x = 33
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for strengthening_presidential_powers
+	focus = {
+		id = TUR_strengthening_presidential_powers
+		icon = GFX_goal_generic_political_pressure
+		x = 41
+		y = 1
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_the_new_republican_constitution }
+		mutually_exclusive = { focus = TUR_constitution_of_the_free_republic }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			swap_ideas= {
+ remove_idea = TUR_idea_36
+add_idea =TUR_idea_37 
+}
+		}
+	}
+	#Focus for constitution_of_the_free_republic
+	focus = {
+		id = TUR_constitution_of_the_free_republic
+		icon = GFX_goal_generic_intelligence_exchange
+		x = 51
+		y = 1
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_the_new_republican_constitution }
+		mutually_exclusive = { focus = TUR_strengthening_presidential_powers }
+		ai_will_do = {
+			factor = 2
+		}
+		completion_reward = {
+			swap_ideas= {
+ remove_idea =TUR_idea_36 
+add_idea =TUR_idea_38 
+}
+		}
+	}
+	#Focus for pursuing_kemalism
+	focus = {
+		id = TUR_pursuing_kemalism
+		icon = GFX_focus_TUR_the_sun_language_theory
+		x = 39
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_strengthening_presidential_powers }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for labor_bill
+	focus = {
+		id = TUR_labor_bill
+		icon = GFX_focus_CZE_german_puppet
+		x = 42
+		y = 2
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = TUR_strengthening_presidential_powers 
+			focus = TUR_constitution_of_the_free_republic 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for tolerance_of_islamism
+	focus = {
+		id = TUR_tolerance_of_islamism
+		icon = GFX_focus_TUR_turanist_ambition
+		x = 45
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_religious_bill }
+		mutually_exclusive = { focus = TUR_suppression_of_islamic_extremism }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			swap_ideas= {
+ remove_idea = TUR_idea_40
+add_idea = TUR_idea_43
+}
+		}
+	}
+	#Focus for allowing_child_labor
+	focus = {
+		id = TUR_allowing_child_labor
+		icon = GFX_goal_unknown
+		x = 41
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_labor_bill }
+		mutually_exclusive = { focus = TUR_adult_labor }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for adult_labor
+	focus = {
+		id = TUR_adult_labor
+		icon = GFX_focus_generic_military_academy
+		x = 43
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_labor_bill }
+		mutually_exclusive = { focus = TUR_allowing_child_labor }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for suppression_of_islamic_extremism.
+	focus = {
+		id = TUR_suppression_of_islamic_extremism
+		icon = GFX_focus_TUR_loosen_the_laws_on_secularism
+		x = 47
+		y = 3
+		cost = 5
+		available_if_capitulated = yes
+		prerequisite = { focus = TUR_religious_bill }
+		mutually_exclusive = { focus = TUR_tolerance_of_islamism }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			swap_ideas= {
+ remove_idea = TUR_idea_40
+add_idea = TUR_idea_44
+}
+		}
+	}
+#End of focuses 
+ }
