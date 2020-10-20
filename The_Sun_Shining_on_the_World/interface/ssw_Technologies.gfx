@@ -111,6 +111,39 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/GER_semi_modern_heavy_cruiser.dds"
 	}
 	SpriteType = {
+		name = "GFX_GER_ssw_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/GER_infantry_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_ssw_infantry_weapons2_medium"
+		texturefile = "gfx/interface/technologies/GER_infantry_equipment_5.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_ssw_infantry_weapons3_medium"
+		texturefile = "gfx/interface/technologies/GER_infantry_equipment_6.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_ssw_infantry_weapons2_medium"
+		texturefile = "gfx/interface/technologies/ENG_infantry_equipment_5.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_ssw_infantry_weapons3_medium"
+		texturefile = "gfx/interface/technologies/ENG_infantry_equipment_6.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_ssw_infantry_weapons4_medium"
+		texturefile = "gfx/interface/technologies/ENG_infantry_equipment_7.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_ssw_infantry_weapons5_medium"
+		texturefile = "gfx/interface/technologies/ENG_infantry_equipment_8.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_ssw_infantry_weapons5_medium"
+		texturefile = "gfx/interface/technologies/ITA_infantry_equipment_8.dds"
+	}
+
+	SpriteType = {
 		name = "GFX_SOV_tech_ship_hull_submarine_5_medium"
 		texturefile = "gfx/interface/technologies/SOV_semi_modern_submarine.dds"
 	}	

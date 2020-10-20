@@ -1,0 +1,209 @@
+﻿l_english:
+
+ mechanized_equipment_4:0 "装甲兵員輸送車 IV"
+ mechanized_equipment_4_short:0 "機械化 IV"
+ mechanized_equipment_4_desc:0 "機械化歩兵は歩兵部隊が装甲兵員輸送車または歩兵戦闘車を移動と戦闘に用いたものです。 機械化歩兵はトラックやジープなどを用いる自動車化歩兵とは反対に敵の攻撃から保護する点においては優れています。 "
+ mechanized_equipment_5:0 "装甲兵員輸送車 V"
+ mechanized_equipment_5_short:0 "機械化 V"
+ mechanized_equipment_5_desc:0 "機械化歩兵は歩兵部隊が装甲兵員輸送車または歩兵戦闘車を移動と戦闘に用いたものです。 機械化歩兵はトラックやジープなどを用いる自動車化歩兵とは反対に敵の攻撃から保護する点においては優れています。 "
+ mechanized_equipment_6:0 "装甲兵員輸送車 VI"
+ mechanized_equipment_6_short:0 "機械化 VI"
+ mechanized_equipment_6_desc:0 "機械化歩兵は歩兵部隊が装甲兵員輸送車または歩兵戦闘車を移動と戦闘に用いたものです。 機械化歩兵はトラックやジープなどを用いる自動車化歩兵とは反対に敵の攻撃から保護する点においては優れています。 "
+ mechanized_equipment_7:0 "装甲兵員輸送車 VII"
+ mechanized_equipment_7_short:0 "機械化 VII"
+ mechanized_equipment_7_desc:0 "機械化歩兵は歩兵部隊が装甲兵員輸送車または歩兵戦闘車を移動と戦闘に用いたものです。 機械化歩兵はトラックやジープなどを用いる自動車化歩兵とは反対に敵の攻撃から保護する点においては優れています。 "
+ infantry_equipment_4:0 "M2カービン"
+ infantry_equipment_4_short:0 "M2カービン"
+ infantry_equipment_4_desc:0 "戦後社会においても軍隊の拡充は欠かせないものとなった。我々には高火力の歩兵装備が必要だ。"
+ infantry_equipment_5:0 "FN-FAL"
+ infantry_equipment_5_short:0 "FN-FAL"
+ infantry_equipment_5_desc:0 "第三次世界大戦が始まった。我々が現在使用している装備はすぐに旧式になるだろう。とってかわるものを早急に研究すべきだ。"
+ infantry_equipment_6:0 "SIG SG510"
+ infantry_equipment_6_short:0 "SIG SG510"
+ infantry_equipment_6_desc:0 "第三次大戦も終わろうとしている中、戦争を終わらす決定打となる新たな兵器が必要だ。新たな歩兵装備を研究することで、戦線を突破できるかもしれない。"
+ infantry_equipment_7:0 "HK G3"
+ infantry_equipment_7_short:0 "HK G3"
+ infantry_equipment_7_desc:0 "準現代型"
+ infantry_equipment_8:0 "HK G36"
+ infantry_equipment_8_short:0 "HK G36"
+ infantry_equipment_8_desc:0 "現代型"
+
+ ssw_infantry_weapons:0 "M2カービン"
+ ssw_infantry_weapons_desc:0 "戦後社会においても軍隊の拡充は欠かせないものとなった。我々には高火力の歩兵装備が必要だ。"
+ ssw_infantry_weapons2:0 "FN-FAL"
+ ssw_infantry_weapons2_desc:0 "第三次世界大戦が始まった。我々が現在使用している装備はすぐに旧式になるだろう。とってかわるものを早急に研究すべきだ。"
+ ssw_infantry_weapons3:0 "SIG SG510"
+ ssw_infantry_weapons3_desc:0 "第三次大戦も終わろうとしている中、戦争を終わらす決定打となる新たな兵器が必要だ。新たな歩兵装備を研究することで、戦線を突破できるかもしれない。"
+ ssw_infantry_weapons4:0 "HK G3"
+ ssw_infantry_weapons4_desc:0 "第三次大戦も終わろうとしている中、戦争を終わらす決定打となる新たな兵器が必要だ。新たな歩兵装備を研究することで、戦線を突破できるかもしれない。"
+ ssw_infantry_weapons5:0 "HK G36"
+ ssw_infantry_weapons5_desc:0 "第三次大戦も終わろうとしている中、戦争を終わらす決定打となる新たな兵器が必要だ。新たな歩兵装備を研究することで、戦線を突破できるかもしれない。"
+
+ infantry_at3:0 "歩兵用対戦車装備 III"
+ infantry_at3_desc:0 "歩兵がより重装甲の敵を破壊する装備です。"
+ infantry_at4:0 "歩兵用対戦車装備 IV"
+ infantry_at4_desc:0 "歩兵がより重装甲の敵を破壊する装備です。"
+ infantry_at5:0 "歩兵用対戦車装備 V"
+ infantry_at5_desc:0 "歩兵がより重装甲の敵を破壊する装備です。"
+ infantry_at6:0 "歩兵用対戦車装備 VI"
+ infantry_at6_desc:0 "歩兵がより重装甲の敵を破壊する装備です。"
+ infantry_at7:0 "歩兵用対戦車装備 VII"
+ infantry_at7_desc:0 "歩兵がより重装甲の敵を破壊する装備です。"
+ infantry_at8:0 "歩兵用対戦車装備 VIII"
+ infantry_at8_desc:0 "歩兵がより重装甲の敵を破壊する装備です。"
+ advanced_infantry_weapons3:0 "改良型歩兵装備 IV"
+ advanced_infantry_weapons3_desc:0 "歩兵装備を改良します。"
+ advanced_infantry_weapons4:0 "改良型歩兵装備 V"
+ advanced_infantry_weapons4_desc:0 "歩兵装備を改良します。"
+
+ support_weapons5:0 "支援火器 V"
+ support_weapons5_desc:0 "改良型の機関銃です。"
+ support_weapons6:0 "支援火器 VI"
+ support_weapons6_desc:0 "改良型の機関銃です。"
+ support_weapons7:0 "支援火器 VII"
+ support_weapons7_desc:0 "改良型の機関銃です。"
+ support_weapons8:0 "支援火器 VIII"
+ support_weapons8_desc:0 "改良型の機関銃です。"
+ paratroopers4:0 "空挺兵 IV"
+ paratroopers4_desc:0 "改良型の空挺装備です。"
+ paratroopers5:0 "空挺兵 V"
+ paratroopers5_desc:0 "改良型の空挺装備です。"
+ paratroopers6:0 "空挺兵 VI"
+ paratroopers6_desc:0 "改良型の空挺装備です。"
+ paratroopers7:0 "空挺兵 VII"
+ paratroopers7_desc:0 "改良型の空挺装備です。"
+ paratroopers8:0 "空挺兵 VIII"
+ paratroopers8_desc:0 "改良型の空挺装備です。"
+ marines4:0 "海兵 IV"
+ marines4_desc:0 "改良型の海兵装備です。"
+ marines5:0 "海兵 V"
+ marines5_desc:0 "改良型の海兵装備です。"
+ marines6:0 "海兵 VI"
+ marines6_desc:0 "改良型の海兵装備です。"
+ marines7:0 "海兵 VII"
+ marines7_desc:0 "改良型の海兵装備です。"
+ marines8:0 "海兵 VIII"
+ marines8_desc:0 "改良型の海兵装備です。"
+ tech_mountaineers4:0 "山岳歩兵 IV"
+ tech_mountaineers4_desc:0 "改良型の山岳装備です。"
+ tech_mountaineers5:0 "山岳歩兵 V"
+ tech_mountaineers5_desc:0 "改良型の山岳装備です。"
+ tech_mountaineers6:0 "山岳歩兵 VI"
+ tech_mountaineers6_desc:0 "改良型の山岳装備です。"
+ tech_mountaineers7:0 "山岳歩兵 VII"
+ tech_mountaineers7_desc:0 "改良型の山岳装備です。"
+ tech_mountaineers8:0 "山岳歩兵 VIII"
+ tech_mountaineers8_desc:0 "改良型の山岳装備です。"
+ motorised_infantry1:0 "改良型トラックI"
+ motorised_infantry1_desc:0 "トラックを改良します。"
+ motorised_infantry2:0 "改良型トラックII"
+ motorised_infantry2_desc:0 "トラックを改良します。"
+ motorised_infantry3:0 "改良型トラックIII"
+ motorised_infantry3_desc:0 "トラックを改良します。"
+ motorised_infantry4:0 "改良型トラックIV"
+ motorised_infantry4_desc:0 "トラックを改良します。"
+ motorised_infantry5:0 "改良型トラックV"
+ motorised_infantry5_desc:0 "トラックを改良します。"
+ motorised_infantry6:0 "改良型トラックVI"
+ motorised_infantry6_desc:0 "トラックを改良します。"
+ motorised_infantry7:0 "改良型トラックVII"
+ motorised_infantry7_desc:0 "トラックを改良します。"
+ night_vision3:0 "暗視装置 III"
+ night_vision3_desc:0 "改良型の暗視装置です。"
+ night_vision4:0 "暗視装置 IV"
+ night_vision4_desc:0 "改良型の暗視装置です。"
+ night_vision5:0 "暗視装置 V"
+ night_vision5_desc:0 "改良型の暗視装置です。"
+ night_vision6:0 "暗視装置 VI"
+ night_vision6_desc:0 "改良型の暗視装置です。"
+#日本#
+	#装備名#
+ JAP_infantry_equipment_4:0 "四式自動小銃"
+ JAP_infantry_equipment_4_short:0 "四式自動小銃"
+
+ JAP_infantry_equipment_5:0 "一一式自動小銃"
+ JAP_infantry_equipment_5_short:0 "一一式自動小銃"
+
+ JAP_infantry_equipment_6:0 "一四式自動小銃"
+ JAP_infantry_equipment_6_short:0 "一四式自動小銃"
+
+ JAP_infantry_equipment_7:0 "二七式自動小銃"
+ JAP_infantry_equipment_7_short:0 "二七式自動小銃"
+
+ JAP_infantry_equipment_8:0 "三三式自動小銃"
+ JAP_infantry_equipment_8_short:0 "三三式自動小銃"
+
+	#技術名#
+ JAP_ssw_infantry_weapons:0 "四式自動小銃"
+ JAP_ssw_infantry_weapons_desc:0 "銃の説明"
+
+ JAP_ssw_infantry_weapons2:0 "一一式自動小銃"
+ JAP_ssw_infantry_weapons2_desc:0 "銃の説明"
+
+
+ JAP_ssw_infantry_weapons3:0 "一四式自動小銃"
+ JAP_ssw_infantry_weapons3_desc:0 "銃の説明"
+
+
+ JAP_ssw_infantry_weapons4:0 "二七式自動小銃"
+ JAP_ssw_infantry_weapons4_desc:0 "銃の説明"
+
+
+ JAP_ssw_infantry_weapons5:0 "三三式自動小銃"
+ JAP_ssw_infantry_weapons5_desc:0 "銃の説明"
+
+#ドイツ#
+	#装備名#
+ GER_infantry_equipment_4:0 "StG45"
+ GER_infantry_equipment_4_short:0 "StG45"
+
+ GER_infantry_equipment_5:0 "G1(セトメ・ライフル)"
+ GER_infantry_equipment_5_short:0 "G1(セトメ・ライフル)"
+
+ GER_infantry_equipment_6:0 "G2(セトメ・ライフルL型)"
+ GER_infantry_equipment_6_short:0 "G2(セトメ・ライフルL型)"
+	#技術名#
+ GER_ssw_infantry_weapons:0 "StG-45"
+ GER_ssw_infantry_weapons_desc:0 "銃の説明"
+
+ GER_ssw_infantry_weapons2:0 "G1(セトメ・ライフル)"
+ GER_ssw_infantry_weapons2_desc:0 "銃の説明"
+
+ GER_ssw_infantry_weapons3:0 "G2(セトメ・ライフルL型)"
+ GER_ssw_infantry_weapons3_desc:0 "銃の説明"
+#イタリア#
+	#装備名#
+ ITA_infantry_equipment_8:0 "AR-70"
+ ITA_infantry_equipment_8_short:0 "AR-70"
+	#技術名#
+ ITA_ssw_infantry_weapons5:0 "AR-70"
+ ITA_ssw_infantry_weapons5_desc:0 "銃の説明"
+#イギリス#
+	#装備名#
+ ENG_infantry_equipment_5:0 "EM-2"
+ ENG_infantry_equipment_5_short:0 "EM-2"
+
+ ENG_infantry_equipment_6:0 "AR-10"
+ ENG_infantry_equipment_6_short:0 "AR-10"
+
+ ENG_infantry_equipment_7:0 "M16"
+ ENG_infantry_equipment_7_short:0 "M16"
+
+ ENG_infantry_equipment_8:0 "M16A4"
+ ENG_infantry_equipment_8_short:0 "M16A4"
+
+	#技術名#
+ ENG_ssw_infantry_weapons2:0 "EM-2"
+ ENG_ssw_infantry_weapons2_desc:0 "銃の説明"
+
+ ENG_ssw_infantry_weapons3:0 "AR-10"
+ ENG_ssw_infantry_weapons3_desc:0 "銃の説明"
+
+ ENG_ssw_infantry_weapons4:0 "M16"
+ ENG_ssw_infantry_weapons4_desc:0 "銃の説明"
+
+ ENG_ssw_infantry_weapons5:0 "M16A4"
+ ENG_ssw_infantry_weapons5_desc:0 "銃の説明"
+
+
+
