@@ -452,5 +452,9 @@ spriteTypes = {
 		name = "GFX_TUR_Form_Roman_Empire"
 		texturefile = "gfx/interface/goals/TRU/SSW_TUR_form_the_roman_empire.dds"
 	}
+	SpriteType = {
+		name = "GFX_TUR_Child_Labour"
+		texturefile = "gfx/interface/goals/TRU/SSW_Child_Labour.dds"
+	}
 
 }
