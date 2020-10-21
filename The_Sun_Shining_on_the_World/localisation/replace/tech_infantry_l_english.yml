@@ -206,4 +206,8 @@
  ENG_ssw_infantry_weapons5_desc:0 "銃の説明"
 
 
+#This file is made by chiyo
+ infantry_weapons:0 "一次大戦型歩兵銃"
+ improved_infantry_weapons:0 "二次大戦型歩兵銃"
+ advanced_infantry_weapons:0 "二次大戦後期型歩兵銃" 
 
