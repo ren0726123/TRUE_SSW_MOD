@@ -1,25 +1,22 @@
 capital = 925
+oob = "VAC_1950"
 
-set_stability = 100
-set_war_support = 80
-set_research_slots = 2
+set_technology = {
+	infantry_weapons = 1
+}
 
-set_convoys = 0
 add_ideas = {
-	VAC_holy_see_idea
 	civilian_economy
-	disarmed_nation
 }
 
 set_politics = {
-	ruling_party = authoritarianism
+	ruling_party = authority_despotism
 	last_election = "1950.1.1"
+	election_frequency = 48
 	elections_allowed = no
 }
-
 set_popularities = {
-authoritarianism = 77
-authoritative_democracy = 23
+	authority_despotism = 100
 }
 
 create_country_leader = {
@@ -27,7 +24,7 @@ create_country_leader = {
 	desc = "POLITICS_PIUS_XII_DESC"
 	picture = "gfx/leaders/Pius_XII.dds"
 	expire = "1958.10.09"
-	ideology = authoritarianism_ideology
+	ideology = authority_despotism_ideology
 	traits = {
 		#
 	}

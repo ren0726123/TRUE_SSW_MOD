@@ -1,0 +1,42 @@
+spriteTypes = {
+#	spriteType = {
+#		name = "GFX_dominion_icon"
+#		textureFile = "gfx/interface/autonomy/dominion.dds"
+#	}
+#	spriteType = {
+#		name = "GFX_colony_icon"
+#		textureFile = "gfx/interface/autonomy/colony.dds"
+#	}
+#	spriteType = {
+#		name = "GFX_overseas_territory_icon"
+#		textureFile = "gfx/interface/autonomy/overseas_territory.dds"
+#	}
+	spriteType = {
+		name = "GFX_reichsatellite_icon"
+		textureFile = "gfx/interface/autonomy/reichsatellite.dds"
+	}
+	spriteType = {
+		name = "GFX_reichsprotectorate_icon"
+		textureFile = "gfx/interface/autonomy/reichsprotectorate.dds"
+	}
+	spriteType = {
+		name = "GFX_reichskolonie_icon"
+		textureFile = "gfx/interface/autonomy/reichskolonie.dds"
+	}
+	spriteType = {
+		name = "GFX_reichskommissariat_icon"
+		textureFile = "gfx/interface/autonomy/reichskommissariat.dds"
+	}
+	spriteType = {
+		name = "GFX_imperial_protectirate_icon"
+		textureFile = "gfx/interface/autonomy/imperial_protectirate.dds"
+	}
+	spriteType = {
+		name = "GFX_imperial_member_icon"
+		textureFile = "gfx/interface/autonomy/imperial_member.dds"
+	}
+	spriteType = {
+		name = "GFX_imperial_overseas_territory_icon"
+		textureFile = "gfx/interface/autonomy/imperial_overseas_territory.dds"
+	}
+}

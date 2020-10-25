@@ -393,11 +393,6 @@
  WTR_ADJ:0 "西トルキスタン"
 
 #旧中華領国家
- RCH:0 "中華維新政府"
- RCH_DEF:0 "中華維新政府"
- RCH_neutrality:0 "中華維新帝国"
- RCH_neutrality_DEF:0 "中華維新帝国"
- RCH_ADJ:0 "維新中国"
  SHX:0 "晋自治政府"
  SHX_DEF:0 "晋自治政府"
  SHX_ADJ:0 "晋"

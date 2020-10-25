@@ -1,29 +1,31 @@
 ﻿capital = 554
-# Starting tech
-set_technology = {
-	infantry_weapons = 1
-	gwtank = 1
-}
+oob = "SYR_1950"
 
 set_convoys = 5
-set_politics = {
-	ruling_party = neutrality
-	last_election = "1945.1.1"
-	election_frequency = 48
-	elections_allowed = no
+
+set_technology = {
+	infantry_weapons = 1
 }
+
 add_ideas = {
 	civilian_economy
 }
+
+set_politics = {
+	ruling_party = authority_despotism
+	last_election = "1950.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
 set_popularities = {
-	neutrality = 100
+	authority_despotism = 100
 }
 
 create_country_leader = {
 	name = "Shukri al-Quwatli"
 	desc = ""
 	picture = "gfx/leaders/SYR/Portrait_Shukri_al_Quwatli.dds"
-	ideology = oligarchism
+	ideology = authority_despotism_ideology
 	traits = {
 		#
 	}

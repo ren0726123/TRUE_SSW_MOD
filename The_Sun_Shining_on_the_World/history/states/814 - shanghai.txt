@@ -7,7 +7,7 @@ state={
 		owner = CLC
 		add_core_of = CLC
 		add_core_of = CHI
-		add_core_of = RCH
+		
 		victory_points = {
 		7014 20
 		}

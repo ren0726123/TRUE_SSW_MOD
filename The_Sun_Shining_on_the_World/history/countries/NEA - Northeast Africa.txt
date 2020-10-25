@@ -1,26 +1,26 @@
 ﻿capital = 271
-
 oob = "NEA_1950"
 set_cosmetic_tag = NEA_ITA
 
-# Starting tech
+set_convoys = 5
+
 set_technology = {
 	infantry_weapons = 1
 }
+
 add_ideas = {
+	Colonial_goverment
 	civilian_economy
 }
 
-set_convoys = 50
-
 set_politics = {
-	ruling_party = fascism
+	ruling_party = national_fascism
 	last_election = "1950.1.1"
-	election_frequency = 96
+	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	fascism = 100
+	national_fascism = 100
 }
 
 create_country_leader = {
@@ -28,7 +28,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/NEA/PortraitAmedeo_Savoia_Aosta.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = national_fascism_ideology
 	traits = {
 		#
 	}

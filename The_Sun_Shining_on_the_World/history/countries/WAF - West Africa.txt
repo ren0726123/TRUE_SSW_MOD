@@ -1,25 +1,26 @@
 capital = 773
-
 oob = "WAF_1950"
 set_cosmetic_tag = WAF_GER
 
-# Starting tech
+set_convoys = 5
+
 set_technology = {
 	infantry_weapons = 1
 }
+
 add_ideas = {
+	Colonial_goverment
 	civilian_economy
 }
-set_convoys = 60
 
 set_politics = {
-	ruling_party = nazism
+	ruling_party = national_socialism
 	last_election = "1950.1.1"
-	election_frequency = 96
+	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	nazism = 100
+	national_socialism = 100
 }
 
 create_country_leader = {
@@ -27,7 +28,7 @@ create_country_leader = {
 	desc = "POLITICS_EDWIN_BARCLAY_DESC"
 	picture = "gfx/leaders/WAF/Portrait_Gerhard_Engel.dds"
 	expire = "1965.1.1"
-	ideology = nazism_ideology
+	ideology = national_socialism_ideology
 	traits = {
 		#
 	}

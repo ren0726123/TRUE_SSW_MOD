@@ -1,0 +1,77 @@
+﻿l_english:
+#無政府主義
+ anarchism:0 "無政府主義"
+ anarchism_noun:0 "無政府主義"
+ anarchism_desc:0 "無政府主義政権"
+ anarchism_ideology:0 "無政府主義"
+ anarchism_ideology_desc:0 ""
+ 
+#革新共産主義
+ progressive_communism:0 "革新的共産主義"
+ progressive_communism_noun:0 "革新的共産主義"
+ progressive_communism_desc:0 "革新的共産主義政権"
+ progressive_communism_ideology:0 "革新的共産主義"
+ progressive_communism_ideology_desc:0 ""
+ 
+#革新共産主義
+ classical_communism:0 "古典的共産主義"
+ classical_communism_noun:0 "古典的共産主義"
+ classical_communism_desc:0 "古典的共産主義政権"
+ classical_communism_ideology:0 "古典的共産主義"
+ classical_communism_ideology_desc:0 ""
+ 
+#社会民主主義
+ social_democracy:0 "社会民主主義"
+ social_democracy_noun:0 "社会民主主義"
+ social_democracy_desc:0 "社会民主主義政権"
+ social_democracy_ideology:0 "社会民主主義"
+ social_democracy_ideology_desc:0 ""
+ 
+#社会自由主義
+ social_liberalism:0 "社会自由主義"
+ social_liberalism_noun:0 "社会自由主義"
+ social_liberalism_desc:0 "社会自由主義政権"
+ social_liberalism_ideology:0 "社会自由主義"
+ social_liberalism_ideology_desc:0 ""
+ 
+#社会保守主義
+ social_conservatism:0 "社会保守主義"
+ social_conservatism_noun:0 "社会保守主義"
+ social_conservatism_desc:0 "社会保守主義政権"
+ social_conservatism_ideology:0 "社会保守主義"
+ social_conservatism_ideology_desc:0 ""
+ 
+#権威民主主義
+ authority_democracy:0 "権威民主主義"
+ authority_democracy_noun:0 "権威民主主義"
+ authority_democracy_desc:0 "権威民主主義政権"
+ authority_democracy_ideology:0 "権威民主主義"
+ authority_democracy_ideology_desc:0 ""
+ 
+#権威専制主義
+ authority_despotism:0 "権威専制主義"
+ authority_despotism_noun:0 "権威専制主義"
+ authority_despotism_desc:0 "権威専制主義政権"
+ authority_despotism_ideology:0 "権威専制主義"
+ authority_despotism_ideology_desc:0 ""
+ 
+#国家結束主義
+ national_fascism:0 "国家結束主義"
+ national_fascism_noun:0 "国家結束主義"
+ national_fascism_desc:0 "国家結束主義政権"
+ national_fascism_ideology:0 "国家結束主義"
+ national_fascism_ideology_desc:0 ""
+ 
+#国家社会主義
+ national_socialism:0 "国家社会主義"
+ national_socialism_noun:0 "国家社会主義"
+ national_socialism_desc:0 "国家社会主義政権"
+ national_socialism_ideology:0 "国家社会主義"
+ national_socialism_ideology_desc:0 ""
+ 
+#企業支配主義
+ corporatocracism:0 "企業支配主義"
+ corporatocracism_noun:0 "企業支配主義"
+ corporatocracism_desc:0 "企業支配主義政権"
+ corporatocracism_ideology:0 "企業支配主義"
+ corporatocracism_ideology_desc:0 ""

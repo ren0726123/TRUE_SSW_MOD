@@ -147,7 +147,6 @@ DIPLOMACY_RELEASE_NATION_ENABLE_TRIGGER = {
 			NOT = { FROM = { tag = BAH } }
 			NOT = { FROM = { tag = JAM } }
 			NOT = { FROM = { tag = TRI } }
-			NOT = { FROM = { tag = BAS } }
 			NOT = { FROM = { tag = GYA } }
 			NOT = { FROM = { tag = SRL } }
 			NOT = { FROM = { tag = MLD } }
@@ -245,7 +244,6 @@ DIPLOMACY_RELEASE_NATION_ENABLE_TRIGGER = {
 			NOT = { FROM = { tag = BAH } }
 			NOT = { FROM = { tag = JAM } }
 			NOT = { FROM = { tag = TRI } }
-			NOT = { FROM = { tag = BAS } }
 			NOT = { FROM = { tag = GYA } }
 			NOT = { FROM = { tag = SRL } }
 			NOT = { FROM = { tag = MLD } }

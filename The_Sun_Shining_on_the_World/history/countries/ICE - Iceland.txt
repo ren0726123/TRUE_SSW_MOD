@@ -1,34 +1,24 @@
-﻿capital = 100#Iceland
-#oob = "ICE_1950"
-set_research_slots = 3
-add_ideas = {
-	disarmed_nation
-}
+﻿capital = 100
+oob = "ICE_1950"
+
+set_convoys = 5
 
 set_technology = {
 	infantry_weapons = 1
-	tech_support = 1
-	tech_engineers = 1
-	early_fighter = 1
-	early_bomber = 1
-	tech_recon = 1
 }
+
 add_ideas = {
 	civilian_economy
 }
 
-set_convoys = 30
-set_stability = 0.75
 set_politics = {
-	ruling_party = democratic
-	last_election = "1933.10.16"
-	election_frequency = 36
-	elections_allowed = yes
+	ruling_party = social_liberalism
+	last_election = "1950.1.1"
+	election_frequency = 48
+	elections_allowed = no
 }
-
 set_popularities = {
-	democratic = 68
-	conservatism = 32
+	social_liberalism = 100
 }
 
 create_country_leader = {
@@ -36,40 +26,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/ICE/Portrait_Olafur_Thors.dds"
 	expire = "1965.1.1"
-	ideology = social_liberalism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Johannes Valurson"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Haraldur Gudmunsson"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
-	expire = "1965.1.1"
-	ideology = centrism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Einar Olgeirsson"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
-	expire = "1965.1.1"
-	ideology = marxism
+	ideology = social_liberalism_ideology
 	traits = {
 		#
 	}

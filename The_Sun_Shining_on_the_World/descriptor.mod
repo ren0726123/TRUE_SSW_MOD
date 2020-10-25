@@ -1,7 +1,8 @@
+name="The Sun Shining on the World"
+remote_file_id="2125746876"
 version="1.9.3"
-dependencies={
-	"Japanese Language mod"
-}
+supported_version="1.9.3"
+dependencies = { "Japanese Language mod" }
 tags={
 	"Gameplay"
 	"Historical"
@@ -10,9 +11,6 @@ tags={
 	"Ideologies"
 	"Events"
 }
-name="The Sun Shining on the World"
-supported_version="1.9.3"
-remote_file_id="2125746876"
 replace_path = "common/ai_strategy_plans"
 replace_path = "common/ai_focuses"
 replace_path = "common/scripted_localisation"

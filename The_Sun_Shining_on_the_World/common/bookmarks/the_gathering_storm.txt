@@ -126,16 +126,6 @@ bookmarks = {
 			focuses = {
 			}
 		}
-		"RCH"={
-			minor = yes
-			history = ""
-			ideology = authoritative_democracy
-			ideas = {
-
-			}
-			focuses = {
-			}
-		}
 		"NIN"={
 			minor = yes
 			history = ""

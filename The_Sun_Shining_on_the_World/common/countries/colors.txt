@@ -853,16 +853,6 @@ NGR = {	#ニジェール
 	color_ui = rgb { 255 153 102 }
 }
 
-CSA = {	#
-	color = rgb { 145 163 176  }
-	color_ui = rgb { 145 163 176 }
-}
-
-USB = {	#
-	color = rgb { 167  123  237 }
-	color_ui = rgb { 167  123  237 }
-}
-
 MRT = {	#モーリタニア
 	color = rgb { 255 153 153 }
 	color_ui = rgb { 255 153 153 }
@@ -876,11 +866,6 @@ NMB = {	#ナミビア
 WES = {	#西サハラ
 	color = rgb { 255 178 102 }
 	color_ui = rgb { 255 178 102 }
-}
-
-BAS = {	#英領アンティル
-	color = rgb { 255 102 102 }
-	color_ui = rgb { 255 102 102 }
 }
 
 CAY = {	#カイエンヌ
@@ -928,6 +913,16 @@ HAW = {	#ハワイ
 	color_ui = rgb { 231 181 12 }
 }
 
+KUR = {	#クルディスタン
+	color = rgb { 234 179 30 }
+	color_ui = rgb { 234 179 30 }
+}
+
+TRA = {	#トランシルヴァニア
+	color = rgb { 211 207 173 }
+	color_ui = rgb { 211 207 173 }
+}
+
 SLV = {	#スロベニア
 	color = rgb { 102 178 255 }
 	color_ui = rgb { 102 178 255 }
@@ -941,6 +936,16 @@ BOS = {	#ボスニア
 MAC = {	#マケドニア
 	color = rgb { 255 51 51 }
 	color_ui = rgb { 255 51 51 }
+}
+
+HRZ = {	#ヘルツェゴビナ
+	color = rgb { 72 113 160 }
+	color_ui = rgb { 72 113 160 }
+}
+
+KOS = {	#コソボ
+	color = rgb { 208 166 80 }
+	color_ui = rgb { 208 166 80 }
 }
 
 NIR = {	#北アイルランド
@@ -1277,11 +1282,6 @@ LUI = {	#ルイジアナ
 NEL = {	#ニューイングランド
 	color = rgb { 0 100 55 }
 	color_ui = rgb { 0 100 55 }
-}
-
-RCH = {	#維新中華
-	color = rgb { 40 30 40 }
-	color_ui = rgb { 40 30 40 }
 }
 
 NIN = {	#国民インド

@@ -39,7 +39,6 @@ BRENGL_INF_01 = {
 		LIB
 		BAH
 		BAN
-		BAS
 		BLZ
 		BOT
 		BRM
@@ -159,7 +158,6 @@ BRENGL_INFB_01 = {
 		LIB
 		BAH
 		BAN
-		BAS
 		BLZ
 		BOT
 		BRM
@@ -279,7 +277,6 @@ BRENGL_CAV_01 = {
 		LIB
 		BAH
 		BAN
-		BAS
 		BLZ
 		BOT
 		BRM
@@ -360,7 +357,6 @@ BRENGL_CAV_02 = {
 		LIB
 		BAH
 		BAN
-		BAS
 		BLZ
 		BOT
 		BRM
@@ -440,7 +436,6 @@ BRENGL_MOT_01 = {
 	for_countries = {
 		BAH
 		BAN
-		BAS
 		BLZ
 		BOT
 		BRM
@@ -574,7 +569,6 @@ BRENGL_MEC_01 = {
 	for_countries = {
 		BAH
 		BAN
-		BAS
 		BLZ
 		BOT
 		BRM
@@ -708,7 +702,6 @@ BRENGL_ARM_01 = {
 	for_countries = {
 		BAH
 		BAN
-		BAS
 		BLZ
 		BOT
 		BRM
@@ -792,7 +785,6 @@ BRENGL_ARM_02 = {
 		LIB
 		BAH
 		BAN
-		BAS
 		BLZ
 		BOT
 		BRM
@@ -933,7 +925,6 @@ BRENGL_PAR_01 = {
 		LIB
 		BAH
 		BAN
-		BAS
 		BLZ
 		BOT
 		BRM
@@ -1014,7 +1005,6 @@ BRENGL_MAR_01 = {
 		LIB
 		BAH
 		BAN
-		BAS
 		BLZ
 		BOT
 		BRM
@@ -1095,7 +1085,6 @@ BRENGL_MNT_01 = {
 		LIB
 		BAH
 		BAN
-		BAS
 		BLZ
 		BOT
 		BRM
@@ -1178,7 +1167,6 @@ BRENGL_GAR_01 = {
 		LIB
 		BAH
 		BAN
-		BAS
 		BLZ
 		BOT
 		BRM

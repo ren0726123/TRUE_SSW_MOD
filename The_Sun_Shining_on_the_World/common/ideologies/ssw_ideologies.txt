@@ -1,0 +1,78 @@
+ideologies = {
+	anarchism = {	#無政府主義
+		types = {
+			anarchism_ideology = {}
+		}
+		color = { 25 0 0 }
+	}
+
+	progressive_communism = {	#革新的共産主義
+		types = {
+			progressive_communism_ideology = {}
+		}
+		color = { 255 0 0 }
+	}
+
+	classical_communism = {	#古典的共産主義
+		types = {
+			classical_communism_ideology = {}
+		}
+		color = { 128 0 0 }
+	}
+
+	social_democracy = {	#社会民主主義
+		types = {
+			social_democracy_ideology = {}
+		}
+		color = { 192 0 64 }
+	}
+
+	social_liberalism = {	#社会自由主義
+		types = {
+			social_liberalism_ideology = {}
+		}
+		color = { 255 192 0 }
+	}
+
+	social_conservatism = {	#社会保守主義
+		types = {
+			social_conservatism_ideology = {}
+		}
+		color = { 0 0 255 }
+	}
+
+	authority_democracy = {	#権威民主主義
+		types = {
+			authority_democracy_ideology = {}
+		}
+		color = { 192 192 192 }
+	}
+
+	authority_despotism = {	#権威専制主義
+		types = {
+			authority_despotism_ideology = {}
+		}
+		color = { 64 64 64 }
+	}
+
+	national_fascism = {	#国家結束主義
+		types = {
+			national_fascism_ideology = {}
+		}
+		color = { 128 64 0 }
+	}
+
+	national_socialism = {#国家社会主義
+		types = {
+			national_socialism_ideology = {}
+		}
+		color = { 16 16 16 }
+	}
+
+	corporatocracism = {	#企業支配主義
+		types = {
+			corporatocracism_ideology = {}
+		}
+		color = { 255 255 255 }
+	}
+}

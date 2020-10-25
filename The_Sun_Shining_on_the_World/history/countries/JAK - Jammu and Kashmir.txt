@@ -1,20 +1,20 @@
 capital = 441
-#obb = "JAK_1950"
-set_research_slots = 2
-set_stability = 0.8
-set_war_support = 0.5
-set_convoys = 0
-#set_technology = {}
+oob = "JAK_1950"
+
+set_technology = {
+	infantry_weapons = 1
+}
+
+add_ideas = {
+	civilian_economy
+}
 
 set_politics = {
-	ruling_party = neutrality
-	last_election = 1950.1.1
-	election_frequency = 1
+	ruling_party = authority_despotism
+	last_election = "1950.1.1"
+	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	neutrality = 100
-}
-add_ideas = {
-	civilian_economy
+	authority_despotism = 100
 }

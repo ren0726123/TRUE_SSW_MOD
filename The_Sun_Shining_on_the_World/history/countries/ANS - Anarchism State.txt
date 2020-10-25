@@ -1,14 +1,16 @@
 ﻿capital = 813
-
 oob = "ANS_1950"
 
-# Starting tech
+set_convoys = 5
+
 set_technology = {
 	infantry_weapons = 1
 	mass_assault = 1
 }
 
-set_convoys = 5
+add_ideas = {
+	civilian_economy
+}
 
 set_politics = {
 	ruling_party = anarchism
@@ -25,7 +27,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/ANS/Portrait_Anarchism_Union.dds"
 	expire = "1965.1.1"
-	ideology = social_anarchism
+	ideology = anarchism_ideology
 	traits = {
 		#
 	}
@@ -41,8 +43,4 @@ create_corps_commander = {
 	defense_skill = 4
 	planning_skill = 3
 	logistics_skill = 2
-}
-
-add_ideas = {
-	civilian_economy
 }

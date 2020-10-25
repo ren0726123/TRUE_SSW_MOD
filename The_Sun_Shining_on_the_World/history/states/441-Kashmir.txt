@@ -9,10 +9,11 @@ state={
 	history={
 		owner = JAK
 		add_core_of = JAK
+		add_core_of = CHI
 		add_core_of = NIN
 		add_core_of = PIN
 		add_claim_by = PAK
-		add_core_of = RCH
+		
 		buildings = {
 			infrastructure = 2
 		}

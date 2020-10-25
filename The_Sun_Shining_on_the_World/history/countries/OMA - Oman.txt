@@ -1,27 +1,24 @@
 ﻿capital = 294
+oob = "OMA_1950"
 
-oob = "OMA_1936"
+set_convoys = 5
 
-# Starting tech
 set_technology = {
 	infantry_weapons = 1
 }
+
 add_ideas = {
 	civilian_economy
 }
 
-set_convoys = 10
-set_war_support = 0.1
-set_stability = 0.8
-
 set_politics = {
-	ruling_party = neutrality
-	last_election = "1936.1.1"
+	ruling_party = authority_despotism
+	last_election = "1950.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	neutrality = 100
+	authority_despotism = 100
 }
 
 create_country_leader = {
@@ -29,7 +26,7 @@ create_country_leader = {
 	desc = "POLITICS_SAID_BIN_TAIMUR_DESC"
 	picture = "gfx/leaders/OMA/Portrait_Said_bin_Taimur.dds"
 	expire = "1965.1.1"
-	ideology = centrism
+	ideology = authority_despotism_ideology
 	traits = {
 		#
 	}

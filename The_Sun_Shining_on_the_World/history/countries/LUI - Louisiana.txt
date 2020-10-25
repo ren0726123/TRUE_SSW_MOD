@@ -1,29 +1,24 @@
 ﻿capital = 371
-
 oob = "LUI_1950"
 
-# Starting tech
+set_convoys = 5
+
 set_technology = {
 	infantry_weapons = 1
-	mass_assault = 1
 }
+
 add_ideas = {
 	civilian_economy
 }
 
-
-set_convoys = 5
-
 set_politics = {
-	ruling_party = conservatism
-	last_election = "1936.1.1"
+	ruling_party = social_conservatism
+	last_election = "1950.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	conservatism = 67
-	democratic =18
-	social_democracy = 15
+	social_conservatism = 100
 }
 
 create_country_leader = {
@@ -31,7 +26,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/LUI/Portrait_James_Houston_Davis.dds"
 	expire = "1965.1.1"
-	ideology = conservatism_ideology
+	ideology = social_conservatism_ideology
 	traits = {
 		#
 	}
